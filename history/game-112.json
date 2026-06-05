@@ -1,0 +1,132 @@
+{
+  "game": 112,
+  "played_at": "2026-06-05T16:04-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Johnson",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 4.23,
+        "apg": 11.3,
+        "spg": 1.65,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.30 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.87,
+        "rpg": 7.58,
+        "apg": 4.02,
+        "spg": 1.23,
+        "bpg": 1.05
+      },
+      "ovr_pts": 19.92,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.30 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "MEM",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shareef Abdur-Rahim",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.11,
+        "rpg": 7.12,
+        "apg": 2.64,
+        "spg": 1.13,
+        "bpg": 0.98
+      },
+      "ovr_pts": 15.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.50 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Pau Gasol",
+      "position": "PF",
+      "stats": {
+        "ppg": 17.54,
+        "rpg": 11.42,
+        "apg": 3.37,
+        "spg": 0.44,
+        "bpg": 1.95
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.80 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Alonzo Mourning",
+      "position": "C",
+      "stats": {
+        "ppg": 20.7,
+        "rpg": 10.18,
+        "apg": 1.64,
+        "spg": 0.82,
+        "bpg": 2.86
+      },
+      "ovr_pts": 19.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.50 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 106.6,
+    "rpg": 40.5,
+    "apg": 23.0,
+    "spg": 5.3,
+    "bpg": 7.1
+  },
+  "result": {
+    "wins": 66,
+    "losses": 16,
+    "ovr": 91.4,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

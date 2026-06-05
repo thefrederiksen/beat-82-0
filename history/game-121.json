@@ -1,0 +1,137 @@
+{
+  "game": 121,
+  "played_at": "2026-06-05T16:11-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 41.46,
+        "rpg": 25.1,
+        "apg": 3.02,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 31.96,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.00 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Magic Johnson",
+      "position": "SG",
+      "stats": {
+        "ppg": 19.5,
+        "rpg": 7.39,
+        "apg": 11.21,
+        "spg": 2.04,
+        "bpg": 0.43
+      },
+      "ovr_pts": 21.14,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.60 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dan Roundfield",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.09,
+        "rpg": 10.68,
+        "apg": 2.59,
+        "spg": 1.0,
+        "bpg": 1.51
+      },
+      "ovr_pts": 17.59,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.00 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Kenon",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.1,
+        "rpg": 9.9,
+        "apg": 3.0,
+        "spg": 1.4,
+        "bpg": 0.2
+      },
+      "ovr_pts": 16.86,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.10 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.75,
+        "rpg": 4.24,
+        "apg": 9.84,
+        "spg": 2.22,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.9,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 117.9,
+    "rpg": 57.3,
+    "apg": 29.7,
+    "spg": 6.7,
+    "bpg": 2.3
+  },
+  "result": {
+    "wins": 80,
+    "losses": 2,
+    "ovr": 108.1,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

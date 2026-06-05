@@ -1,0 +1,137 @@
+{
+  "game": 108,
+  "played_at": "2026-06-05T16:03-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Wembanyama",
+      "position": "C",
+      "stats": {
+        "ppg": 23.6,
+        "rpg": 11.0,
+        "apg": 3.6,
+        "spg": 1.1,
+        "bpg": 3.5
+      },
+      "ovr_pts": 22.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +45.50 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Carmelo Anthony",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.94,
+        "rpg": 7.02,
+        "apg": 3.03,
+        "spg": 1.13,
+        "bpg": 0.48
+      },
+      "ovr_pts": 17.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +6.20 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.20 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.5,
+        "rpg": 6.9,
+        "apg": 10.5,
+        "spg": 1.2,
+        "bpg": 0.6
+      },
+      "ovr_pts": 20.34,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.00 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Mark Jackson",
+      "position": "PG",
+      "stats": {
+        "ppg": 15.14,
+        "rpg": 4.75,
+        "apg": 9.66,
+        "spg": 2.22,
+        "bpg": 0.1
+      },
+      "ovr_pts": 16.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.30 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 115.4,
+    "rpg": 42.3,
+    "apg": 29.4,
+    "spg": 6.8,
+    "bpg": 7.1
+  },
+  "result": {
+    "wins": 75,
+    "losses": 7,
+    "ovr": 101.2,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

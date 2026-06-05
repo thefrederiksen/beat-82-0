@@ -1,0 +1,137 @@
+{
+  "game": 125,
+  "played_at": "2026-06-05T16:13-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.3,
+        "rpg": 6.1,
+        "apg": 8.1,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.50 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jerry Lucas",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.67,
+        "rpg": 19.15,
+        "apg": 3.04,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 20.71,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.80 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.47,
+        "rpg": 12.7,
+        "apg": 5.03,
+        "spg": 1.39,
+        "bpg": 1.66
+      },
+      "ovr_pts": 22.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +37.10 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "MIN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "C",
+      "stats": {
+        "ppg": 22.24,
+        "rpg": 11.87,
+        "apg": 2.61,
+        "spg": 0.77,
+        "bpg": 1.5
+      },
+      "ovr_pts": 19.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.86,
+        "rpg": 7.1,
+        "apg": 5.41,
+        "spg": 0.82,
+        "bpg": 1.48
+      },
+      "ovr_pts": 19.5,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.00 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 115.5,
+    "rpg": 56.9,
+    "apg": 24.2,
+    "spg": 3.0,
+    "bpg": 4.6
+  },
+  "result": {
+    "wins": 78,
+    "losses": 4,
+    "ovr": 105.9,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

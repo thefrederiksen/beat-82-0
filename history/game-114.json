@@ -1,0 +1,137 @@
+{
+  "game": 114,
+  "played_at": "2026-06-05T16:06-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Bird",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.64,
+        "rpg": 9.19,
+        "apg": 7.22,
+        "spg": 1.41,
+        "bpg": 0.84
+      },
+      "ovr_pts": 20.35,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.00 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.86,
+        "rpg": 7.1,
+        "apg": 5.41,
+        "spg": 0.82,
+        "bpg": 1.48
+      },
+      "ovr_pts": 19.5,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.00 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Joel Embiid",
+      "position": "C",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 9.9,
+        "apg": 4.2,
+        "spg": 0.9,
+        "bpg": 1.4
+      },
+      "ovr_pts": 21.8,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.20 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.4,
+        "rpg": 10.4,
+        "apg": 1.4,
+        "spg": 0.8,
+        "bpg": 2.2
+      },
+      "ovr_pts": 18.11,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHI",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Maurice Cheeks",
+      "position": "PG",
+      "stats": {
+        "ppg": 12.63,
+        "rpg": 2.96,
+        "apg": 7.49,
+        "spg": 2.28,
+        "bpg": 0.33
+      },
+      "ovr_pts": 13.85,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.90 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 110.1,
+    "rpg": 39.5,
+    "apg": 25.7,
+    "spg": 6.2,
+    "bpg": 6.3
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

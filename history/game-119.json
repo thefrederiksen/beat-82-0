@@ -1,0 +1,137 @@
+{
+  "game": 119,
+  "played_at": "2026-06-05T16:09-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Johnson",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 4.23,
+        "apg": 11.3,
+        "spg": 1.65,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.30 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIL",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "UTA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl Malone",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.93,
+        "rpg": 8.55,
+        "apg": 4.3,
+        "spg": 1.42,
+        "bpg": 0.7
+      },
+      "ovr_pts": 18.44,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.50 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Alonzo Mourning",
+      "position": "C",
+      "stats": {
+        "ppg": 20.7,
+        "rpg": 10.18,
+        "apg": 1.64,
+        "spg": 0.82,
+        "bpg": 2.86
+      },
+      "ovr_pts": 19.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.10 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rudy Tomjanovich",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.18,
+        "rpg": 8.6,
+        "apg": 2.11,
+        "spg": 0.76,
+        "bpg": 0.35
+      },
+      "ovr_pts": 14.29,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.80 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "SG",
+      "stats": {
+        "ppg": 13.66,
+        "rpg": 5.87,
+        "apg": 8.76,
+        "spg": 2.05,
+        "bpg": 0.31
+      },
+      "ovr_pts": 16.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 93.9,
+    "rpg": 37.4,
+    "apg": 28.1,
+    "spg": 6.7,
+    "bpg": 4.5
+  },
+  "result": {
+    "wins": 62,
+    "losses": 20,
+    "ovr": 86.5,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

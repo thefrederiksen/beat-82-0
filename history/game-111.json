@@ -1,0 +1,137 @@
+{
+  "game": 111,
+  "played_at": "2026-06-05T16:04-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "PF",
+      "stats": {
+        "ppg": 27.13,
+        "rpg": 16.03,
+        "apg": 2.53,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 21.0,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.00 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.00 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dikembe Mutombo",
+      "position": "C",
+      "stats": {
+        "ppg": 12.92,
+        "rpg": 12.29,
+        "apg": 1.67,
+        "spg": 0.56,
+        "bpg": 3.81
+      },
+      "ovr_pts": 18.63,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.80 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MEM",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rudy Gay",
+      "position": "SF",
+      "stats": {
+        "ppg": 19.06,
+        "rpg": 6.1,
+        "apg": 2.33,
+        "spg": 1.51,
+        "bpg": 0.85
+      },
+      "ovr_pts": 14.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.00 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Ron Harper",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.37,
+        "rpg": 4.64,
+        "apg": 5.01,
+        "spg": 2.32,
+        "bpg": 0.94
+      },
+      "ovr_pts": 16.52,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.10 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 103.1,
+    "rpg": 47.0,
+    "apg": 22.3,
+    "spg": 5.6,
+    "bpg": 6.4
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "game": 110,
+  "played_at": "2026-06-05T16:03-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Spencer Haywood",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.93,
+        "rpg": 12.13,
+        "apg": 2.34,
+        "spg": 0.85,
+        "bpg": 1.5
+      },
+      "ovr_pts": 20.52,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.90 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwight Howard",
+      "position": "C",
+      "stats": {
+        "ppg": 20.56,
+        "rpg": 13.86,
+        "apg": 1.68,
+        "spg": 1.23,
+        "bpg": 2.48
+      },
+      "ovr_pts": 21.36,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.00 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NOP",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.91,
+        "rpg": 4.14,
+        "apg": 10.12,
+        "spg": 2.29,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.20 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.81,
+        "rpg": 8.28,
+        "apg": 4.12,
+        "spg": 1.21,
+        "bpg": 1.33
+      },
+      "ovr_pts": 17.28,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "SG",
+      "stats": {
+        "ppg": 14.57,
+        "rpg": 7.26,
+        "apg": 9.14,
+        "spg": 1.88,
+        "bpg": 0.26
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.40 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 95.8,
+    "rpg": 45.7,
+    "apg": 27.4,
+    "spg": 7.5,
+    "bpg": 5.7
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

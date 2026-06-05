@@ -1,0 +1,137 @@
+{
+  "game": 120,
+  "played_at": "2026-06-05T16:10-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "SG",
+      "stats": {
+        "ppg": 14.57,
+        "rpg": 7.26,
+        "apg": 9.14,
+        "spg": 1.88,
+        "bpg": 0.26
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.60 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 11.3,
+        "apg": 6.0,
+        "spg": 1.0,
+        "bpg": 1.1
+      },
+      "ovr_pts": 23.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.10 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "IND",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Domantas Sabonis",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 12.0,
+        "apg": 6.7,
+        "spg": 1.2,
+        "bpg": 0.5
+      },
+      "ovr_pts": 20.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.90 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Wembanyama",
+      "position": "C",
+      "stats": {
+        "ppg": 23.6,
+        "rpg": 11.0,
+        "apg": 3.6,
+        "spg": 1.1,
+        "bpg": 3.5
+      },
+      "ovr_pts": 22.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.40 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dejounte Murray",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 7.7,
+        "apg": 7.3,
+        "spg": 1.8,
+        "bpg": 0.2
+      },
+      "ovr_pts": 17.99,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.80 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 106.5,
+    "rpg": 49.3,
+    "apg": 32.7,
+    "spg": 7.0,
+    "bpg": 5.6
+  },
+  "result": {
+    "wins": 76,
+    "losses": 6,
+    "ovr": 102.8,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

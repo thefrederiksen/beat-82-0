@@ -1,0 +1,137 @@
+{
+  "game": 109,
+  "played_at": "2026-06-05T16:03-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "HOU",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.4,
+        "rpg": 17.1,
+        "apg": 1.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 21.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.40 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Lenny Wilkens",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.5,
+        "rpg": 4.56,
+        "apg": 9.31,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 14.97,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.00 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHI",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Charles Barkley",
+      "position": "SF",
+      "stats": {
+        "ppg": 25.21,
+        "rpg": 10.94,
+        "apg": 4.06,
+        "spg": 1.78,
+        "bpg": 0.57
+      },
+      "ovr_pts": 20.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.80 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Bellamy",
+      "position": "C",
+      "stats": {
+        "ppg": 25.57,
+        "rpg": 15.66,
+        "apg": 2.01,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 19.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.00 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Paul Pierce",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.29,
+        "rpg": 6.26,
+        "apg": 3.99,
+        "spg": 1.56,
+        "bpg": 0.62
+      },
+      "ovr_pts": 16.99,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 121.0,
+    "rpg": 54.5,
+    "apg": 20.8,
+    "spg": 3.3,
+    "bpg": 1.2
+  },
+  "result": {
+    "wins": 75,
+    "losses": 7,
+    "ovr": 102.1,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 107,
+  "played_at": "2026-06-05T16:02-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gary Payton",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.72,
+        "rpg": 5.22,
+        "apg": 8.7,
+        "spg": 1.72,
+        "bpg": 0.25
+      },
+      "ovr_pts": 18.75,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.90 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.0,
+        "rpg": 13.0,
+        "apg": 4.1,
+        "spg": 1.4,
+        "bpg": 2.1
+      },
+      "ovr_pts": 21.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.50 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "C",
+      "stats": {
+        "ppg": 27.13,
+        "rpg": 16.03,
+        "apg": 2.53,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 21.0,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.00 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CHI",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clem Haskins",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 4.6,
+        "apg": 7.6,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 14.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Josh Smith",
+      "position": "SF",
+      "stats": {
+        "ppg": 15.52,
+        "rpg": 6.91,
+        "apg": 3.67,
+        "spg": 1.37,
+        "bpg": 1.48
+      },
+      "ovr_pts": 15.38,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.30 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 105.7,
+    "rpg": 45.8,
+    "apg": 26.6,
+    "spg": 4.5,
+    "bpg": 3.8
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 98.2,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

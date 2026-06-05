@@ -1,0 +1,137 @@
+{
+  "game": 118,
+  "played_at": "2026-06-05T16:09-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.00 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "NYK",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.08,
+        "rpg": 11.02,
+        "apg": 2.16,
+        "spg": 0.95,
+        "bpg": 2.7
+      },
+      "ovr_pts": 21.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.80 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "ATL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Josh Smith",
+      "position": "SF",
+      "stats": {
+        "ppg": 17.04,
+        "rpg": 8.77,
+        "apg": 3.9,
+        "spg": 1.38,
+        "bpg": 1.81
+      },
+      "ovr_pts": 17.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "PG",
+      "stats": {
+        "ppg": 27.52,
+        "rpg": 7.01,
+        "apg": 6.68,
+        "spg": 1.75,
+        "bpg": 0.85
+      },
+      "ovr_pts": 21.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.40 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wendell Carter Jr.",
+      "position": "C",
+      "stats": {
+        "ppg": 12.2,
+        "rpg": 8.2,
+        "apg": 2.1,
+        "spg": 0.7,
+        "bpg": 0.6
+      },
+      "ovr_pts": 12.21,
+      "rationale": "policy v3-steady-valuation: exact marginal +8.70 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 105.4,
+    "rpg": 42.9,
+    "apg": 25.6,
+    "spg": 6.0,
+    "bpg": 6.8
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.4,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

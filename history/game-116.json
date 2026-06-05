@@ -1,0 +1,137 @@
+{
+  "game": 116,
+  "played_at": "2026-06-05T16:08-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "DEN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dikembe Mutombo",
+      "position": "C",
+      "stats": {
+        "ppg": 12.92,
+        "rpg": 12.29,
+        "apg": 1.67,
+        "spg": 0.56,
+        "bpg": 3.81
+      },
+      "ovr_pts": 18.63,
+      "rationale": "policy v3-steady-valuation: exact marginal +40.20 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Kenon",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.1,
+        "rpg": 9.9,
+        "apg": 3.0,
+        "spg": 1.4,
+        "bpg": 0.2
+      },
+      "ovr_pts": 16.86,
+      "rationale": "policy v3-steady-valuation: exact marginal +6.20 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Mickey Johnson",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.1,
+        "rpg": 8.3,
+        "apg": 4.2,
+        "spg": 1.9,
+        "bpg": 1.4
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.90 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Brandon Jennings",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.08,
+        "rpg": 2.75,
+        "apg": 6.58,
+        "spg": 1.12,
+        "bpg": 0.1
+      },
+      "ovr_pts": 12.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +7.70 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bradley Beal",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.9,
+        "rpg": 4.4,
+        "apg": 5.5,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 16.85,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.70 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 92.1,
+    "rpg": 37.6,
+    "apg": 21.0,
+    "spg": 6.0,
+    "bpg": 6.0
+  },
+  "result": {
+    "wins": 59,
+    "losses": 23,
+    "ovr": 82.7,
+    "grade": "B",
+    "label": "CONTENDER"
+  }
+}

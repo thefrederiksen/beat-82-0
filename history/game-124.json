@@ -1,0 +1,132 @@
+{
+  "game": 124,
+  "played_at": "2026-06-05T16:12-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Trae Young",
+      "position": "PG",
+      "stats": {
+        "ppg": 26.0,
+        "rpg": 3.3,
+        "apg": 10.3,
+        "spg": 1.1,
+        "bpg": 0.2
+      },
+      "ovr_pts": 18.88,
+      "rationale": "policy v3-steady-valuation: exact marginal +24.90 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Joel Embiid",
+      "position": "C",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 9.9,
+        "apg": 4.2,
+        "spg": 0.9,
+        "bpg": 1.4
+      },
+      "ovr_pts": 21.8,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 17.5,
+        "rpg": 9.1,
+        "apg": 3.6,
+        "spg": 1.2,
+        "bpg": 2.2
+      },
+      "ovr_pts": 18.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.30 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rick Barry",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.97,
+        "rpg": 6.39,
+        "apg": 5.78,
+        "spg": 2.32,
+        "bpg": 0.48
+      },
+      "ovr_pts": 19.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.40 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwyane Wade",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.18,
+        "rpg": 4.88,
+        "apg": 6.67,
+        "spg": 1.82,
+        "bpg": 0.97
+      },
+      "ovr_pts": 19.15,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.20 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 122.3,
+    "rpg": 33.6,
+    "apg": 30.6,
+    "spg": 7.3,
+    "bpg": 5.3
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 97.0,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 122,
+  "played_at": "2026-06-05T16:11-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elton Brand",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.34,
+        "rpg": 10.25,
+        "apg": 2.7,
+        "spg": 0.95,
+        "bpg": 2.23
+      },
+      "ovr_pts": 19.0,
+      "rationale": "policy v3-steady-valuation: exact marginal +34.50 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "NOP",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.43,
+        "rpg": 4.76,
+        "apg": 9.88,
+        "spg": 2.4,
+        "bpg": 0.08
+      },
+      "ovr_pts": 18.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.20 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.91,
+        "rpg": 7.56,
+        "apg": 6.73,
+        "spg": 1.69,
+        "bpg": 0.64
+      },
+      "ovr_pts": 20.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.20 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Lanier",
+      "position": "C",
+      "stats": {
+        "ppg": 22.8,
+        "rpg": 11.94,
+        "apg": 3.3,
+        "spg": 1.16,
+        "bpg": 1.99
+      },
+      "ovr_pts": 21.23,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.20 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Willie Naulls",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.74,
+        "rpg": 12.61,
+        "apg": 2.33,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.21,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.20 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 112.2,
+    "rpg": 47.1,
+    "apg": 24.9,
+    "spg": 6.2,
+    "bpg": 4.9
+  },
+  "result": {
+    "wins": 74,
+    "losses": 8,
+    "ovr": 100.3,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

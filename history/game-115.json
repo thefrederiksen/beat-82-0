@@ -1,0 +1,137 @@
+{
+  "game": 115,
+  "played_at": "2026-06-05T16:07-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.66,
+        "rpg": 8.73,
+        "apg": 10.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.18,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Michael Jordan",
+      "position": "SG",
+      "stats": {
+        "ppg": 32.65,
+        "rpg": 6.15,
+        "apg": 5.93,
+        "spg": 2.81,
+        "bpg": 1.18
+      },
+      "ovr_pts": 23.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +42.20 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.27,
+        "rpg": 10.06,
+        "apg": 2.07,
+        "spg": 1.42,
+        "bpg": 0.79
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.50 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Robinson",
+      "position": "C",
+      "stats": {
+        "ppg": 24.4,
+        "rpg": 11.51,
+        "apg": 2.96,
+        "spg": 1.56,
+        "bpg": 3.38
+      },
+      "ovr_pts": 23.5,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.40 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clifford Robinson",
+      "position": "PF",
+      "stats": {
+        "ppg": 16.15,
+        "rpg": 5.22,
+        "apg": 2.08,
+        "spg": 1.07,
+        "bpg": 1.13
+      },
+      "ovr_pts": 12.77,
+      "rationale": "policy v3-steady-valuation: exact marginal +7.90 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 126.1,
+    "rpg": 41.7,
+    "apg": 23.5,
+    "spg": 6.9,
+    "bpg": 6.5
+  },
+  "result": {
+    "wins": 77,
+    "losses": 5,
+    "ovr": 104.2,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

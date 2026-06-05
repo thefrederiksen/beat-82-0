@@ -1,0 +1,137 @@
+{
+  "game": 126,
+  "played_at": "2026-06-05T16:13-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.6,
+        "rpg": 6.4,
+        "apg": 4.7,
+        "spg": 0.8,
+        "bpg": 1.3
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.20 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.52,
+        "rpg": 13.38,
+        "apg": 1.86,
+        "spg": 1.25,
+        "bpg": 2.47
+      },
+      "ovr_pts": 21.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.90 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CLE",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Brad Daugherty",
+      "position": "C",
+      "stats": {
+        "ppg": 19.88,
+        "rpg": 10.27,
+        "apg": 3.56,
+        "spg": 0.84,
+        "bpg": 0.77
+      },
+      "ovr_pts": 17.44,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.80 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "PG",
+      "stats": {
+        "ppg": 13.66,
+        "rpg": 5.87,
+        "apg": 8.76,
+        "spg": 2.05,
+        "bpg": 0.31
+      },
+      "ovr_pts": 16.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.50 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gus Johnson",
+      "position": "SF",
+      "stats": {
+        "ppg": 15.3,
+        "rpg": 13.33,
+        "apg": 2.77,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.37,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 98.0,
+    "rpg": 49.3,
+    "apg": 21.6,
+    "spg": 4.9,
+    "bpg": 4.8
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 92.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}
