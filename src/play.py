@@ -240,10 +240,20 @@ def main():
             page = ctx.new_page()
         h = Harness(page, eng, pol)
 
-        for _ in range(args.games):
+        played = 0
+        while played < args.games:
             n = next_game_no()
             print(f"--- game {n} ({pol.version}) ---")
-            h.play_game(n)
+            try:
+                h.play_game(n)
+            except RuntimeError as e:
+                if "stuck:" in str(e):
+                    # genuine soft-lock (no eligible player, no skips): the game
+                    # cannot be finished; abandon and start a fresh one
+                    print(f"  ABANDONED (soft-lock): {e}")
+                    continue
+                raise
+            played += 1
 
 
 if __name__ == "__main__":

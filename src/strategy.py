@@ -16,7 +16,10 @@ class Policy:
 
     Parameters:
       version          version string recorded in history JSONs
-      skip_gain        burn a skip when (skip EV - current best) >= this
+      skip_gain        burn a skip when (skip EV - current best) >= this;
+                       scalar, or a 5-tuple of per-round thresholds (a skip
+                       held to the end expires worthless, so later rounds
+                       should demand less gain)
       tail_weight      adds tail_weight * P(outcome >= tail_cut) * 10 to skip EV
                        (variance seeking toward jackpot cells; 0 = pure EV)
       tail_cut         OVR-points level that counts as a jackpot outcome
@@ -27,7 +30,8 @@ class Policy:
     def __init__(self, version="v1-scripted", skip_gain=3.0, tail_weight=0.0,
                  tail_cut=21.0, place_priority=("PF", "SG", "SF", "PG", "C")):
         self.version = version
-        self.skip_gain = skip_gain
+        self.skip_gain = (tuple(skip_gain) if isinstance(skip_gain, (list, tuple))
+                          else (skip_gain,) * 5)
         self.tail_weight = tail_weight
         self.tail_cut = tail_cut
         self.place_priority = place_priority
@@ -75,8 +79,9 @@ class Policy:
                 f"stuck: no eligible player in {team}/{era} for {sorted(open_pos)} "
                 "and no skips left")
 
+        round_idx = len(roster)  # 0-based: rounds played so far
         best_gain, best_action = max(options) if options else (None, None)
-        if best_gain is not None and best_gain >= self.skip_gain:
+        if best_gain is not None and best_gain >= self.skip_gain[round_idx]:
             return best_action
 
         _, pick = eng.best_in_cell(team, era, open_pos, taken_ids, roster)
@@ -101,6 +106,17 @@ def v1():
     return Policy(version="v1-scripted", skip_gain=3.0, tail_weight=0.0)
 
 
+def v2():
+    """Tuned offline (simulate.py --tune 6000, 2026-06-05): declining skip
+    thresholds (a held skip expires worthless, so demand less gain late) and
+    SG-SF-PG-PF-C placement (protect C, then PF). Offline: mean 69.05 wins,
+    P(82-0) 2.38% vs v1's 67.65 / 1.07%."""
+    return Policy(version="v2-declining-skips",
+                  skip_gain=(2.0, 1.5, 1.0, 0.5, 0.0),
+                  tail_weight=0.0,
+                  place_priority=("SG", "SF", "PG", "PF", "C"))
+
+
 def get(version_name):
-    factories = {"v1-scripted": v1}
+    factories = {"v1-scripted": v1, "v2-declining-skips": v2}
     return factories[version_name]()

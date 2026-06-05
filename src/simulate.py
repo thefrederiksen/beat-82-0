@@ -17,7 +17,13 @@ sys.stdout.reconfigure(encoding="ascii", errors="replace")
 
 
 def play_one(eng, pol, rng):
-    """Simulate one full game; returns (wins, ovr, picks)."""
+    """Simulate one full game; returns (wins, ovr, picks).
+
+    Rare edge case: a rolled cell can have NO player fitting the open slots
+    with no skips left (a soft-lock in the real game too -- the only live
+    recourse is abandoning the game, which records nothing). The sim re-rolls
+    the cell so comparisons stay on completed games.
+    """
     open_pos = set(POSITIONS)
     taken_ids = set()
     roster = []
@@ -26,6 +32,9 @@ def play_one(eng, pol, rng):
 
     for _ in range(5):
         team, era = cells[rng.randrange(len(cells))]
+        while eng.best_face_in_cell(team, era, open_pos, taken_ids)[0] is None \
+                and not (team_skip or decade_skip):
+            team, era = cells[rng.randrange(len(cells))]  # soft-lock re-roll
         while True:
             action = pol.decide(eng, team, era, open_pos, taken_ids, roster,
                                 team_skip, decade_skip)
@@ -86,30 +95,36 @@ def tune(n_games):
         ("PF", "SG", "SF", "PG", "C"),
         ("SG", "PF", "SF", "PG", "C"),
         ("SF", "SG", "PF", "PG", "C"),
+        ("SF", "SG", "PG", "PF", "C"),
+        ("SG", "SF", "PG", "PF", "C"),
     ]
-    for skip_gain in (0.5, 1.0, 2.0, 3.0):
-        for tail_weight in (0.0, 1.0, 2.0, 4.0):
-            for tail_cut in (21.0, 23.0):
-                for pp in priorities:
-                    pol = Policy(version="tune", skip_gain=skip_gain,
-                                 tail_weight=tail_weight, tail_cut=tail_cut,
-                                 place_priority=pp)
-                    stats = evaluate(pol, n_games, seed=base_seed)
-                    results.append((stats["mean_wins"], stats["p_perfect"],
-                                    skip_gain, tail_weight, tail_cut, pp))
-                    print(f"  gain={skip_gain:3.1f} tail={tail_weight:3.1f}"
-                          f"@{tail_cut:4.1f} place={''.join(s[0] for s in pp)}  "
-                          f"mean {stats['mean_wins']:6.2f}  "
-                          f"P(82-0) {stats['p_perfect']*100:5.2f}%", flush=True)
+    gain_schedules = {
+        "flat0.5": (0.5,) * 5,
+        "flat1": (1.0,) * 5,
+        "flat2": (2.0,) * 5,
+        "flat3": (3.0,) * 5,
+        "decl-3to0": (3.0, 2.0, 1.0, 0.5, 0.0),
+        "decl-2to0": (2.0, 1.5, 1.0, 0.5, 0.0),
+        "decl-1to0": (1.0, 0.75, 0.5, 0.25, 0.0),
+        "decl-05to0": (0.5, 0.4, 0.3, 0.15, 0.0),
+    }
+    for gname, gains in gain_schedules.items():
+        for pp in priorities:
+            pol = Policy(version="tune", skip_gain=gains, place_priority=pp)
+            stats = evaluate(pol, n_games, seed=base_seed)
+            results.append((stats["mean_wins"], stats["p_perfect"], gname, pp))
+            print(f"  gain={gname:11} place={''.join(s[0] for s in pp)}  "
+                  f"mean {stats['mean_wins']:6.2f}  "
+                  f"P(82-0) {stats['p_perfect']*100:5.2f}%", flush=True)
     results.sort(reverse=True)
     print("\ntop 8 by mean wins:")
-    for mean, pp82, g, tw, tc, pp in results[:8]:
+    for mean, pp82, g, pp in results[:8]:
         print(f"  mean {mean:6.2f}  P(82-0) {pp82*100:5.2f}%  "
-              f"gain={g} tail={tw}@{tc} place={'-'.join(pp)}")
+              f"gain={g} place={'-'.join(pp)}")
     print("\ntop 8 by P(82-0):")
-    for mean, pp82, g, tw, tc, pp in sorted(results, key=lambda r: (-r[1], -r[0]))[:8]:
+    for mean, pp82, g, pp in sorted(results, key=lambda r: (-r[1], -r[0]))[:8]:
         print(f"  P(82-0) {pp82*100:5.2f}%  mean {mean:6.2f}  "
-              f"gain={g} tail={tw}@{tc} place={'-'.join(pp)}")
+              f"gain={g} place={'-'.join(pp)}")
 
 
 def main():
