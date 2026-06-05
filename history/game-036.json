@@ -1,0 +1,137 @@
+{
+  "game": 36,
+  "played_at": "2026-06-05T15:07-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "WAS",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.96,
+        "rpg": 9.66,
+        "apg": 4.39,
+        "spg": 1.62,
+        "bpg": 1.66
+      },
+      "ovr_pts": 19.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +35.70 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "C",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.30 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jayson Tatum",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.5,
+        "rpg": 8.5,
+        "apg": 4.9,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 19.39,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.70 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "SG",
+      "stats": {
+        "ppg": 13.66,
+        "rpg": 5.87,
+        "apg": 8.76,
+        "spg": 2.05,
+        "bpg": 0.31
+      },
+      "ovr_pts": 16.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.00 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "D'Angelo Russell",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.02,
+        "rpg": 3.9,
+        "apg": 6.33,
+        "spg": 1.05,
+        "bpg": 0.27
+      },
+      "ovr_pts": 14.45,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.20 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 108.4,
+    "rpg": 40.6,
+    "apg": 27.0,
+    "spg": 7.0,
+    "bpg": 5.2
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

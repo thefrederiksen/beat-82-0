@@ -1,0 +1,137 @@
+{
+  "game": 31,
+  "played_at": "2026-06-05T15:04-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shai Gilgeous-Alexander",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.9,
+        "rpg": 4.9,
+        "apg": 6.1,
+        "spg": 1.5,
+        "bpg": 0.9
+      },
+      "ovr_pts": 19.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.00 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHI",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Joel Embiid",
+      "position": "C",
+      "stats": {
+        "ppg": 24.23,
+        "rpg": 11.43,
+        "apg": 3.19,
+        "spg": 0.7,
+        "bpg": 1.98
+      },
+      "ovr_pts": 20.79,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.10 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Bosh",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.0,
+        "rpg": 10.8,
+        "apg": 2.4,
+        "spg": 0.6,
+        "bpg": 1.0
+      },
+      "ovr_pts": 18.49,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.70 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DEN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Fat Lever",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.3,
+        "rpg": 9.3,
+        "apg": 6.5,
+        "spg": 2.1,
+        "bpg": 0.2
+      },
+      "ovr_pts": 18.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.40 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 115.6,
+    "rpg": 48.1,
+    "apg": 21.8,
+    "spg": 5.9,
+    "bpg": 4.6
+  },
+  "result": {
+    "wins": 70,
+    "losses": 12,
+    "ovr": 96.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

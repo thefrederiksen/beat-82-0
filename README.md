@@ -7,6 +7,15 @@ roster game where you try to build a team that goes a perfect 82-0.
 > plain-English story plus a live scoreboard that updates as the chase happens.
 > The process itself is specified in [program.md](program.md).
 
+<!-- SCOREBOARD-MINI:START -->
+**Live status** (game 40, 2026-06-05):
+
+- Best 3-game average: **76.33 / 82** (games 27-29)
+- Best single game: **82-0** (game 29)
+- Perfect 82-0 seasons: **1** (first: game 29)
+- Games played: 40 -- full story and table in [FOLLOW-ALONG.md](FOLLOW-ALONG.md)
+<!-- SCOREBOARD-MINI:END -->
+
 ## The game
 
 Each round, a slot machine assigns you a **team + decade** combination. You pick the

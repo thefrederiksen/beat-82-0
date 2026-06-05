@@ -1,0 +1,137 @@
+{
+  "game": 32,
+  "played_at": "2026-06-05T15:05-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gary Payton",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.72,
+        "rpg": 5.22,
+        "apg": 8.7,
+        "spg": 1.72,
+        "bpg": 0.25
+      },
+      "ovr_pts": 18.75,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.90 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DET",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Grant Hill",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.73,
+        "rpg": 8.12,
+        "apg": 6.47,
+        "spg": 1.66,
+        "bpg": 0.67
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.40 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shaquille O'Neal",
+      "position": "C",
+      "stats": {
+        "ppg": 27.05,
+        "rpg": 11.99,
+        "apg": 3.32,
+        "spg": 0.56,
+        "bpg": 2.56
+      },
+      "ovr_pts": 22.76,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.10 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Charles Barkley",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.43,
+        "rpg": 11.55,
+        "apg": 4.39,
+        "spg": 1.6,
+        "bpg": 0.78
+      },
+      "ovr_pts": 20.86,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.90 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jimmy Butler",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.8,
+        "rpg": 5.5,
+        "apg": 5.2,
+        "spg": 1.4,
+        "bpg": 0.2
+      },
+      "ovr_pts": 15.0,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.00 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 112.7,
+    "rpg": 42.4,
+    "apg": 28.1,
+    "spg": 6.9,
+    "bpg": 4.5
+  },
+  "result": {
+    "wins": 70,
+    "losses": 12,
+    "ovr": 96.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -16,8 +16,11 @@ sys.stdout.reconfigure(encoding="ascii", errors="replace")
 
 TARGET_AVG = 82.0
 PAGE = os.path.join(os.path.dirname(__file__), "..", "FOLLOW-ALONG.md")
+README = os.path.join(os.path.dirname(__file__), "..", "README.md")
 MARK_START = "<!-- SCOREBOARD:START -->"
 MARK_END = "<!-- SCOREBOARD:END -->"
+MINI_START = "<!-- SCOREBOARD-MINI:START -->"
+MINI_END = "<!-- SCOREBOARD-MINI:END -->"
 RECENT_GAMES = 15
 
 
@@ -118,15 +121,41 @@ def page_markdown(games):
     return "\n".join(lines)
 
 
-def update_page(games):
-    with open(PAGE, encoding="utf-8") as f:
+def mini_markdown(games):
+    """Compact scoreboard for the README."""
+    best, _, bg = all_time_best(games)
+    milestones = [g["game"] for g in games if g["result"]["wins"] == 82]
+    top = max(games, key=lambda g: g["result"]["wins"])
+    lines = ["**Live status** (game "
+             f"{games[-1]['game']}, {games[-1]['played_at'].split('T')[0]}):",
+             ""]
+    if best is not None:
+        lines.append(f"- Best 3-game average: **{best:.2f} / 82** "
+                     f"(games {bg[0]['game']}-{bg[-1]['game']})")
+    lines.append(f"- Best single game: **{top['result']['wins']}-"
+                 f"{top['result']['losses']}** (game {top['game']})")
+    lines.append("- Perfect 82-0 seasons: "
+                 + (f"**{len(milestones)}** (first: game {milestones[0]})"
+                    if milestones else "none yet"))
+    lines.append(f"- Games played: {len(games)} -- full story and table in "
+                 "[FOLLOW-ALONG.md](FOLLOW-ALONG.md)")
+    return "\n".join(lines)
+
+
+def _replace_between(path, start_mark, end_mark, content):
+    with open(path, encoding="utf-8") as f:
         text = f.read()
-    start = text.index(MARK_START) + len(MARK_START)
-    end = text.index(MARK_END)
-    new = text[:start] + "\n" + page_markdown(games) + "\n" + text[end:]
-    with open(PAGE, "w", encoding="ascii", newline="\n") as f:
+    start = text.index(start_mark) + len(start_mark)
+    end = text.index(end_mark)
+    new = text[:start] + "\n" + content + "\n" + text[end:]
+    with open(path, "w", encoding="ascii", newline="\n") as f:
         f.write(new)
-    print(f"updated {os.path.normpath(PAGE)}")
+    print(f"updated {os.path.normpath(path)}")
+
+
+def update_page(games):
+    _replace_between(PAGE, MARK_START, MARK_END, page_markdown(games))
+    _replace_between(README, MINI_START, MINI_END, mini_markdown(games))
 
 
 def main():

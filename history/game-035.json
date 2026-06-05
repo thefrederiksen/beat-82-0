@@ -1,0 +1,132 @@
+{
+  "game": 35,
+  "played_at": "2026-06-05T15:06-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Oladipo",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.71,
+        "rpg": 5.33,
+        "apg": 4.59,
+        "spg": 2.17,
+        "bpg": 0.64
+      },
+      "ovr_pts": 16.95,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.10 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Johnson",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 4.23,
+        "apg": 11.3,
+        "spg": 1.65,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.40 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.90 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shawn Marion",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.38,
+        "rpg": 10.01,
+        "apg": 2.02,
+        "spg": 1.89,
+        "bpg": 1.36
+      },
+      "ovr_pts": 17.75,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.60 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Anthony Davis",
+      "position": "C",
+      "stats": {
+        "ppg": 23.9,
+        "rpg": 10.7,
+        "apg": 3.1,
+        "spg": 1.2,
+        "bpg": 2.0
+      },
+      "ovr_pts": 20.76,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.30 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 110.6,
+    "rpg": 42.9,
+    "apg": 23.6,
+    "spg": 8.0,
+    "bpg": 6.7
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 97.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 33,
+  "played_at": "2026-06-05T15:05-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.00 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Domantas Sabonis",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 12.0,
+        "apg": 6.7,
+        "spg": 1.2,
+        "bpg": 0.5
+      },
+      "ovr_pts": 20.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.70 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHI",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.93,
+        "rpg": 3.85,
+        "apg": 6.08,
+        "spg": 2.39,
+        "bpg": 0.16
+      },
+      "ovr_pts": 19.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.70 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Charles Barkley",
+      "position": "SF",
+      "stats": {
+        "ppg": 25.21,
+        "rpg": 10.94,
+        "apg": 4.06,
+        "spg": 1.78,
+        "bpg": 0.57
+      },
+      "ovr_pts": 20.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.50 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Block",
+      "position": "C",
+      "stats": {
+        "ppg": 17.9,
+        "rpg": 9.2,
+        "apg": 2.0,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 13.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.20 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 117.9,
+    "rpg": 43.9,
+    "apg": 29.6,
+    "spg": 6.6,
+    "bpg": 2.0
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 99.1,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

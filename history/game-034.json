@@ -1,0 +1,137 @@
+{
+  "game": 34,
+  "played_at": "2026-06-05T15:06-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CHA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Eddie Jones",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.1,
+        "rpg": 4.8,
+        "apg": 4.2,
+        "spg": 2.7,
+        "bpg": 0.7
+      },
+      "ovr_pts": 16.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.40 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nate Thurmond",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.63,
+        "rpg": 15.64,
+        "apg": 3.12,
+        "spg": 0.7,
+        "bpg": 2.9
+      },
+      "ovr_pts": 22.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.30 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dominique Wilkins",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.1,
+        "rpg": 7.0,
+        "apg": 2.2,
+        "spg": 1.2,
+        "bpg": 0.3
+      },
+      "ovr_pts": 17.55,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.70 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Cade Cunningham",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.0,
+        "rpg": 5.5,
+        "apg": 7.6,
+        "spg": 1.1,
+        "bpg": 0.7
+      },
+      "ovr_pts": 17.86,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.20 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Joel Embiid",
+      "position": "C",
+      "stats": {
+        "ppg": 24.23,
+        "rpg": 11.43,
+        "apg": 3.19,
+        "spg": 0.7,
+        "bpg": 1.98
+      },
+      "ovr_pts": 20.79,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.70 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 114.1,
+    "rpg": 44.4,
+    "apg": 20.3,
+    "spg": 6.4,
+    "bpg": 6.6
+  },
+  "result": {
+    "wins": 70,
+    "losses": 12,
+    "ovr": 95.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

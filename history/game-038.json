@@ -1,0 +1,137 @@
+{
+  "game": 38,
+  "played_at": "2026-06-05T15:07-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Grant Hill",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.73,
+        "rpg": 8.12,
+        "apg": 6.47,
+        "spg": 1.66,
+        "bpg": 0.67
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.90 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Artis Gilmore",
+      "position": "C",
+      "stats": {
+        "ppg": 21.73,
+        "rpg": 12.93,
+        "apg": 2.97,
+        "spg": 0.53,
+        "bpg": 2.2
+      },
+      "ovr_pts": 20.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.00 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "ATL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dominique Wilkins",
+      "position": "SF",
+      "stats": {
+        "ppg": 27.04,
+        "rpg": 7.21,
+        "apg": 2.99,
+        "spg": 1.35,
+        "bpg": 0.58
+      },
+      "ovr_pts": 17.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.47,
+        "rpg": 12.7,
+        "apg": 5.03,
+        "spg": 1.39,
+        "bpg": 1.66
+      },
+      "ovr_pts": 22.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Josh Giddey",
+      "position": "PG",
+      "stats": {
+        "ppg": 15.8,
+        "rpg": 8.2,
+        "apg": 8.2,
+        "spg": 1.1,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.66,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.60 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 107.8,
+    "rpg": 49.2,
+    "apg": 25.7,
+    "spg": 6.0,
+    "bpg": 5.7
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 97.9,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}
