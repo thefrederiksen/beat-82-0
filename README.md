@@ -36,11 +36,18 @@ and can be reverse-engineered.
 
 | Phase | Goal | Status |
 |-------|------|--------|
-| 1. Capture the player data | Intercept the runtime data load ("Loading player data...") via browser network capture; dump the full player pool to `data/` | TODO |
-| 2. Reverse the sim engine | Find the win-projection curve and era-adjustment factors in the JS bundle; reimplement in `src/` | TODO |
-| 3. Build the pick oracle | Given any (team, decade) slot, return the best pick -- precomputed lookup table for every combination | TODO |
-| 4. Skip advisor | Quantify when burning the team skip / decade skip beats taking the best available pick | TODO |
+| 1. Capture the player data | Intercept the runtime data load ("Loading player data...") via browser network capture; dump the full player pool to `data/` | DONE -- `data/players_flat.json` (public Firebase Storage URL, 10,932 rows) |
+| 2. Reverse the sim engine | Find the win-projection curve and era-adjustment factors in the JS bundle; reimplement in `src/` | DONE -- `docs/sim-engine.md`; formula verified to the decimal against 5 live games |
+| 3. Build the pick oracle | Given any (team, decade) slot, return the best pick -- precomputed lookup table for every combination | DONE -- `src/oracle.py` (per-cell ranking + `--eras`/`--teams` sweeps) |
+| 4. Skip advisor | Quantify when burning the team skip / decade skip beats taking the best available pick | DONE (manual EV runs during play; see `docs/game-log.md`) |
 | 5. HoopIQ cheat sheet | Human-memorizable best-pick tables for the stats-hidden mode | TODO |
+
+**Key findings** (detail in `docs/sim-engine.md` and `docs/recon-notes.md`): the sim is
+one closed-form client-side formula -- `wins = round(82*min(OVR/110,1)^1.15)` with
+`OVR = 100*(sumPPG/133.4*.46 + sumRPG/39.7*.25 + sumAPG/29.3*.18 + adjSPG/6.1*.07 +
+adjBPG/3.2*.04)`. No era adjustment on PPG/RPG/APG in Classic; rolls are unseeded
+client `Math.random()`; no daily puzzle; decades/teams can repeat. 82-0 needs OVR >=
+~109.4 (~21.9 weighted pts per pick). Best of 5 logged games: **78-4 (105.9 OVR)**.
 
 ### Recon so far (2026-06-05)
 
