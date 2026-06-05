@@ -1,0 +1,137 @@
+{
+  "game": 44,
+  "played_at": "2026-06-05T15:13-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "SG",
+      "stats": {
+        "ppg": 14.57,
+        "rpg": 7.26,
+        "apg": 9.14,
+        "spg": 1.88,
+        "bpg": 0.26
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.60 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Antoine Walker",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.17,
+        "rpg": 8.24,
+        "apg": 4.63,
+        "spg": 1.49,
+        "bpg": 0.52
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.00 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "C",
+      "stats": {
+        "ppg": 20.0,
+        "rpg": 13.0,
+        "apg": 4.1,
+        "spg": 1.4,
+        "bpg": 2.1
+      },
+      "ovr_pts": 21.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.70 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CHA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Johnson",
+      "position": "SF",
+      "stats": {
+        "ppg": 19.65,
+        "rpg": 9.22,
+        "apg": 4.14,
+        "spg": 0.79,
+        "bpg": 0.41
+      },
+      "ovr_pts": 16.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.10 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kenny Anderson",
+      "position": "PG",
+      "stats": {
+        "ppg": 15.2,
+        "rpg": 2.7,
+        "apg": 8.6,
+        "spg": 1.6,
+        "bpg": 0.2
+      },
+      "ovr_pts": 14.31,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.70 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 90.6,
+    "rpg": 40.4,
+    "apg": 30.6,
+    "spg": 7.2,
+    "bpg": 3.5
+  },
+  "result": {
+    "wins": 64,
+    "losses": 18,
+    "ovr": 88.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

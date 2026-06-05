@@ -1,0 +1,132 @@
+{
+  "game": 46,
+  "played_at": "2026-06-05T15:14-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Bosh",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.0,
+        "rpg": 10.8,
+        "apg": 2.4,
+        "spg": 0.6,
+        "bpg": 1.0
+      },
+      "ovr_pts": 18.49,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.20 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 12.11,
+        "apg": 2.03,
+        "spg": 1.96,
+        "bpg": 3.11
+      },
+      "ovr_pts": 22.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.30 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Wall",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.99,
+        "rpg": 4.33,
+        "apg": 9.21,
+        "spg": 1.69,
+        "bpg": 0.7
+      },
+      "ovr_pts": 17.75,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.90 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "WAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bradley Beal",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.9,
+        "rpg": 4.4,
+        "apg": 5.5,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 16.85,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.80 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bobby Jones",
+      "position": "SF",
+      "stats": {
+        "ppg": 14.81,
+        "rpg": 8.4,
+        "apg": 3.3,
+        "spg": 2.06,
+        "bpg": 1.86
+      },
+      "ovr_pts": 17.11,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 106.7,
+    "rpg": 40.0,
+    "apg": 22.4,
+    "spg": 7.3,
+    "bpg": 7.2
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

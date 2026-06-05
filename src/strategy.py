@@ -29,7 +29,7 @@ class Policy:
 
     def __init__(self, version="v1-scripted", skip_gain=3.0, tail_weight=0.0,
                  tail_cut=21.0, place_priority=("PF", "SG", "SF", "PG", "C"),
-                 val_mode="face"):
+                 val_mode="face", target_sum=None, q_easy=17.0, q_max=26.0):
         self.version = version
         self.skip_gain = (tuple(skip_gain) if isinstance(skip_gain, (list, tuple))
                           else (skip_gain,) * 5)
@@ -37,6 +37,13 @@ class Policy:
         self.tail_cut = tail_cut
         self.place_priority = place_priority
         self.val_mode = val_mode  # "face" or "steady"
+        # target-chasing (perfection mode): final OVR ~= steady_sum + 13.7
+        # (calibrated offline, sd ~0.25), so 82-0 needs steady_sum >= ~95.8.
+        # When the per-round need q is between q_easy (on pace anyway) and
+        # q_max (hopeless), maximize P(this round >= q) instead of EV.
+        self.target_sum = target_sum  # None disables chasing
+        self.q_easy = q_easy
+        self.q_max = q_max
 
     # ------------------------------------------------------------------
 
@@ -64,6 +71,32 @@ class Policy:
             cur_face, _ = eng.best_steady_in_cell(team, era, open_pos, taken_ids)
         else:
             cur_face, _ = eng.best_face_in_cell(team, era, open_pos, taken_ids)
+
+        # perfection chase: when the remaining per-round need q is demanding
+        # but not hopeless, maximize P(value >= q) instead of expected value
+        if self.target_sum is not None and steady and cur_face is not None:
+            s_now = sum(p["_sp"] for p in roster)
+            rounds_left = 5 - len(roster)
+            q = (self.target_sum - s_now) / rounds_left
+            if self.q_easy < q <= self.q_max:
+                if cur_face >= q:
+                    _, pick = eng.best_steady_in_cell(team, era, open_pos, taken_ids)
+                    return ("pick", pick, self.place(pick, open_pos))
+                hits = []  # (P_hit, action)
+                if team_skip:
+                    vals = eng.team_skip_values(era, team, open_pos, steady=True)
+                    if vals:
+                        hits.append((sum(1 for v in vals if v >= q) / len(vals),
+                                     ("skip_team",)))
+                if decade_skip:
+                    vals = eng.decade_skip_values(team, era, open_pos, steady=True)
+                    if vals:
+                        hits.append((sum(1 for v in vals if v >= q) / len(vals),
+                                     ("skip_decade",)))
+                best_p, best_act = max(hits) if hits else (0.0, None)
+                if best_p > 0:
+                    return best_act
+                # no path to the target this round: fall through to EV logic
 
         options = []  # (gain, action)
         if team_skip:

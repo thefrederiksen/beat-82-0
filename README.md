@@ -8,12 +8,12 @@ roster game where you try to build a team that goes a perfect 82-0.
 > The process itself is specified in [program.md](program.md).
 
 <!-- SCOREBOARD-MINI:START -->
-**Live status** (game 40, 2026-06-05):
+**Live status** (game 46, 2026-06-05):
 
 - Best 3-game average: **76.33 / 82** (games 27-29)
 - Best single game: **82-0** (game 29)
 - Perfect 82-0 seasons: **1** (first: game 29)
-- Games played: 40 -- full story and table in [FOLLOW-ALONG.md](FOLLOW-ALONG.md)
+- Games played: 46 -- full story and table in [FOLLOW-ALONG.md](FOLLOW-ALONG.md)
 <!-- SCOREBOARD-MINI:END -->
 
 ## The game

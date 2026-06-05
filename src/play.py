@@ -40,7 +40,7 @@ class Harness:
     def text(self):
         return self.page.evaluate("() => document.body.innerText")
 
-    def wait_text(self, pred, timeout=25.0, what="condition"):
+    def wait_text(self, pred, timeout=60.0, what="condition"):
         deadline = time.time() + timeout
         while time.time() < deadline:
             t = self.text()
@@ -241,18 +241,26 @@ def main():
         h = Harness(page, eng, pol)
 
         played = 0
+        aborts = 0
         while played < args.games:
             n = next_game_no()
             print(f"--- game {n} ({pol.version}) ---")
             try:
                 h.play_game(n)
+                aborts = 0
             except RuntimeError as e:
                 if "stuck:" in str(e):
                     # genuine soft-lock (no eligible player, no skips): the game
                     # cannot be finished; abandon and start a fresh one
                     print(f"  ABANDONED (soft-lock): {e}")
                     continue
-                raise
+                # transient UI flake: abandon this game, keep the batch alive;
+                # three in a row means something is actually broken -> fail
+                aborts += 1
+                print(f"  GAME ABORTED ({aborts}/3): {e}")
+                if aborts >= 3:
+                    raise
+                continue
             played += 1
 
 

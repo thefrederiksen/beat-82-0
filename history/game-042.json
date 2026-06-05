@@ -1,0 +1,132 @@
+{
+  "game": 42,
+  "played_at": "2026-06-05T15:11-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Spencer Haywood",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.93,
+        "rpg": 12.13,
+        "apg": 2.34,
+        "spg": 0.85,
+        "bpg": 1.5
+      },
+      "ovr_pts": 20.52,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.90 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.90 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Wembanyama",
+      "position": "C",
+      "stats": {
+        "ppg": 23.6,
+        "rpg": 11.0,
+        "apg": 3.6,
+        "spg": 1.1,
+        "bpg": 3.5
+      },
+      "ovr_pts": 22.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.30 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwyane Wade",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.18,
+        "rpg": 4.88,
+        "apg": 6.67,
+        "spg": 1.82,
+        "bpg": 0.97
+      },
+      "ovr_pts": 19.15,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "SF",
+      "stats": {
+        "ppg": 30.6,
+        "rpg": 8.7,
+        "apg": 8.8,
+        "spg": 1.2,
+        "bpg": 0.5
+      },
+      "ovr_pts": 23.44,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 128.9,
+    "rpg": 44.6,
+    "apg": 32.2,
+    "spg": 6.2,
+    "bpg": 7.3
+  },
+  "result": {
+    "wins": 81,
+    "losses": 1,
+    "ovr": 108.5,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

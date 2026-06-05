@@ -1,0 +1,137 @@
+{
+  "game": 43,
+  "played_at": "2026-06-05T15:12-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Joel Embiid",
+      "position": "C",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 9.9,
+        "apg": 4.2,
+        "spg": 0.9,
+        "bpg": 1.4
+      },
+      "ovr_pts": 21.8,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.90 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BOS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bailey Howell",
+      "position": "SF",
+      "stats": {
+        "ppg": 19.83,
+        "rpg": 9.01,
+        "apg": 1.56,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 13.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.50 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Blake Griffin",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.32,
+        "rpg": 7.28,
+        "apg": 5.6,
+        "spg": 0.62,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.28,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.10 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.52,
+        "rpg": 7.01,
+        "apg": 6.68,
+        "spg": 1.75,
+        "bpg": 0.85
+      },
+      "ovr_pts": 21.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.80 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.57,
+        "rpg": 7.26,
+        "apg": 9.14,
+        "spg": 1.88,
+        "bpg": 0.26
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 114.8,
+    "rpg": 40.5,
+    "apg": 27.2,
+    "spg": 5.2,
+    "bpg": 2.9
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

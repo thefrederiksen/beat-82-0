@@ -1,0 +1,132 @@
+{
+  "game": 45,
+  "played_at": "2026-06-05T15:13-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 11.3,
+        "apg": 6.0,
+        "spg": 1.0,
+        "bpg": 1.1
+      },
+      "ovr_pts": 23.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +33.60 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NOP",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NOP",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMarcus Cousins",
+      "position": "C",
+      "stats": {
+        "ppg": 24.99,
+        "rpg": 12.77,
+        "apg": 5.01,
+        "spg": 1.57,
+        "bpg": 1.47
+      },
+      "ovr_pts": 23.38,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.50 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Spencer Haywood",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.93,
+        "rpg": 12.13,
+        "apg": 2.34,
+        "spg": 0.85,
+        "bpg": 1.5
+      },
+      "ovr_pts": 20.52,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.30 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terrell Brandon",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.2,
+        "rpg": 3.9,
+        "apg": 9.8,
+        "spg": 1.9,
+        "bpg": 0.3
+      },
+      "ovr_pts": 15.93,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.90 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clyde Drexler",
+      "position": "SG",
+      "stats": {
+        "ppg": 19.84,
+        "rpg": 5.87,
+        "apg": 5.61,
+        "spg": 2.29,
+        "bpg": 0.68
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 113.6,
+    "rpg": 46.0,
+    "apg": 28.8,
+    "spg": 7.6,
+    "bpg": 5.0
+  },
+  "result": {
+    "wins": 74,
+    "losses": 8,
+    "ovr": 100.8,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

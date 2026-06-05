@@ -1,0 +1,137 @@
+{
+  "game": 41,
+  "played_at": "2026-06-05T15:10-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Carlos Boozer",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.5,
+        "rpg": 11.2,
+        "apg": 3.2,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 17.63,
+      "rationale": "policy v3-steady-valuation: exact marginal +25.20 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "TOR",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Damon Stoudamire",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.58,
+        "rpg": 4.14,
+        "apg": 8.8,
+        "spg": 1.49,
+        "bpg": 0.21
+      },
+      "ovr_pts": 16.74,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.00 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shaquille O'Neal",
+      "position": "C",
+      "stats": {
+        "ppg": 27.05,
+        "rpg": 11.99,
+        "apg": 3.32,
+        "spg": 0.56,
+        "bpg": 2.56
+      },
+      "ovr_pts": 22.76,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.10 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1960s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHI",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "SG",
+      "stats": {
+        "ppg": 29.93,
+        "rpg": 3.85,
+        "apg": 6.08,
+        "spg": 2.39,
+        "bpg": 0.16
+      },
+      "ovr_pts": 19.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.90 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Johnson",
+      "position": "SF",
+      "stats": {
+        "ppg": 19.65,
+        "rpg": 9.22,
+        "apg": 4.14,
+        "spg": 0.79,
+        "bpg": 0.41
+      },
+      "ovr_pts": 16.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 115.7,
+    "rpg": 40.4,
+    "apg": 25.5,
+    "spg": 6.3,
+    "bpg": 3.8
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}
