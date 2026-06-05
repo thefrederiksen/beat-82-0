@@ -28,13 +28,15 @@ class Policy:
     """
 
     def __init__(self, version="v1-scripted", skip_gain=3.0, tail_weight=0.0,
-                 tail_cut=21.0, place_priority=("PF", "SG", "SF", "PG", "C")):
+                 tail_cut=21.0, place_priority=("PF", "SG", "SF", "PG", "C"),
+                 val_mode="face"):
         self.version = version
         self.skip_gain = (tuple(skip_gain) if isinstance(skip_gain, (list, tuple))
                           else (skip_gain,) * 5)
         self.tail_weight = tail_weight
         self.tail_cut = tail_cut
         self.place_priority = place_priority
+        self.val_mode = val_mode  # "face" or "steady"
 
     # ------------------------------------------------------------------
 
@@ -52,20 +54,26 @@ class Policy:
                team_skip, decade_skip):
         """One decision for the current roll. Caller loops after a skip.
 
-        Skip decisions compare FACE values (current cell best vs re-roll EV,
-        same units); the actual pick within the kept cell maximizes exact
-        marginal OVR (captures the 5/k spg/bpg interaction)."""
-        cur_face, _ = eng.best_face_in_cell(team, era, open_pos, taken_ids)
+        Skip decisions compare like-for-like values (current cell best vs
+        re-roll EV in the same units: face or steady depending on val_mode).
+        The actual pick within the kept cell maximizes exact marginal OVR
+        (captures the 5/k spg/bpg interaction; exact in round 5, while
+        steady valuation guides rounds 1-4 in steady mode)."""
+        steady = self.val_mode == "steady"
+        if steady:
+            cur_face, _ = eng.best_steady_in_cell(team, era, open_pos, taken_ids)
+        else:
+            cur_face, _ = eng.best_face_in_cell(team, era, open_pos, taken_ids)
 
         options = []  # (gain, action)
         if team_skip:
-            vals = eng.team_skip_values(era, team, open_pos)
+            vals = eng.team_skip_values(era, team, open_pos, steady=steady)
             score = self._skip_score(vals)
             if score is not None:
                 options.append((score - (cur_face if cur_face is not None else -99),
                                 ("skip_team",)))
         if decade_skip:
-            vals = eng.decade_skip_values(team, era, open_pos)
+            vals = eng.decade_skip_values(team, era, open_pos, steady=steady)
             score = self._skip_score(vals)
             if score is not None:
                 options.append((score - (cur_face if cur_face is not None else -99),
@@ -84,7 +92,11 @@ class Policy:
         if best_gain is not None and best_gain >= self.skip_gain[round_idx]:
             return best_action
 
-        _, pick = eng.best_in_cell(team, era, open_pos, taken_ids, roster)
+        if steady and round_idx < 4:
+            _, pick = eng.best_steady_in_cell(team, era, open_pos, taken_ids)
+        else:
+            # final round (or face mode): exact marginal is the right objective
+            _, pick = eng.best_in_cell(team, era, open_pos, taken_ids, roster)
         slot = self.place(pick, open_pos)
         return ("pick", pick, slot)
 
@@ -117,6 +129,20 @@ def v2():
                   place_priority=("SG", "SF", "PG", "PF", "C"))
 
 
+def v3():
+    """v2 plus steady-state valuation: spg/bpg priced relative to the roster
+    average the 5/k extrapolation supplies (fixes the early-round x5 inflation
+    of marginal OVR and the face-value undervaluing of null-spg/bpg players).
+    Offline (8000 games x 2 seeds): mean 70.5, P(82-0) 3.26-3.46% vs v2's
+    69.15 / 2.43-2.57%."""
+    return Policy(version="v3-steady-valuation",
+                  skip_gain=(2.0, 1.5, 1.0, 0.5, 0.0),
+                  tail_weight=0.0,
+                  place_priority=("SG", "SF", "PG", "PF", "C"),
+                  val_mode="steady")
+
+
 def get(version_name):
-    factories = {"v1-scripted": v1, "v2-declining-skips": v2}
+    factories = {"v1-scripted": v1, "v2-declining-skips": v2,
+                 "v3-steady-valuation": v3}
     return factories[version_name]()

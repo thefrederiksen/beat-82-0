@@ -22,6 +22,12 @@ W = {
 # wins == 82 requires displayed OVR (rounded to 1 decimal) >= this
 PERFECT_OVR = 109.5
 
+# typical roster averages among picks with spg/bpg data (used by the
+# steady-state valuation: a steal value only helps relative to the average
+# that the 5/k extrapolation would otherwise supply)
+AVG_SPG = 1.3
+AVG_BPG = 1.0
+
 
 def _v(x):
     return 0.0 if x is None else float(x)
@@ -41,18 +47,23 @@ class Engine:
         for p in self.pool:
             self.cells.setdefault((p["team"], p["era"]), []).append(p)
         self.teams = sorted({t for t, _ in self.cells})
-        # precompute face-value points and, per cell, the best face value
-        # available at each position (fast approximation for skip-EV scans)
+        # precompute face-value and steady-state points and, per cell, the
+        # best value at each position (fast approximation for skip-EV scans)
         for p in self.pool:
             p["_fp"] = self.face_pts(p)
+            p["_sp"] = self.steady_pts(p)
         self.cell_pos_best = {}
+        self.cell_pos_best_steady = {}
         for cell, players in self.cells.items():
-            best = {}
+            best, best_s = {}, {}
             for p in players:
                 for pos in p["positions"]:
                     if p["_fp"] > best.get(pos, -1.0):
                         best[pos] = p["_fp"]
+                    if p["_sp"] > best_s.get(pos, -999.0):
+                        best_s[pos] = p["_sp"]
             self.cell_pos_best[cell] = best
+            self.cell_pos_best_steady[cell] = best_s
 
     # ---- pick valuation -------------------------------------------------
 
@@ -60,6 +71,21 @@ class Engine:
     def face_pts(p):
         """Weighted OVR points with spg/bpg at face value (nulls as 0)."""
         return sum(W[k] * _v(p[k]) for k in W)
+
+    @staticmethod
+    def steady_pts(p):
+        """Weighted OVR points with spg/bpg priced RELATIVE to the roster
+        average the 5/k extrapolation would supply anyway. A null player is
+        neutral on defense stats; a non-null value only helps (hurts) by its
+        distance above (below) the typical average, scaled by the ~5/(k+1)
+        extrapolation factor (k ~= 3.5 -> factor ~1.1)."""
+        base = (W["ppg"] * _v(p["ppg"]) + W["rpg"] * _v(p["rpg"])
+                + W["apg"] * _v(p["apg"]))
+        if p["spg"] is not None and p["spg"] > 0:
+            base += 1.1 * W["spg"] * (p["spg"] - AVG_SPG)
+        if p["bpg"] is not None and p["bpg"] > 0:
+            base += 1.1 * W["bpg"] * (p["bpg"] - AVG_BPG)
+        return base
 
     @staticmethod
     def team_ovr(roster):
@@ -113,11 +139,19 @@ class Engine:
 
     def best_face_in_cell(self, team, era, open_pos, taken_ids):
         """(face value, player) of the best eligible pick by face points --
-        the same units the skip-EV distributions use."""
+        the same units the face skip-EV distributions use."""
         best_v, best_p = None, None
         for p in self.eligible(team, era, open_pos, taken_ids):
             if best_v is None or p["_fp"] > best_v:
                 best_v, best_p = p["_fp"], p
+        return best_v, best_p
+
+    def best_steady_in_cell(self, team, era, open_pos, taken_ids):
+        """(steady value, player) of the best eligible pick by steady points."""
+        best_v, best_p = None, None
+        for p in self.eligible(team, era, open_pos, taken_ids):
+            if best_v is None or p["_sp"] > best_v:
+                best_v, best_p = p["_sp"], p
         return best_v, best_p
 
     # ---- roll distributions (for skip EV) -------------------------------
@@ -126,37 +160,35 @@ class Engine:
         """Every rollable (team, era) cell (>=1 player), as the game draws them."""
         return list(self.cells.keys())
 
-    def _cell_fast_best(self, cell, open_pos):
-        """Fast approximate best-pick face value in a cell for the open slots
+    def _cell_fast_best(self, cell, open_pos, steady=False):
+        """Fast approximate best-pick value in a cell for the open slots
         (precomputed; ignores already-taken players, a negligible collision)."""
-        best = self.cell_pos_best.get(cell)
+        best = (self.cell_pos_best_steady if steady else self.cell_pos_best).get(cell)
         if not best:
             return None
         vals = [best[pos] for pos in open_pos if pos in best]
         return max(vals) if vals else None
 
-    def team_skip_values(self, era, exclude_team, open_pos, taken_ids=None,
-                         roster=None):
+    def team_skip_values(self, era, exclude_team, open_pos, steady=False):
         """Approx best-pick value per possible outcome of a team skip
         (era locked, team re-rolled uniformly among teams with players)."""
         vals = []
         for t in self.teams:
             if t == exclude_team:
                 continue
-            v = self._cell_fast_best((t, era), open_pos)
+            v = self._cell_fast_best((t, era), open_pos, steady)
             if v is not None:
                 vals.append(v)
         return vals
 
-    def decade_skip_values(self, team, exclude_era, open_pos, taken_ids=None,
-                           roster=None):
+    def decade_skip_values(self, team, exclude_era, open_pos, steady=False):
         """Approx best-pick value per possible outcome of a decade skip
         (team locked, era re-rolled uniformly among eras with players)."""
         vals = []
         for e in ERAS:
             if e == exclude_era:
                 continue
-            v = self._cell_fast_best((team, e), open_pos)
+            v = self._cell_fast_best((team, e), open_pos, steady)
             if v is not None:
                 vals.append(v)
         return vals
