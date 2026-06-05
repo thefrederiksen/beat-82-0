@@ -1,0 +1,137 @@
+{
+  "game": 86,
+  "played_at": "2026-06-05T15:51-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "POR",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bill Walton",
+      "position": "C",
+      "stats": {
+        "ppg": 17.1,
+        "rpg": 13.52,
+        "apg": 4.42,
+        "spg": 0.97,
+        "bpg": 2.53
+      },
+      "ovr_pts": 21.4,
+      "rationale": "policy v3-steady-valuation: exact marginal +38.50 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.96,
+        "rpg": 9.66,
+        "apg": 4.39,
+        "spg": 1.62,
+        "bpg": 1.66
+      },
+      "ovr_pts": 19.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.20 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Charles Barkley",
+      "position": "SF",
+      "stats": {
+        "ppg": 25.21,
+        "rpg": 10.94,
+        "apg": 4.06,
+        "spg": 1.78,
+        "bpg": 0.57
+      },
+      "ovr_pts": 20.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.80 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Richie Guerin",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.59,
+        "rpg": 6.29,
+        "apg": 5.97,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.76,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.70 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Porter",
+      "position": "PG",
+      "stats": {
+        "ppg": 13.24,
+        "rpg": 3.71,
+        "apg": 7.79,
+        "spg": 1.65,
+        "bpg": 0.1
+      },
+      "ovr_pts": 13.71,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.70 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 100.1,
+    "rpg": 44.1,
+    "apg": 26.6,
+    "spg": 6.0,
+    "bpg": 4.9
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

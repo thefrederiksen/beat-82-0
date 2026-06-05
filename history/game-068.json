@@ -1,0 +1,137 @@
+{
+  "game": 68,
+  "played_at": "2026-06-05T15:35-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 20.5,
+        "rpg": 21.1,
+        "apg": 4.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.10 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jerry West",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.11,
+        "rpg": 4.33,
+        "apg": 8.65,
+        "spg": 2.6,
+        "bpg": 0.7
+      },
+      "ovr_pts": 20.9,
+      "rationale": "policy v3-steady-valuation: exact marginal +36.40 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NOP",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.43,
+        "rpg": 4.76,
+        "apg": 9.88,
+        "spg": 2.4,
+        "bpg": 0.08
+      },
+      "ovr_pts": 18.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.20 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Nance",
+      "position": "PF",
+      "stats": {
+        "ppg": 16.93,
+        "rpg": 7.97,
+        "apg": 2.44,
+        "spg": 0.77,
+        "bpg": 2.66
+      },
+      "ovr_pts": 16.56,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clyde Drexler",
+      "position": "SF",
+      "stats": {
+        "ppg": 19.84,
+        "rpg": 5.87,
+        "apg": 5.61,
+        "spg": 2.29,
+        "bpg": 0.68
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 102.8,
+    "rpg": 44.0,
+    "apg": 31.1,
+    "spg": 8.1,
+    "bpg": 4.1
+  },
+  "result": {
+    "wins": 74,
+    "losses": 8,
+    "ovr": 100.3,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

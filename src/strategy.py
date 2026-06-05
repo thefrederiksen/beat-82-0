@@ -29,7 +29,8 @@ class Policy:
 
     def __init__(self, version="v1-scripted", skip_gain=3.0, tail_weight=0.0,
                  tail_cut=21.0, place_priority=("PF", "SG", "SF", "PG", "C"),
-                 val_mode="face", target_sum=None, q_easy=17.0, q_max=26.0):
+                 val_mode="face", target_sum=None, q_easy=17.0, q_max=26.0,
+                 option_value=False):
         self.version = version
         self.skip_gain = (tuple(skip_gain) if isinstance(skip_gain, (list, tuple))
                           else (skip_gain,) * 5)
@@ -44,6 +45,9 @@ class Policy:
         self.target_sum = target_sum  # None disables chasing
         self.q_easy = q_easy
         self.q_max = q_max
+        # when BOTH skips are held, a re-roll outcome can itself be re-rolled
+        # with the other skip; price that option into the skip EVs
+        self.option_value = option_value
 
     # ------------------------------------------------------------------
 
@@ -99,14 +103,45 @@ class Policy:
                 # no path to the target this round: fall through to EV logic
 
         options = []  # (gain, action)
+        both = team_skip and decade_skip and self.option_value
         if team_skip:
-            vals = eng.team_skip_values(era, team, open_pos, steady=steady)
+            if both:
+                # each team outcome can still be decade-skipped afterwards:
+                # value(t) = max(best(t, era), E_e[best(t, e)])
+                vals = []
+                for t in eng.teams:
+                    if t == team:
+                        continue
+                    v = eng._cell_fast_best((t, era), open_pos, steady)
+                    if v is None:
+                        continue
+                    dv = eng.decade_skip_values(t, era, open_pos, steady=steady)
+                    if dv:
+                        v = max(v, sum(dv) / len(dv))
+                    vals.append(v)
+            else:
+                vals = eng.team_skip_values(era, team, open_pos, steady=steady)
             score = self._skip_score(vals)
             if score is not None:
                 options.append((score - (cur_face if cur_face is not None else -99),
                                 ("skip_team",)))
         if decade_skip:
-            vals = eng.decade_skip_values(team, era, open_pos, steady=steady)
+            if both:
+                # each era outcome can still be team-skipped afterwards
+                vals = []
+                from engine import ERAS
+                for e in ERAS:
+                    if e == era:
+                        continue
+                    v = eng._cell_fast_best((team, e), open_pos, steady)
+                    if v is None:
+                        continue
+                    tv = eng.team_skip_values(e, team, open_pos, steady=steady)
+                    if tv:
+                        v = max(v, sum(tv) / len(tv))
+                    vals.append(v)
+            else:
+                vals = eng.decade_skip_values(team, era, open_pos, steady=steady)
             score = self._skip_score(vals)
             if score is not None:
                 options.append((score - (cur_face if cur_face is not None else -99),

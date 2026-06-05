@@ -1,0 +1,137 @@
+{
+  "game": 77,
+  "played_at": "2026-06-05T15:46-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Alonzo Mourning",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.7,
+        "rpg": 10.18,
+        "apg": 1.64,
+        "spg": 0.82,
+        "bpg": 2.86
+      },
+      "ovr_pts": 19.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +37.10 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.4,
+        "rpg": 8.5,
+        "apg": 8.3,
+        "spg": 1.3,
+        "bpg": 0.6
+      },
+      "ovr_pts": 22.14,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.30 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHX",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SF",
+      "stats": {
+        "ppg": 27.6,
+        "rpg": 6.4,
+        "apg": 4.7,
+        "spg": 0.8,
+        "bpg": 1.3
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.00 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Pettit",
+      "position": "C",
+      "stats": {
+        "ppg": 27.55,
+        "rpg": 16.69,
+        "apg": 3.3,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.00 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Flynn Robinson",
+      "position": "PG",
+      "stats": {
+        "ppg": 21.8,
+        "rpg": 3.2,
+        "apg": 5.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 12.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.90 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 125.1,
+    "rpg": 45.0,
+    "apg": 23.4,
+    "spg": 2.9,
+    "bpg": 4.8
+  },
+  "result": {
+    "wins": 75,
+    "losses": 7,
+    "ovr": 101.3,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

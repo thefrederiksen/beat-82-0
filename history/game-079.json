@@ -1,0 +1,137 @@
+{
+  "game": 79,
+  "played_at": "2026-06-05T15:48-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Vince Carter",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.1,
+        "rpg": 5.12,
+        "apg": 3.98,
+        "spg": 1.35,
+        "bpg": 0.96
+      },
+      "ovr_pts": 16.73,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.70 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHI",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Charles Barkley",
+      "position": "SF",
+      "stats": {
+        "ppg": 25.21,
+        "rpg": 10.94,
+        "apg": 4.06,
+        "spg": 1.78,
+        "bpg": 0.57
+      },
+      "ovr_pts": 20.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.10 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.67,
+        "rpg": 8.31,
+        "apg": 2.6,
+        "spg": 1.39,
+        "bpg": 0.78
+      },
+      "ovr_pts": 16.87,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.00 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "MIL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Vin Baker",
+      "position": "C",
+      "stats": {
+        "ppg": 18.29,
+        "rpg": 9.52,
+        "apg": 2.73,
+        "spg": 0.87,
+        "bpg": 1.32
+      },
+      "ovr_pts": 16.63,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Stephon Marbury",
+      "position": "PG",
+      "stats": {
+        "ppg": 23.4,
+        "rpg": 2.6,
+        "apg": 8.7,
+        "spg": 1.0,
+        "bpg": 0.1
+      },
+      "ovr_pts": 16.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.70 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 112.7,
+    "rpg": 36.5,
+    "apg": 22.1,
+    "spg": 6.4,
+    "bpg": 3.7
+  },
+  "result": {
+    "wins": 63,
+    "losses": 19,
+    "ovr": 87.4,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "game": 76,
+  "played_at": "2026-06-05T15:45-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.91,
+        "rpg": 7.56,
+        "apg": 6.73,
+        "spg": 1.69,
+        "bpg": 0.64
+      },
+      "ovr_pts": 20.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.90 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bill Russell",
+      "position": "C",
+      "stats": {
+        "ppg": 14.82,
+        "rpg": 22.55,
+        "apg": 4.63,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.15,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.10 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 17.5,
+        "rpg": 9.1,
+        "apg": 3.6,
+        "spg": 1.2,
+        "bpg": 2.2
+      },
+      "ovr_pts": 18.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.50 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Paul Pierce",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.29,
+        "rpg": 6.26,
+        "apg": 3.99,
+        "spg": 1.56,
+        "bpg": 0.62
+      },
+      "ovr_pts": 16.99,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.90 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shai Gilgeous-Alexander",
+      "position": "PG",
+      "stats": {
+        "ppg": 28.9,
+        "rpg": 4.9,
+        "apg": 6.1,
+        "spg": 1.5,
+        "bpg": 0.9
+      },
+      "ovr_pts": 19.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.50 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 111.4,
+    "rpg": 50.4,
+    "apg": 25.1,
+    "spg": 6.0,
+    "bpg": 4.4
+  },
+  "result": {
+    "wins": 74,
+    "losses": 8,
+    "ovr": 100.9,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "game": 75,
+  "played_at": "2026-06-05T15:45-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NOP",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.43,
+        "rpg": 4.76,
+        "apg": 9.88,
+        "spg": 2.4,
+        "bpg": 0.08
+      },
+      "ovr_pts": 18.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.00 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Lanier",
+      "position": "C",
+      "stats": {
+        "ppg": 21.7,
+        "rpg": 10.1,
+        "apg": 3.3,
+        "spg": 1.0,
+        "bpg": 1.6
+      },
+      "ovr_pts": 19.02,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.60 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Charles Barkley",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.43,
+        "rpg": 11.55,
+        "apg": 4.39,
+        "spg": 1.6,
+        "bpg": 0.78
+      },
+      "ovr_pts": 20.86,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.80 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwyane Wade",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.18,
+        "rpg": 4.88,
+        "apg": 6.67,
+        "spg": 1.82,
+        "bpg": 0.97
+      },
+      "ovr_pts": 19.15,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.30 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Sidney Wicks",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.33,
+        "rpg": 10.27,
+        "apg": 4.14,
+        "spg": 1.17,
+        "bpg": 0.84
+      },
+      "ovr_pts": 19.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.10 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 112.1,
+    "rpg": 41.6,
+    "apg": 28.4,
+    "spg": 8.0,
+    "bpg": 4.3
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

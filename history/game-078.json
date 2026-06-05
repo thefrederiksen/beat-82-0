@@ -1,0 +1,137 @@
+{
+  "game": 78,
+  "played_at": "2026-06-05T15:47-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NOP",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMarcus Cousins",
+      "position": "C",
+      "stats": {
+        "ppg": 24.99,
+        "rpg": 12.77,
+        "apg": 5.01,
+        "spg": 1.57,
+        "bpg": 1.47
+      },
+      "ovr_pts": 23.38,
+      "rationale": "policy v3-steady-valuation: exact marginal +37.90 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Al Jefferson",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.8,
+        "rpg": 10.8,
+        "apg": 2.1,
+        "spg": 0.9,
+        "bpg": 1.1
+      },
+      "ovr_pts": 18.02,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.60 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.52,
+        "rpg": 7.01,
+        "apg": 6.68,
+        "spg": 1.75,
+        "bpg": 0.85
+      },
+      "ovr_pts": 21.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.00 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "DET",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Isiah Thomas",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.25,
+        "rpg": 3.73,
+        "apg": 9.79,
+        "spg": 2.11,
+        "bpg": 0.29
+      },
+      "ovr_pts": 18.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.10 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "MIA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Billy Owens",
+      "position": "SF",
+      "stats": {
+        "ppg": 14.48,
+        "rpg": 7.2,
+        "apg": 3.46,
+        "spg": 0.99,
+        "bpg": 0.47
+      },
+      "ovr_pts": 13.38,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.40 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 109.0,
+    "rpg": 41.5,
+    "apg": 27.0,
+    "spg": 7.3,
+    "bpg": 4.2
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 94.0,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 67,
+  "played_at": "2026-06-05T15:35-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clyde Drexler",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.97,
+        "rpg": 6.53,
+        "apg": 5.79,
+        "spg": 1.78,
+        "bpg": 0.7
+      },
+      "ovr_pts": 18.16,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.80 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.19,
+        "rpg": 8.8,
+        "apg": 1.9,
+        "spg": 1.34,
+        "bpg": 2.82
+      },
+      "ovr_pts": 19.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.40 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Alonzo Mourning",
+      "position": "C",
+      "stats": {
+        "ppg": 20.7,
+        "rpg": 10.18,
+        "apg": 1.64,
+        "spg": 0.82,
+        "bpg": 2.86
+      },
+      "ovr_pts": 19.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CHI",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Stephen Curry",
+      "position": "PG",
+      "stats": {
+        "ppg": 27.4,
+        "rpg": 4.9,
+        "apg": 5.7,
+        "spg": 1.1,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.8,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.10 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Vince Carter",
+      "position": "SF",
+      "stats": {
+        "ppg": 24.1,
+        "rpg": 5.12,
+        "apg": 3.98,
+        "spg": 1.35,
+        "bpg": 0.96
+      },
+      "ovr_pts": 16.73,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.10 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 115.4,
+    "rpg": 35.5,
+    "apg": 19.0,
+    "spg": 6.4,
+    "bpg": 7.7
+  },
+  "result": {
+    "wins": 66,
+    "losses": 16,
+    "ovr": 90.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

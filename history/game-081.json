@@ -1,0 +1,137 @@
+{
+  "game": 81,
+  "played_at": "2026-06-05T15:49-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Grant Hill",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.8,
+        "rpg": 6.6,
+        "apg": 5.2,
+        "spg": 1.4,
+        "bpg": 0.6
+      },
+      "ovr_pts": 18.6,
+      "rationale": "policy v3-steady-valuation: exact marginal +28.00 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Bellamy",
+      "position": "C",
+      "stats": {
+        "ppg": 25.57,
+        "rpg": 15.66,
+        "apg": 2.01,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 19.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "PG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.20 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Magic Johnson",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.8,
+        "rpg": 6.61,
+        "apg": 11.14,
+        "spg": 1.38,
+        "bpg": 0.32
+      },
+      "ovr_pts": 19.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.20 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DET",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bailey Howell",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.14,
+        "rpg": 11.83,
+        "apg": 2.27,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 16.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.10 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 116.9,
+    "rpg": 48.6,
+    "apg": 31.4,
+    "spg": 4.0,
+    "bpg": 1.7
+  },
+  "result": {
+    "wins": 75,
+    "losses": 7,
+    "ovr": 101.4,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

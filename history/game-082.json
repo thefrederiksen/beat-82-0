@@ -1,0 +1,137 @@
+{
+  "game": 82,
+  "played_at": "2026-06-05T15:49-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.3,
+        "rpg": 6.1,
+        "apg": 8.1,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.50 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.47,
+        "rpg": 12.7,
+        "apg": 5.03,
+        "spg": 1.39,
+        "bpg": 1.66
+      },
+      "ovr_pts": 22.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +37.20 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Carlos Boozer",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.5,
+        "rpg": 11.2,
+        "apg": 3.2,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 17.63,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.30 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Marques Johnson",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.29,
+        "rpg": 6.79,
+        "apg": 4.12,
+        "spg": 1.35,
+        "bpg": 0.66
+      },
+      "ovr_pts": 16.18,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.10 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Pau Gasol",
+      "position": "C",
+      "stats": {
+        "ppg": 17.54,
+        "rpg": 11.42,
+        "apg": 3.37,
+        "spg": 0.44,
+        "bpg": 1.95
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.70 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 105.1,
+    "rpg": 48.2,
+    "apg": 23.8,
+    "spg": 4.3,
+    "bpg": 4.8
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

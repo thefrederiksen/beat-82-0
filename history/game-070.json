@@ -1,0 +1,137 @@
+{
+  "game": 70,
+  "played_at": "2026-06-05T15:40-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Johnson",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 4.23,
+        "apg": 11.3,
+        "spg": 1.65,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.30 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Joe Barry Carroll",
+      "position": "C",
+      "stats": {
+        "ppg": 20.36,
+        "rpg": 8.3,
+        "apg": 1.93,
+        "spg": 1.08,
+        "bpg": 1.72
+      },
+      "ovr_pts": 16.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.20 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dominique Wilkins",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.1,
+        "rpg": 7.0,
+        "apg": 2.2,
+        "spg": 1.2,
+        "bpg": 0.3
+      },
+      "ovr_pts": 17.55,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.00 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "SG",
+      "stats": {
+        "ppg": 30.9,
+        "rpg": 7.9,
+        "apg": 8.0,
+        "spg": 1.7,
+        "bpg": 0.5
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.70 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl Malone",
+      "position": "PF",
+      "stats": {
+        "ppg": 27.22,
+        "rpg": 10.73,
+        "apg": 3.69,
+        "spg": 1.42,
+        "bpg": 0.86
+      },
+      "ovr_pts": 21.11,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.60 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 126.0,
+    "rpg": 38.2,
+    "apg": 27.1,
+    "spg": 7.0,
+    "bpg": 3.7
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

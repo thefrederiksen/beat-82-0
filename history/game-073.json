@@ -1,0 +1,132 @@
+{
+  "game": 73,
+  "played_at": "2026-06-05T15:44-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Domantas Sabonis",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.5,
+        "rpg": 12.7,
+        "apg": 6.2,
+        "spg": 0.9,
+        "bpg": 0.4
+      },
+      "ovr_pts": 19.72,
+      "rationale": "policy v3-steady-valuation: exact marginal +25.80 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "C",
+      "stats": {
+        "ppg": 24.08,
+        "rpg": 11.02,
+        "apg": 2.16,
+        "spg": 0.95,
+        "bpg": 2.7
+      },
+      "ovr_pts": 21.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +24.00 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NOP",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.91,
+        "rpg": 4.14,
+        "apg": 10.12,
+        "spg": 2.29,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.30 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "MIA",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jimmy Butler",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.6,
+        "rpg": 6.0,
+        "apg": 5.7,
+        "spg": 1.7,
+        "bpg": 0.3
+      },
+      "ovr_pts": 17.05,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elgin Baylor",
+      "position": "SF",
+      "stats": {
+        "ppg": 28.11,
+        "rpg": 13.75,
+        "apg": 4.29,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 20.99,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.00 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 109.2,
+    "rpg": 47.6,
+    "apg": 28.5,
+    "spg": 5.8,
+    "bpg": 3.5
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 99.0,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

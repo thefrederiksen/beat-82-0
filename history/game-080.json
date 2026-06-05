@@ -1,0 +1,137 @@
+{
+  "game": 80,
+  "played_at": "2026-06-05T15:48-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Truck Robinson",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.22,
+        "rpg": 14.91,
+        "apg": 1.96,
+        "spg": 0.83,
+        "bpg": 1.17
+      },
+      "ovr_pts": 21.02,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.70 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kareem Abdul-Jabbar",
+      "position": "C",
+      "stats": {
+        "ppg": 25.89,
+        "rpg": 14.05,
+        "apg": 4.67,
+        "spg": 1.33,
+        "bpg": 3.61
+      },
+      "ovr_pts": 26.68,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.70 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jerry West",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.11,
+        "rpg": 4.33,
+        "apg": 8.65,
+        "spg": 2.6,
+        "bpg": 0.7
+      },
+      "ovr_pts": 20.9,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.40 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.47,
+        "rpg": 12.7,
+        "apg": 5.03,
+        "spg": 1.39,
+        "bpg": 1.66
+      },
+      "ovr_pts": 22.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.30 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Danny Ainge",
+      "position": "PG",
+      "stats": {
+        "ppg": 17.9,
+        "rpg": 4.3,
+        "apg": 6.0,
+        "spg": 1.5,
+        "bpg": 0.2
+      },
+      "ovr_pts": 14.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.50 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 115.6,
+    "rpg": 50.3,
+    "apg": 26.3,
+    "spg": 7.6,
+    "bpg": 7.3
+  },
+  "result": {
+    "wins": 78,
+    "losses": 4,
+    "ovr": 105.6,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

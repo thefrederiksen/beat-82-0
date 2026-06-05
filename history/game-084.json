@@ -1,0 +1,137 @@
+{
+  "game": 84,
+  "played_at": "2026-06-05T15:50-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "George McGinnis",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.56,
+        "rpg": 11.5,
+        "apg": 4.1,
+        "spg": 2.16,
+        "bpg": 0.43
+      },
+      "ovr_pts": 20.21,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.30 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "UTA",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Adrian Dantley",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.58,
+        "rpg": 6.18,
+        "apg": 3.69,
+        "spg": 1.09,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.40 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Moses Malone",
+      "position": "C",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.8,
+        "apg": 1.4,
+        "spg": 1.0,
+        "bpg": 1.2
+      },
+      "ovr_pts": 17.9,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.90 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Baron Davis",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.9,
+        "rpg": 3.7,
+        "apg": 7.7,
+        "spg": 1.7,
+        "bpg": 0.5
+      },
+      "ovr_pts": 14.77,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.50 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Stephen Curry",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.4,
+        "rpg": 4.9,
+        "apg": 5.7,
+        "spg": 1.1,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.8,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 113.6,
+    "rpg": 38.1,
+    "apg": 22.6,
+    "spg": 7.0,
+    "bpg": 2.7
+  },
+  "result": {
+    "wins": 64,
+    "losses": 18,
+    "ovr": 88.5,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

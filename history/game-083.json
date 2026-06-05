@@ -1,0 +1,137 @@
+{
+  "game": 83,
+  "played_at": "2026-06-05T15:50-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Artis Gilmore",
+      "position": "C",
+      "stats": {
+        "ppg": 21.73,
+        "rpg": 12.93,
+        "apg": 2.97,
+        "spg": 0.53,
+        "bpg": 2.2
+      },
+      "ovr_pts": 20.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +34.30 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Michael Jordan",
+      "position": "SG",
+      "stats": {
+        "ppg": 32.65,
+        "rpg": 6.15,
+        "apg": 5.93,
+        "spg": 2.81,
+        "bpg": 1.18
+      },
+      "ovr_pts": 23.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.10 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.64,
+        "rpg": 2.99,
+        "apg": 7.13,
+        "spg": 1.9,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.30 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BOS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Bird",
+      "position": "SF",
+      "stats": {
+        "ppg": 24.97,
+        "rpg": 10.21,
+        "apg": 6.12,
+        "spg": 1.81,
+        "bpg": 0.84
+      },
+      "ovr_pts": 21.93,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.40 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Brandon Miller",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.5,
+        "rpg": 4.7,
+        "apg": 3.1,
+        "spg": 1.0,
+        "bpg": 0.7
+      },
+      "ovr_pts": 13.61,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.20 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 124.5,
+    "rpg": 37.0,
+    "apg": 25.3,
+    "spg": 8.0,
+    "bpg": 5.1
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 97.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

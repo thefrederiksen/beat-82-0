@@ -1,0 +1,137 @@
+{
+  "game": 74,
+  "played_at": "2026-06-05T15:44-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "George McGinnis",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.6,
+        "rpg": 11.4,
+        "apg": 3.7,
+        "spg": 1.7,
+        "bpg": 0.7
+      },
+      "ovr_pts": 20.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.40 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BKN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Derrick Coleman",
+      "position": "C",
+      "stats": {
+        "ppg": 19.9,
+        "rpg": 10.62,
+        "apg": 3.14,
+        "spg": 0.92,
+        "bpg": 1.6
+      },
+      "ovr_pts": 18.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.00 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Johnson",
+      "position": "SG",
+      "stats": {
+        "ppg": 19.65,
+        "rpg": 9.22,
+        "apg": 4.14,
+        "spg": 0.79,
+        "bpg": 0.41
+      },
+      "ovr_pts": 16.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.60 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMar DeRozan",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.2,
+        "rpg": 6.0,
+        "apg": 6.2,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 16.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.20 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "PG",
+      "stats": {
+        "ppg": 30.9,
+        "rpg": 7.9,
+        "apg": 8.0,
+        "spg": 1.7,
+        "bpg": 0.5
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.90 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 114.3,
+    "rpg": 45.1,
+    "apg": 25.2,
+    "spg": 6.2,
+    "bpg": 3.7
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 95.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

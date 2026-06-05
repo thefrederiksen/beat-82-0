@@ -55,29 +55,29 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 
 **First 82-0:** GAME 29 -- DONE!
 
-*66 games played -- latest: game 66, 69-13 (2026-06-05)*
+*86 games played -- latest: game 86, 69-13 (2026-06-05)*
 
 ### Recent games
 
 | # | Result | Rating | Grade |
 |--:|:------:|------:|:-----:|
-| 66 | 69-13 | 94.1 | A |
-| 65 | 66-16 | 90.9 | A |
-| 64 | 66-16 | 91.1 | A |
-| 63 | 78-4 | 105.3 | A+ |
-| 62 | 72-10 | 98.1 | A+ |
-| 61 | 81-1 | 108.9 | S |
-| 60 | 65-17 | 89.9 | A |
-| 59 | 82-0 **<-- 82-0!** | 110.3 | S |
-| 58 | 73-9 | 99.8 | A+ |
-| 57 | 64-18 | 88.7 | A |
-| 56 | 67-15 | 92.8 | A |
-| 55 | 75-7 | 102.1 | A+ |
-| 54 | 69-13 | 94.4 | A |
-| 53 | 64-18 | 89.1 | A |
-| 52 | 69-13 | 94.4 | A |
+| 86 | 69-13 | 94.9 | A |
+| 85 | 73-9 | 99.3 | A+ |
+| 84 | 64-18 | 88.5 | A |
+| 83 | 71-11 | 97.3 | A |
+| 82 | 69-13 | 94.8 | A |
+| 81 | 75-7 | 101.4 | A+ |
+| 80 | 78-4 | 105.6 | A+ |
+| 79 | 63-19 | 87.4 | A |
+| 78 | 68-14 | 94.0 | A |
+| 77 | 75-7 | 101.3 | A+ |
+| 76 | 74-8 | 100.9 | A+ |
+| 75 | 71-11 | 96.8 | A |
+| 74 | 69-13 | 95.1 | A |
+| 73 | 73-9 | 99.0 | A+ |
+| 72 | 66-16 | 90.9 | A |
 
-*Showing the last 15 of 66 games -- full records in [history/](history/).*
+*Showing the last 15 of 86 games -- full records in [history/](history/).*
 
 ### Strategy versions
 
@@ -87,7 +87,7 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 | `v1-weighted-ev-skips` | 2-5 | **70.67** |
 | `v1-scripted` | 6-10 | **68.33** |
 | `v2-declining-skips` | 11-20 | **74.67** |
-| `v3-steady-valuation` | 21-66 | **77.00** |
+| `v3-steady-valuation` | 21-86 | **77.00** |
 <!-- SCOREBOARD:END -->
 
 ---

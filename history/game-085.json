@@ -1,0 +1,127 @@
+{
+  "game": 85,
+  "played_at": "2026-06-05T15:50-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.3,
+        "rpg": 6.1,
+        "apg": 8.1,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.50 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jack Sikma",
+      "position": "PF",
+      "stats": {
+        "ppg": 17.91,
+        "rpg": 10.97,
+        "apg": 3.55,
+        "spg": 1.11,
+        "bpg": 1.07
+      },
+      "ovr_pts": 17.88,
+      "rationale": "policy v3-steady-valuation: exact marginal +28.40 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "C",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 12.4,
+        "apg": 3.0,
+        "spg": 0.9,
+        "bpg": 0.6
+      },
+      "ovr_pts": 19.09,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.20 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Michael Jordan",
+      "position": "SG",
+      "stats": {
+        "ppg": 32.65,
+        "rpg": 6.15,
+        "apg": 5.93,
+        "spg": 2.81,
+        "bpg": 1.18
+      },
+      "ovr_pts": 23.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.90 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kawhi Leonard",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.6,
+        "rpg": 7.3,
+        "apg": 3.3,
+        "spg": 1.8,
+        "bpg": 0.4
+      },
+      "ovr_pts": 18.36,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.30 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 124.7,
+    "rpg": 42.9,
+    "apg": 23.9,
+    "spg": 6.6,
+    "bpg": 3.3
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 99.3,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 72,
+  "played_at": "2026-06-05T15:43-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CLE",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +41.00 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Lanier",
+      "position": "C",
+      "stats": {
+        "ppg": 22.8,
+        "rpg": 11.94,
+        "apg": 3.3,
+        "spg": 1.16,
+        "bpg": 1.99
+      },
+      "ovr_pts": 21.23,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.10 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kyrie Irving",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.08,
+        "rpg": 4.43,
+        "apg": 6.05,
+        "spg": 1.31,
+        "bpg": 0.41
+      },
+      "ovr_pts": 16.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.40 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.67,
+        "rpg": 8.31,
+        "apg": 2.6,
+        "spg": 1.39,
+        "bpg": 0.78
+      },
+      "ovr_pts": 16.87,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.30 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jim Barnett",
+      "position": "PG",
+      "stats": {
+        "ppg": 12.61,
+        "rpg": 4.06,
+        "apg": 3.72,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 9.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.10 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 109.4,
+    "rpg": 41.4,
+    "apg": 18.3,
+    "spg": 5.0,
+    "bpg": 5.6
+  },
+  "result": {
+    "wins": 66,
+    "losses": 16,
+    "ovr": 90.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}
