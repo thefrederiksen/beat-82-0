@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+
+# Scratch / large captures (commit curated data only)
+scratch/
+*.har
+
+# OS noise
+Thumbs.db
+.DS_Store
+nul
