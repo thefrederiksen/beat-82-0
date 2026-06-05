@@ -47,37 +47,37 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 <!-- SCOREBOARD:START -->
 ## Live scoreboard
 
-**Best 3-game average: 78.00 wins** (games 128-130: 79, 81, 74)
+**Best 3-game average: 79.00 wins** (games 171-173: 81, 78, 78)
 
-`[###################.]` **78.00 / 82**
+`[###################.]` **79.00 / 82**
 
 **Best single game: 82-0** (game 29, rated "PERFECT")
 
 **First 82-0:** GAME 29 -- DONE!
 
-*166 games played -- latest: game 166, 72-10 (2026-06-05)*
+*186 games played -- latest: game 186, 82-0 (2026-06-05)*
 
 ### Recent games
 
 | # | Result | Rating | Grade |
 |--:|:------:|------:|:-----:|
-| 166 | 72-10 | 98.5 | A+ |
-| 165 | 72-10 | 98.2 | A+ |
-| 164 | 75-7 | 101.9 | A+ |
-| 163 | 75-7 | 101.9 | A+ |
-| 162 | 68-14 | 92.9 | A |
-| 161 | 69-13 | 94.2 | A |
-| 160 | 74-8 | 100.7 | A+ |
-| 159 | 65-17 | 90.0 | A |
-| 158 | 82-0 **<-- 82-0!** | 112.5 | S |
-| 157 | 69-13 | 94.5 | A |
-| 156 | 68-14 | 93.6 | A |
-| 155 | 68-14 | 93.8 | A |
-| 154 | 65-17 | 90.4 | A |
-| 153 | 64-18 | 89.0 | A |
-| 152 | 81-1 | 109.1 | S |
+| 186 | 82-0 **<-- 82-0!** | 109.7 | S |
+| 185 | 77-5 | 104.6 | A+ |
+| 184 | 64-18 | 88.3 | A |
+| 183 | 80-2 | 107.2 | S |
+| 182 | 69-13 | 94.7 | A |
+| 181 | 72-10 | 98.1 | A+ |
+| 180 | 67-15 | 92.7 | A |
+| 179 | 74-8 | 100.9 | A+ |
+| 178 | 65-17 | 89.8 | A |
+| 177 | 63-19 | 87.7 | A |
+| 176 | 73-9 | 99.0 | A+ |
+| 175 | 72-10 | 98.6 | A+ |
+| 174 | 70-12 | 95.5 | A |
+| 173 | 78-4 | 105.3 | A+ |
+| 172 | 78-4 | 105.5 | A+ |
 
-*Showing the last 15 of 166 games -- full records in [history/](history/).*
+*Showing the last 15 of 186 games -- full records in [history/](history/).*
 
 ### Strategy versions
 
@@ -87,7 +87,7 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 | `v1-weighted-ev-skips` | 2-5 | **70.67** |
 | `v1-scripted` | 6-10 | **68.33** |
 | `v2-declining-skips` | 11-20 | **74.67** |
-| `v3-steady-valuation` | 21-166 | **78.00** |
+| `v3-steady-valuation` | 21-186 | **79.00** |
 <!-- SCOREBOARD:END -->
 
 ---

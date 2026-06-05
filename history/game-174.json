@@ -1,0 +1,137 @@
+{
+  "game": 174,
+  "played_at": "2026-06-05T16:40-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Baron Davis",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.12,
+        "rpg": 4.45,
+        "apg": 8.13,
+        "spg": 2.02,
+        "bpg": 0.44
+      },
+      "ovr_pts": 17.6,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.10 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Wembanyama",
+      "position": "C",
+      "stats": {
+        "ppg": 23.6,
+        "rpg": 11.0,
+        "apg": 3.6,
+        "spg": 1.1,
+        "bpg": 3.5
+      },
+      "ovr_pts": 22.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +24.20 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Truck Robinson",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.22,
+        "rpg": 14.91,
+        "apg": 1.96,
+        "spg": 0.83,
+        "bpg": 1.17
+      },
+      "ovr_pts": 21.02,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BOS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jayson Tatum",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.5,
+        "rpg": 8.5,
+        "apg": 4.9,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 19.39,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.30 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Donovan Mitchell",
+      "position": "SG",
+      "stats": {
+        "ppg": 22.13,
+        "rpg": 3.9,
+        "apg": 3.95,
+        "spg": 1.45,
+        "bpg": 0.35
+      },
+      "ovr_pts": 14.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.40 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 115.6,
+    "rpg": 42.8,
+    "apg": 22.5,
+    "spg": 6.5,
+    "bpg": 6.0
+  },
+  "result": {
+    "wins": 70,
+    "losses": 12,
+    "ovr": 95.5,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

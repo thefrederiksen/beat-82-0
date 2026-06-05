@@ -1,0 +1,137 @@
+{
+  "game": 178,
+  "played_at": "2026-06-05T16:42-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.66,
+        "rpg": 8.73,
+        "apg": 10.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.18,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BKN",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bernard King",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.88,
+        "rpg": 8.84,
+        "apg": 3.01,
+        "spg": 1.45,
+        "bpg": 0.5
+      },
+      "ovr_pts": 17.59,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.70 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "IND",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Mickey Johnson",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.1,
+        "rpg": 8.3,
+        "apg": 4.2,
+        "spg": 1.9,
+        "bpg": 1.4
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.50 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Eddie Jones",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.1,
+        "rpg": 4.8,
+        "apg": 4.2,
+        "spg": 2.7,
+        "bpg": 0.7
+      },
+      "ovr_pts": 16.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.00 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wendell Carter Jr.",
+      "position": "C",
+      "stats": {
+        "ppg": 12.2,
+        "rpg": 8.2,
+        "apg": 2.1,
+        "spg": 0.7,
+        "bpg": 0.6
+      },
+      "ovr_pts": 12.21,
+      "rationale": "policy v3-steady-valuation: exact marginal +8.40 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 103.9,
+    "rpg": 38.9,
+    "apg": 24.0,
+    "spg": 6.8,
+    "bpg": 3.2
+  },
+  "result": {
+    "wins": 65,
+    "losses": 17,
+    "ovr": 89.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

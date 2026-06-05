@@ -1,0 +1,137 @@
+{
+  "game": 172,
+  "played_at": "2026-06-05T16:39-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Guy Rodgers",
+      "position": "SG",
+      "stats": {
+        "ppg": 17.64,
+        "rpg": 4.26,
+        "apg": 11.0,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.52,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shai Gilgeous-Alexander",
+      "position": "PG",
+      "stats": {
+        "ppg": 28.9,
+        "rpg": 4.9,
+        "apg": 6.1,
+        "spg": 1.5,
+        "bpg": 0.9
+      },
+      "ovr_pts": 19.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.10 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NYK",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.08,
+        "rpg": 11.02,
+        "apg": 2.16,
+        "spg": 0.95,
+        "bpg": 2.7
+      },
+      "ovr_pts": 21.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.60 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.88,
+        "rpg": 7.62,
+        "apg": 8.15,
+        "spg": 1.44,
+        "bpg": 0.76
+      },
+      "ovr_pts": 21.68,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.30 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "C",
+      "stats": {
+        "ppg": 27.13,
+        "rpg": 16.03,
+        "apg": 2.53,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 21.0,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.00 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 124.6,
+    "rpg": 43.8,
+    "apg": 29.9,
+    "spg": 3.9,
+    "bpg": 4.4
+  },
+  "result": {
+    "wins": 78,
+    "losses": 4,
+    "ovr": 105.5,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

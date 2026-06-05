@@ -1,0 +1,137 @@
+{
+  "game": 181,
+  "played_at": "2026-06-05T16:43-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nate Thurmond",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.63,
+        "rpg": 15.64,
+        "apg": 3.12,
+        "spg": 0.7,
+        "bpg": 2.9
+      },
+      "ovr_pts": 22.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +40.30 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Michael Jordan",
+      "position": "SG",
+      "stats": {
+        "ppg": 32.65,
+        "rpg": 6.15,
+        "apg": 5.93,
+        "spg": 2.81,
+        "bpg": 1.18
+      },
+      "ovr_pts": 23.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.50 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "HOU",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.0,
+        "rpg": 5.5,
+        "apg": 4.8,
+        "spg": 0.8,
+        "bpg": 0.9
+      },
+      "ovr_pts": 17.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.20 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Artis Gilmore",
+      "position": "C",
+      "stats": {
+        "ppg": 16.69,
+        "rpg": 9.15,
+        "apg": 1.93,
+        "spg": 0.56,
+        "bpg": 2.07
+      },
+      "ovr_pts": 15.93,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.00 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Ben Simmons",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.34,
+        "rpg": 8.45,
+        "apg": 7.95,
+        "spg": 1.55,
+        "bpg": 0.85
+      },
+      "ovr_pts": 18.68,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.10 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 110.3,
+    "rpg": 44.9,
+    "apg": 23.7,
+    "spg": 6.4,
+    "bpg": 7.9
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 98.1,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

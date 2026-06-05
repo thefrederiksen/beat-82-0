@@ -1,0 +1,132 @@
+{
+  "game": 173,
+  "played_at": "2026-06-05T16:39-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nikola Joki\u0107",
+      "position": "C",
+      "stats": {
+        "ppg": 26.9,
+        "rpg": 12.4,
+        "apg": 9.3,
+        "spg": 1.4,
+        "bpg": 0.8
+      },
+      "ovr_pts": 25.4,
+      "rationale": "policy v3-steady-valuation: exact marginal +35.80 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Duncan",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.33,
+        "rpg": 11.71,
+        "apg": 2.59,
+        "spg": 0.78,
+        "bpg": 2.5
+      },
+      "ovr_pts": 20.34,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rick Barry",
+      "position": "SF",
+      "stats": {
+        "ppg": 30.59,
+        "rpg": 9.91,
+        "apg": 2.89,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 18.56,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.50 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Robert Pack",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.1,
+        "rpg": 4.3,
+        "apg": 7.8,
+        "spg": 2.0,
+        "bpg": 0.0
+      },
+      "ovr_pts": 16.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHX",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gail Goodrich",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.8,
+        "rpg": 5.4,
+        "apg": 6.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.60 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 120.7,
+    "rpg": 43.7,
+    "apg": 29.0,
+    "spg": 4.2,
+    "bpg": 3.3
+  },
+  "result": {
+    "wins": 78,
+    "losses": 4,
+    "ovr": 105.3,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

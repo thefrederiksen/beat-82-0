@@ -1,0 +1,137 @@
+{
+  "game": 176,
+  "played_at": "2026-06-05T16:41-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Damian Lillard",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.3,
+        "rpg": 4.4,
+        "apg": 7.4,
+        "spg": 0.8,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.37,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.50 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "George McGinnis",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.6,
+        "rpg": 11.4,
+        "apg": 3.7,
+        "spg": 1.7,
+        "bpg": 0.7
+      },
+      "ovr_pts": 20.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.10 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SF",
+      "stats": {
+        "ppg": 27.4,
+        "rpg": 8.5,
+        "apg": 8.3,
+        "spg": 1.3,
+        "bpg": 0.6
+      },
+      "ovr_pts": 22.14,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.20 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 12.11,
+        "apg": 2.03,
+        "spg": 1.96,
+        "bpg": 3.11
+      },
+      "ovr_pts": 22.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.80 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "GSW",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Lucas",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.1,
+        "rpg": 3.0,
+        "apg": 9.3,
+        "spg": 1.9,
+        "bpg": 0.1
+      },
+      "ovr_pts": 15.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.40 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 117.4,
+    "rpg": 39.4,
+    "apg": 30.7,
+    "spg": 7.7,
+    "bpg": 4.8
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 99.0,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

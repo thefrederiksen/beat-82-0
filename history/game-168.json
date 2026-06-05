@@ -1,0 +1,132 @@
+{
+  "game": 168,
+  "played_at": "2026-06-05T16:37-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Lanier",
+      "position": "C",
+      "stats": {
+        "ppg": 22.8,
+        "rpg": 11.94,
+        "apg": 3.3,
+        "spg": 1.16,
+        "bpg": 1.99
+      },
+      "ovr_pts": 21.23,
+      "rationale": "policy v3-steady-valuation: exact marginal +36.50 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shai Gilgeous-Alexander",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.9,
+        "rpg": 4.9,
+        "apg": 6.1,
+        "spg": 1.5,
+        "bpg": 0.9
+      },
+      "ovr_pts": 19.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.40 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elton Brand",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.34,
+        "rpg": 10.25,
+        "apg": 2.7,
+        "spg": 0.95,
+        "bpg": 2.23
+      },
+      "ovr_pts": 19.0,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.00 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "TOR",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kawhi Leonard",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.6,
+        "rpg": 7.3,
+        "apg": 3.3,
+        "spg": 1.8,
+        "bpg": 0.4
+      },
+      "ovr_pts": 18.36,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.60 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Guy Rodgers",
+      "position": "PG",
+      "stats": {
+        "ppg": 17.64,
+        "rpg": 4.26,
+        "apg": 11.0,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.52,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 116.3,
+    "rpg": 38.6,
+    "apg": 26.4,
+    "spg": 5.4,
+    "bpg": 5.5
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 97.0,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

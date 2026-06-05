@@ -1,0 +1,137 @@
+{
+  "game": 177,
+  "played_at": "2026-06-05T16:42-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Artis Gilmore",
+      "position": "C",
+      "stats": {
+        "ppg": 21.73,
+        "rpg": 12.93,
+        "apg": 2.97,
+        "spg": 0.53,
+        "bpg": 2.2
+      },
+      "ovr_pts": 20.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +34.30 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jermaine O'Neal",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.65,
+        "rpg": 9.59,
+        "apg": 1.95,
+        "spg": 0.67,
+        "bpg": 2.42
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.70 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "De'Aaron Fox",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.0,
+        "rpg": 4.0,
+        "apg": 6.1,
+        "spg": 1.4,
+        "bpg": 0.4
+      },
+      "ovr_pts": 16.99,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.40 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "SG",
+      "stats": {
+        "ppg": 9.24,
+        "rpg": 6.28,
+        "apg": 8.91,
+        "spg": 2.03,
+        "bpg": 0.47
+      },
+      "ovr_pts": 15.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.40 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Havlicek",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.92,
+        "rpg": 6.38,
+        "apg": 5.84,
+        "spg": 1.22,
+        "bpg": 0.3
+      },
+      "ovr_pts": 16.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 96.5,
+    "rpg": 39.2,
+    "apg": 25.8,
+    "spg": 5.8,
+    "bpg": 5.8
+  },
+  "result": {
+    "wins": 63,
+    "losses": 19,
+    "ovr": 87.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

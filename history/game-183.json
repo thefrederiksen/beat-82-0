@@ -1,0 +1,137 @@
+{
+  "game": 183,
+  "played_at": "2026-06-05T16:45-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nate Thurmond",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.63,
+        "rpg": 15.64,
+        "apg": 3.12,
+        "spg": 0.7,
+        "bpg": 2.9
+      },
+      "ovr_pts": 22.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +40.30 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwight Howard",
+      "position": "C",
+      "stats": {
+        "ppg": 20.56,
+        "rpg": 13.86,
+        "apg": 1.68,
+        "spg": 1.23,
+        "bpg": 2.48
+      },
+      "ovr_pts": 21.36,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.10 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIL",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Guy Rodgers",
+      "position": "SG",
+      "stats": {
+        "ppg": 17.64,
+        "rpg": 4.26,
+        "apg": 11.0,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.52,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rick Barry",
+      "position": "SF",
+      "stats": {
+        "ppg": 30.59,
+        "rpg": 9.91,
+        "apg": 2.89,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 18.56,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.60 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Robert Pack",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.1,
+        "rpg": 4.3,
+        "apg": 7.8,
+        "spg": 2.0,
+        "bpg": 0.0
+      },
+      "ovr_pts": 16.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.70 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 105.5,
+    "rpg": 48.0,
+    "apg": 26.5,
+    "spg": 3.9,
+    "bpg": 5.4
+  },
+  "result": {
+    "wins": 80,
+    "losses": 2,
+    "ovr": 107.2,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

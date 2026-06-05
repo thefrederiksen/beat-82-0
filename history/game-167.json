@@ -1,0 +1,137 @@
+{
+  "game": 167,
+  "played_at": "2026-06-05T16:37-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bill Walton",
+      "position": "C",
+      "stats": {
+        "ppg": 17.1,
+        "rpg": 13.52,
+        "apg": 4.42,
+        "spg": 0.97,
+        "bpg": 2.53
+      },
+      "ovr_pts": 21.4,
+      "rationale": "policy v3-steady-valuation: exact marginal +38.50 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Michael Jordan",
+      "position": "SG",
+      "stats": {
+        "ppg": 30.8,
+        "rpg": 6.34,
+        "apg": 5.07,
+        "spg": 2.3,
+        "bpg": 0.7
+      },
+      "ovr_pts": 21.24,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.80 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Trae Young",
+      "position": "PG",
+      "stats": {
+        "ppg": 26.0,
+        "rpg": 3.3,
+        "apg": 10.3,
+        "spg": 1.1,
+        "bpg": 0.2
+      },
+      "ovr_pts": 18.88,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.40 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "ATL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Antoine Walker",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.4,
+        "rpg": 9.4,
+        "apg": 3.7,
+        "spg": 1.2,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.35,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.00 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Josh Giddey",
+      "position": "SF",
+      "stats": {
+        "ppg": 15.8,
+        "rpg": 8.2,
+        "apg": 8.2,
+        "spg": 1.1,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.66,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.80 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 110.1,
+    "rpg": 40.8,
+    "apg": 31.7,
+    "spg": 6.7,
+    "bpg": 4.6
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.5,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

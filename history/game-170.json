@@ -1,0 +1,132 @@
+{
+  "game": 170,
+  "played_at": "2026-06-05T16:38-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwight Howard",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.56,
+        "rpg": 13.86,
+        "apg": 1.68,
+        "spg": 1.23,
+        "bpg": 2.48
+      },
+      "ovr_pts": 21.36,
+      "rationale": "policy v3-steady-valuation: exact marginal +39.40 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Lanier",
+      "position": "C",
+      "stats": {
+        "ppg": 21.7,
+        "rpg": 10.1,
+        "apg": 3.3,
+        "spg": 1.0,
+        "bpg": 1.6
+      },
+      "ovr_pts": 19.02,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.50 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Isiah Thomas",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.25,
+        "rpg": 3.73,
+        "apg": 9.79,
+        "spg": 2.11,
+        "bpg": 0.29
+      },
+      "ovr_pts": 18.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.60 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMar DeRozan",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.2,
+        "rpg": 6.0,
+        "apg": 6.2,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 16.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.90 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Paul George",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.5,
+        "rpg": 6.2,
+        "apg": 4.9,
+        "spg": 1.6,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.35,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.20 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 107.2,
+    "rpg": 39.9,
+    "apg": 25.9,
+    "spg": 7.0,
+    "bpg": 5.3
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 92.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

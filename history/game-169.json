@@ -1,0 +1,137 @@
+{
+  "game": 169,
+  "played_at": "2026-06-05T16:38-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Bellamy",
+      "position": "C",
+      "stats": {
+        "ppg": 25.57,
+        "rpg": 15.66,
+        "apg": 2.01,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 19.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.24,
+        "rpg": 11.87,
+        "apg": 2.61,
+        "spg": 0.77,
+        "bpg": 1.5
+      },
+      "ovr_pts": 19.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.60 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.27,
+        "rpg": 10.06,
+        "apg": 2.07,
+        "spg": 1.42,
+        "bpg": 0.79
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.20 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DAL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.2,
+        "rpg": 7.8,
+        "apg": 6.0,
+        "spg": 1.1,
+        "bpg": 0.3
+      },
+      "ovr_pts": 17.55,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.20 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terrell Brandon",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.04,
+        "rpg": 3.5,
+        "apg": 7.52,
+        "spg": 2.06,
+        "bpg": 0.28
+      },
+      "ovr_pts": 15.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.80 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 108.3,
+    "rpg": 48.9,
+    "apg": 20.2,
+    "spg": 5.3,
+    "bpg": 2.9
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 92.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 185,
+  "played_at": "2026-06-05T16:45-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dominique Wilkins",
+      "position": "SF",
+      "stats": {
+        "ppg": 27.04,
+        "rpg": 7.21,
+        "apg": 2.99,
+        "spg": 1.35,
+        "bpg": 0.58
+      },
+      "ovr_pts": 17.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.10 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Robinson",
+      "position": "C",
+      "stats": {
+        "ppg": 24.4,
+        "rpg": 11.51,
+        "apg": 2.96,
+        "spg": 1.56,
+        "bpg": 3.38
+      },
+      "ovr_pts": 23.5,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.80 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "ATL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Pettit",
+      "position": "PF",
+      "stats": {
+        "ppg": 27.55,
+        "rpg": 16.69,
+        "apg": 3.3,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.00 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Russell Westbrook",
+      "position": "PG",
+      "stats": {
+        "ppg": 23.82,
+        "rpg": 7.27,
+        "apg": 8.76,
+        "spg": 1.79,
+        "bpg": 0.34
+      },
+      "ovr_pts": 20.65,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Oladipo",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.71,
+        "rpg": 5.33,
+        "apg": 4.59,
+        "spg": 2.17,
+        "bpg": 0.64
+      },
+      "ovr_pts": 16.95,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.30 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 124.5,
+    "rpg": 48.0,
+    "apg": 22.6,
+    "spg": 6.9,
+    "bpg": 4.9
+  },
+  "result": {
+    "wins": 77,
+    "losses": 5,
+    "ovr": 104.6,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

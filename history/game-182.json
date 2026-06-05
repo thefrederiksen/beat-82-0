@@ -1,0 +1,137 @@
+{
+  "game": 182,
+  "played_at": "2026-06-05T16:44-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nate Thurmond",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.63,
+        "rpg": 15.64,
+        "apg": 3.12,
+        "spg": 0.7,
+        "bpg": 2.9
+      },
+      "ovr_pts": 22.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +40.30 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 20.5,
+        "rpg": 21.1,
+        "apg": 4.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.20 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Josh Giddey",
+      "position": "SG",
+      "stats": {
+        "ppg": 15.8,
+        "rpg": 8.2,
+        "apg": 8.2,
+        "spg": 1.1,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.66,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.60 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BKN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "D'Angelo Russell",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.02,
+        "rpg": 3.9,
+        "apg": 6.33,
+        "spg": 1.05,
+        "bpg": 0.27
+      },
+      "ovr_pts": 14.45,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.10 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Cedric Ceballos",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.82,
+        "rpg": 7.33,
+        "apg": 1.64,
+        "spg": 1.09,
+        "bpg": 0.33
+      },
+      "ovr_pts": 14.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.50 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 94.8,
+    "rpg": 56.2,
+    "apg": 23.8,
+    "spg": 3.9,
+    "bpg": 4.1
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

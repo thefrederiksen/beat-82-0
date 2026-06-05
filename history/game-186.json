@@ -1,0 +1,132 @@
+{
+  "game": 186,
+  "played_at": "2026-06-05T16:46-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 11.3,
+        "apg": 6.0,
+        "spg": 1.0,
+        "bpg": 1.1
+      },
+      "ovr_pts": 23.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +33.60 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Damian Lillard",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.3,
+        "rpg": 4.4,
+        "apg": 7.4,
+        "spg": 0.8,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.37,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.00 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Truck Robinson",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.22,
+        "rpg": 14.91,
+        "apg": 1.96,
+        "spg": 0.83,
+        "bpg": 1.17
+      },
+      "ovr_pts": 21.02,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.50 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 27.6,
+        "rpg": 23.96,
+        "apg": 6.79,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 28.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +28.70 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "ORL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Steve Francis",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.41,
+        "rpg": 5.43,
+        "apg": 6.52,
+        "spg": 1.29,
+        "bpg": 0.33
+      },
+      "ovr_pts": 16.01,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 128.1,
+    "rpg": 60.0,
+    "apg": 28.7,
+    "spg": 3.9,
+    "bpg": 2.9
+  },
+  "result": {
+    "wins": 82,
+    "losses": 0,
+    "ovr": 109.7,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

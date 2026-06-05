@@ -1,0 +1,137 @@
+{
+  "game": 175,
+  "played_at": "2026-06-05T16:40-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BOS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bill Russell",
+      "position": "C",
+      "stats": {
+        "ppg": 14.82,
+        "rpg": 22.55,
+        "apg": 4.63,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.15,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.91,
+        "rpg": 10.33,
+        "apg": 4.83,
+        "spg": 1.52,
+        "bpg": 1.38
+      },
+      "ovr_pts": 21.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +35.00 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "DET",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Cade Cunningham",
+      "position": "SG",
+      "stats": {
+        "ppg": 22.0,
+        "rpg": 5.5,
+        "apg": 7.6,
+        "spg": 1.1,
+        "bpg": 0.7
+      },
+      "ovr_pts": 17.86,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.40 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gail Goodrich",
+      "position": "PG",
+      "stats": {
+        "ppg": 23.8,
+        "rpg": 5.4,
+        "apg": 6.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Havlicek",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.92,
+        "rpg": 6.38,
+        "apg": 5.84,
+        "spg": 1.22,
+        "bpg": 0.3
+      },
+      "ovr_pts": 16.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.50 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 106.4,
+    "rpg": 50.2,
+    "apg": 29.3,
+    "spg": 3.8,
+    "bpg": 2.4
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 98.6,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "game": 171,
+  "played_at": "2026-06-05T16:39-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.66,
+        "rpg": 8.73,
+        "apg": 10.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.18,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shai Gilgeous-Alexander",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.9,
+        "rpg": 4.9,
+        "apg": 6.1,
+        "spg": 1.5,
+        "bpg": 0.9
+      },
+      "ovr_pts": 19.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.00 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 20.5,
+        "rpg": 21.1,
+        "apg": 4.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.10 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Carmelo Anthony",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.94,
+        "rpg": 7.02,
+        "apg": 3.03,
+        "spg": 1.13,
+        "bpg": 0.48
+      },
+      "ovr_pts": 17.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.20 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.91,
+        "rpg": 10.33,
+        "apg": 4.83,
+        "spg": 1.52,
+        "bpg": 1.38
+      },
+      "ovr_pts": 21.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.60 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 129.9,
+    "rpg": 52.1,
+    "apg": 29.0,
+    "spg": 4.2,
+    "bpg": 2.8
+  },
+  "result": {
+    "wins": 81,
+    "losses": 1,
+    "ovr": 109.1,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

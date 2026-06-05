@@ -1,0 +1,137 @@
+{
+  "game": 180,
+  "played_at": "2026-06-05T16:43-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMarcus Cousins",
+      "position": "C",
+      "stats": {
+        "ppg": 21.05,
+        "rpg": 10.75,
+        "apg": 2.99,
+        "spg": 1.4,
+        "bpg": 1.17
+      },
+      "ovr_pts": 18.93,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.20 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.64,
+        "rpg": 2.99,
+        "apg": 7.13,
+        "spg": 1.9,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.30 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Carmelo Anthony",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.94,
+        "rpg": 7.02,
+        "apg": 3.03,
+        "spg": 1.13,
+        "bpg": 0.48
+      },
+      "ovr_pts": 17.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.20 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Russell Westbrook",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 11.5,
+        "apg": 11.7,
+        "spg": 1.4,
+        "bpg": 0.4
+      },
+      "ovr_pts": 24.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.70 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Charles Barkley",
+      "position": "PF",
+      "stats": {
+        "ppg": 14.5,
+        "rpg": 10.5,
+        "apg": 3.2,
+        "spg": 0.7,
+        "bpg": 0.2
+      },
+      "ovr_pts": 14.63,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.30 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 110.3,
+    "rpg": 42.8,
+    "apg": 28.0,
+    "spg": 6.5,
+    "bpg": 2.4
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 92.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}
