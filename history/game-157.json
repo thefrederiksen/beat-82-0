@@ -1,0 +1,137 @@
+{
+  "game": 157,
+  "played_at": "2026-06-05T16:32-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.19,
+        "rpg": 8.8,
+        "apg": 1.9,
+        "spg": 1.34,
+        "bpg": 2.82
+      },
+      "ovr_pts": 19.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +39.30 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHX",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Johnson",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 4.23,
+        "apg": 11.3,
+        "spg": 1.65,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.00 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CLE",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.88,
+        "rpg": 7.62,
+        "apg": 8.15,
+        "spg": 1.44,
+        "bpg": 0.76
+      },
+      "ovr_pts": 21.68,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.30 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 12.11,
+        "apg": 2.03,
+        "spg": 1.96,
+        "bpg": 3.11
+      },
+      "ovr_pts": 22.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.30 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tobias Harris",
+      "position": "SF",
+      "stats": {
+        "ppg": 15.57,
+        "rpg": 6.97,
+        "apg": 1.74,
+        "spg": 0.9,
+        "bpg": 0.61
+      },
+      "ovr_pts": 12.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +8.60 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 105.0,
+    "rpg": 39.7,
+    "apg": 25.1,
+    "spg": 7.3,
+    "bpg": 7.6
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.5,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

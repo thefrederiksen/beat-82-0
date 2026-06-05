@@ -1,0 +1,137 @@
+{
+  "game": 164,
+  "played_at": "2026-06-05T16:35-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shai Gilgeous-Alexander",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.9,
+        "rpg": 4.9,
+        "apg": 6.1,
+        "spg": 1.5,
+        "bpg": 0.9
+      },
+      "ovr_pts": 19.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.00 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nate Thurmond",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.63,
+        "rpg": 15.64,
+        "apg": 3.12,
+        "spg": 0.7,
+        "bpg": 2.9
+      },
+      "ovr_pts": 22.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "C",
+      "stats": {
+        "ppg": 23.91,
+        "rpg": 10.33,
+        "apg": 4.83,
+        "spg": 1.52,
+        "bpg": 1.38
+      },
+      "ovr_pts": 21.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.40 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jerry West",
+      "position": "PG",
+      "stats": {
+        "ppg": 26.11,
+        "rpg": 4.33,
+        "apg": 8.65,
+        "spg": 2.6,
+        "bpg": 0.7
+      },
+      "ovr_pts": 20.9,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.40 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bernard King",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.88,
+        "rpg": 8.84,
+        "apg": 3.01,
+        "spg": 1.45,
+        "bpg": 0.5
+      },
+      "ovr_pts": 17.59,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 120.4,
+    "rpg": 44.0,
+    "apg": 25.7,
+    "spg": 7.8,
+    "bpg": 6.4
+  },
+  "result": {
+    "wins": 75,
+    "losses": 7,
+    "ovr": 101.9,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

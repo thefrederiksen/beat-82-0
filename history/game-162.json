@@ -1,0 +1,132 @@
+{
+  "game": 162,
+  "played_at": "2026-06-05T16:34-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 17.5,
+        "rpg": 9.1,
+        "apg": 3.6,
+        "spg": 1.2,
+        "bpg": 2.2
+      },
+      "ovr_pts": 18.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +34.60 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Fat Lever",
+      "position": "SG",
+      "stats": {
+        "ppg": 16.79,
+        "rpg": 7.31,
+        "apg": 7.74,
+        "spg": 2.54,
+        "bpg": 0.32
+      },
+      "ovr_pts": 18.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.10 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Andre Drummond",
+      "position": "C",
+      "stats": {
+        "ppg": 14.11,
+        "rpg": 13.71,
+        "apg": 1.14,
+        "spg": 1.34,
+        "bpg": 1.56
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Billy Cunningham",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.43,
+        "rpg": 11.4,
+        "apg": 5.15,
+        "spg": 1.12,
+        "bpg": 0.42
+      },
+      "ovr_pts": 19.89,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.80 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gail Goodrich",
+      "position": "PG",
+      "stats": {
+        "ppg": 23.8,
+        "rpg": 5.4,
+        "apg": 6.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.60 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 94.6,
+    "rpg": 46.9,
+    "apg": 24.0,
+    "spg": 6.2,
+    "bpg": 4.5
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 92.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

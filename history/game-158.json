@@ -1,0 +1,132 @@
+{
+  "game": 158,
+  "played_at": "2026-06-05T16:32-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 11.3,
+        "apg": 6.0,
+        "spg": 1.0,
+        "bpg": 1.1
+      },
+      "ovr_pts": 23.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +33.60 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shaquille O'Neal",
+      "position": "C",
+      "stats": {
+        "ppg": 27.19,
+        "rpg": 12.51,
+        "apg": 2.43,
+        "spg": 0.79,
+        "bpg": 2.78
+      },
+      "ovr_pts": 23.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.40 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.86,
+        "rpg": 7.1,
+        "apg": 5.41,
+        "spg": 0.82,
+        "bpg": 1.48
+      },
+      "ovr_pts": 19.5,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.60 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Russell Westbrook",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 11.5,
+        "apg": 11.7,
+        "spg": 1.4,
+        "bpg": 0.4
+      },
+      "ovr_pts": 24.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.70 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "NYK",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "PF",
+      "stats": {
+        "ppg": 26.65,
+        "rpg": 12.0,
+        "apg": 3.33,
+        "spg": 1.34,
+        "bpg": 1.42
+      },
+      "ovr_pts": 22.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.20 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 131.5,
+    "rpg": 54.4,
+    "apg": 28.9,
+    "spg": 5.3,
+    "bpg": 7.2
+  },
+  "result": {
+    "wins": 82,
+    "losses": 0,
+    "ovr": 112.5,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 153,
+  "played_at": "2026-06-05T16:29-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Domantas Sabonis",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 12.0,
+        "apg": 6.7,
+        "spg": 1.2,
+        "bpg": 0.5
+      },
+      "ovr_pts": 20.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +28.70 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Grant Hill",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.8,
+        "rpg": 6.6,
+        "apg": 5.2,
+        "spg": 1.4,
+        "bpg": 0.6
+      },
+      "ovr_pts": 18.6,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.10 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "IND",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "IND",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Oladipo",
+      "position": "PG",
+      "stats": {
+        "ppg": 21.71,
+        "rpg": 5.33,
+        "apg": 4.59,
+        "spg": 2.17,
+        "bpg": 0.64
+      },
+      "ovr_pts": 16.95,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Lanier",
+      "position": "C",
+      "stats": {
+        "ppg": 21.7,
+        "rpg": 10.1,
+        "apg": 3.3,
+        "spg": 1.0,
+        "bpg": 1.6
+      },
+      "ovr_pts": 19.02,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.60 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kelly Tripucka",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.6,
+        "rpg": 3.8,
+        "apg": 3.2,
+        "spg": 1.2,
+        "bpg": 0.2
+      },
+      "ovr_pts": 13.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.10 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 112.1,
+    "rpg": 37.8,
+    "apg": 23.0,
+    "spg": 7.0,
+    "bpg": 3.5
+  },
+  "result": {
+    "wins": 64,
+    "losses": 18,
+    "ovr": 89.0,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

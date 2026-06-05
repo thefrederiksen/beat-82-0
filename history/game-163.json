@@ -1,0 +1,137 @@
+{
+  "game": 163,
+  "played_at": "2026-06-05T16:34-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Grant Hill",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.73,
+        "rpg": 8.12,
+        "apg": 6.47,
+        "spg": 1.66,
+        "bpg": 0.67
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.90 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 12.11,
+        "apg": 2.03,
+        "spg": 1.96,
+        "bpg": 3.11
+      },
+      "ovr_pts": 22.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +25.30 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jermaine O'Neal",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.65,
+        "rpg": 9.59,
+        "apg": 1.95,
+        "spg": 0.67,
+        "bpg": 2.42
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.60 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "OKC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Lenny Wilkens",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.4,
+        "rpg": 6.2,
+        "apg": 8.2,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 16.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.70 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BOS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Bird",
+      "position": "SF",
+      "stats": {
+        "ppg": 24.97,
+        "rpg": 10.21,
+        "apg": 6.12,
+        "spg": 1.81,
+        "bpg": 0.84
+      },
+      "ovr_pts": 21.93,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.40 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 109.8,
+    "rpg": 46.2,
+    "apg": 24.8,
+    "spg": 6.1,
+    "bpg": 7.0
+  },
+  "result": {
+    "wins": 75,
+    "losses": 7,
+    "ovr": 101.9,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

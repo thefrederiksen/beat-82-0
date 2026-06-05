@@ -1,0 +1,137 @@
+{
+  "game": 155,
+  "played_at": "2026-06-05T16:30-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl Malone",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.93,
+        "rpg": 8.55,
+        "apg": 4.3,
+        "spg": 1.42,
+        "bpg": 0.7
+      },
+      "ovr_pts": 18.44,
+      "rationale": "policy v3-steady-valuation: exact marginal +28.50 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHX",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.6,
+        "rpg": 6.4,
+        "apg": 4.7,
+        "spg": 0.8,
+        "bpg": 1.3
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.50 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "PG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.80 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "C",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 12.4,
+        "apg": 3.0,
+        "spg": 0.9,
+        "bpg": 0.6
+      },
+      "ovr_pts": 19.09,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.50 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Xavier McDaniel",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.39,
+        "rpg": 6.3,
+        "apg": 2.5,
+        "spg": 1.21,
+        "bpg": 0.46
+      },
+      "ovr_pts": 14.84,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.50 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 118.7,
+    "rpg": 41.6,
+    "apg": 25.3,
+    "spg": 5.5,
+    "bpg": 3.9
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

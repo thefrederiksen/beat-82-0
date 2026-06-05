@@ -1,0 +1,132 @@
+{
+  "game": 152,
+  "played_at": "2026-06-05T16:29-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "SG",
+      "stats": {
+        "ppg": 30.6,
+        "rpg": 8.7,
+        "apg": 8.8,
+        "spg": 1.2,
+        "bpg": 0.5
+      },
+      "ovr_pts": 23.44,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.40 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +25.20 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CHI",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Michael Jordan",
+      "position": "SF",
+      "stats": {
+        "ppg": 30.8,
+        "rpg": 6.34,
+        "apg": 5.07,
+        "spg": 2.3,
+        "bpg": 0.7
+      },
+      "ovr_pts": 21.24,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.30 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nate Thurmond",
+      "position": "C",
+      "stats": {
+        "ppg": 18.63,
+        "rpg": 15.64,
+        "apg": 3.12,
+        "spg": 0.7,
+        "bpg": 2.9
+      },
+      "ovr_pts": 22.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.60 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clem Haskins",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 4.6,
+        "apg": 7.6,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 14.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.60 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 128.6,
+    "rpg": 48.0,
+    "apg": 27.2,
+    "spg": 5.3,
+    "bpg": 6.5
+  },
+  "result": {
+    "wins": 81,
+    "losses": 1,
+    "ovr": 109.1,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

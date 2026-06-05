@@ -1,0 +1,137 @@
+{
+  "game": 161,
+  "played_at": "2026-06-05T16:33-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.3,
+        "rpg": 6.1,
+        "apg": 8.1,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.50 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nikola Joki\u0107",
+      "position": "C",
+      "stats": {
+        "ppg": 26.9,
+        "rpg": 12.4,
+        "apg": 9.3,
+        "spg": 1.4,
+        "bpg": 0.8
+      },
+      "ovr_pts": 25.4,
+      "rationale": "policy v3-steady-valuation: exact marginal +35.90 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CLE",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.52,
+        "rpg": 7.01,
+        "apg": 6.68,
+        "spg": 1.75,
+        "bpg": 0.85
+      },
+      "ovr_pts": 21.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.10 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Blake Griffin",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.32,
+        "rpg": 7.28,
+        "apg": 5.6,
+        "spg": 0.62,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.28,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.40 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wesley Person",
+      "position": "SF",
+      "stats": {
+        "ppg": 13.46,
+        "rpg": 3.97,
+        "apg": 2.12,
+        "spg": 1.32,
+        "bpg": 0.53
+      },
+      "ovr_pts": 10.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +8.30 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 116.5,
+    "rpg": 36.8,
+    "apg": 31.8,
+    "spg": 5.1,
+    "bpg": 2.6
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.2,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

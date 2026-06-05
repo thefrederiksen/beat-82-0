@@ -1,0 +1,137 @@
+{
+  "game": 151,
+  "played_at": "2026-06-05T16:29-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Baron Davis",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.12,
+        "rpg": 4.45,
+        "apg": 8.13,
+        "spg": 2.02,
+        "bpg": 0.44
+      },
+      "ovr_pts": 17.6,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.10 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.87,
+        "rpg": 7.58,
+        "apg": 4.02,
+        "spg": 1.23,
+        "bpg": 1.05
+      },
+      "ovr_pts": 19.92,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.80 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.19,
+        "rpg": 8.8,
+        "apg": 1.9,
+        "spg": 1.34,
+        "bpg": 2.82
+      },
+      "ovr_pts": 19.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.80 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.27,
+        "rpg": 10.06,
+        "apg": 2.07,
+        "spg": 1.42,
+        "bpg": 0.79
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Ben Wallace",
+      "position": "C",
+      "stats": {
+        "ppg": 7.89,
+        "rpg": 12.88,
+        "apg": 1.63,
+        "spg": 1.57,
+        "bpg": 2.76
+      },
+      "ovr_pts": 17.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.70 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 101.3,
+    "rpg": 43.8,
+    "apg": 17.8,
+    "spg": 7.6,
+    "bpg": 7.9
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 91.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

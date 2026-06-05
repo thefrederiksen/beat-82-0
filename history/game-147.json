@@ -1,0 +1,137 @@
+{
+  "game": 147,
+  "played_at": "2026-06-05T16:26-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kareem Abdul-Jabbar",
+      "position": "C",
+      "stats": {
+        "ppg": 25.89,
+        "rpg": 14.05,
+        "apg": 4.67,
+        "spg": 1.33,
+        "bpg": 3.61
+      },
+      "ovr_pts": 26.68,
+      "rationale": "policy v3-steady-valuation: exact marginal +50.80 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.24,
+        "rpg": 11.87,
+        "apg": 2.61,
+        "spg": 0.77,
+        "bpg": 1.5
+      },
+      "ovr_pts": 19.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +8.60 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.27,
+        "rpg": 10.06,
+        "apg": 2.07,
+        "spg": 1.42,
+        "bpg": 0.79
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.60 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CHA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Eddie Jones",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.1,
+        "rpg": 4.8,
+        "apg": 4.2,
+        "spg": 2.7,
+        "bpg": 0.7
+      },
+      "ovr_pts": 16.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.80 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DEN",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Fat Lever",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.79,
+        "rpg": 7.31,
+        "apg": 7.74,
+        "spg": 2.54,
+        "bpg": 0.32
+      },
+      "ovr_pts": 18.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.60 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 108.3,
+    "rpg": 48.1,
+    "apg": 21.3,
+    "spg": 8.8,
+    "bpg": 6.9
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 99.4,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

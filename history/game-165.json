@@ -1,0 +1,137 @@
+{
+  "game": 165,
+  "played_at": "2026-06-05T16:35-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Damian Lillard",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.3,
+        "rpg": 4.4,
+        "apg": 7.4,
+        "spg": 0.8,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.37,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.50 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "MIL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kareem Abdul-Jabbar",
+      "position": "C",
+      "stats": {
+        "ppg": 30.43,
+        "rpg": 15.32,
+        "apg": 4.31,
+        "spg": 1.22,
+        "bpg": 3.41
+      },
+      "ovr_pts": 28.45,
+      "rationale": "policy v3-steady-valuation: exact marginal +33.80 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gus Johnson",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.5,
+        "rpg": 12.72,
+        "apg": 2.7,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 16.05,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.00 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LaMelo Ball",
+      "position": "PG",
+      "stats": {
+        "ppg": 21.4,
+        "rpg": 5.6,
+        "apg": 7.4,
+        "spg": 1.4,
+        "bpg": 0.3
+      },
+      "ovr_pts": 17.43,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.00 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.7,
+        "rpg": 5.41,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 0.8
+      },
+      "ovr_pts": 15.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.90 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 121.3,
+    "rpg": 43.5,
+    "apg": 24.4,
+    "spg": 4.6,
+    "bpg": 4.8
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 98.2,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

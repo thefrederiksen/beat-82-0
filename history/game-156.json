@@ -1,0 +1,137 @@
+{
+  "game": 156,
+  "played_at": "2026-06-05T16:31-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHX",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gail Goodrich",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.8,
+        "rpg": 5.4,
+        "apg": 6.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Artis Gilmore",
+      "position": "C",
+      "stats": {
+        "ppg": 21.73,
+        "rpg": 12.93,
+        "apg": 2.97,
+        "spg": 0.53,
+        "bpg": 2.2
+      },
+      "ovr_pts": 20.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +34.30 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tracy McGrady",
+      "position": "SF",
+      "stats": {
+        "ppg": 28.11,
+        "rpg": 7.01,
+        "apg": 5.21,
+        "spg": 1.55,
+        "bpg": 0.99
+      },
+      "ovr_pts": 20.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.40 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CLE",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "PG",
+      "stats": {
+        "ppg": 27.52,
+        "rpg": 7.01,
+        "apg": 6.68,
+        "spg": 1.75,
+        "bpg": 0.85
+      },
+      "ovr_pts": 21.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.90 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dirk Nowitzki",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.25,
+        "rpg": 6.29,
+        "apg": 2.07,
+        "spg": 0.65,
+        "bpg": 0.63
+      },
+      "ovr_pts": 13.06,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.50 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 119.4,
+    "rpg": 38.6,
+    "apg": 23.3,
+    "spg": 4.5,
+    "bpg": 4.7
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

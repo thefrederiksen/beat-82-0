@@ -1,0 +1,137 @@
+{
+  "game": 166,
+  "played_at": "2026-06-05T16:36-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elton Brand",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.34,
+        "rpg": 10.25,
+        "apg": 2.7,
+        "spg": 0.95,
+        "bpg": 2.23
+      },
+      "ovr_pts": 19.0,
+      "rationale": "policy v3-steady-valuation: exact marginal +34.50 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "DEN",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Fat Lever",
+      "position": "SG",
+      "stats": {
+        "ppg": 16.79,
+        "rpg": 7.31,
+        "apg": 7.74,
+        "spg": 2.54,
+        "bpg": 0.32
+      },
+      "ovr_pts": 18.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Duncan",
+      "position": "C",
+      "stats": {
+        "ppg": 21.43,
+        "rpg": 11.74,
+        "apg": 3.26,
+        "spg": 0.77,
+        "bpg": 2.32
+      },
+      "ovr_pts": 20.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.10 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kawhi Leonard",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.6,
+        "rpg": 7.3,
+        "apg": 3.3,
+        "spg": 1.8,
+        "bpg": 0.4
+      },
+      "ovr_pts": 18.36,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.40 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "PG",
+      "stats": {
+        "ppg": 27.4,
+        "rpg": 8.5,
+        "apg": 8.3,
+        "spg": 1.3,
+        "bpg": 0.6
+      },
+      "ovr_pts": 22.14,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.70 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 112.6,
+    "rpg": 45.1,
+    "apg": 25.3,
+    "spg": 7.4,
+    "bpg": 5.9
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 98.5,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}
