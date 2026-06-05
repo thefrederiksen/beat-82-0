@@ -1,0 +1,132 @@
+{
+  "game": 23,
+  "played_at": "2026-06-05T14:59-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Eddie Jones",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.1,
+        "rpg": 4.8,
+        "apg": 4.2,
+        "spg": 2.7,
+        "bpg": 0.7
+      },
+      "ovr_pts": 16.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.40 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.66,
+        "rpg": 8.73,
+        "apg": 10.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.18,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Josh Smith",
+      "position": "SF",
+      "stats": {
+        "ppg": 17.04,
+        "rpg": 8.77,
+        "apg": 3.9,
+        "spg": 1.38,
+        "bpg": 1.81
+      },
+      "ovr_pts": 17.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.50 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elton Brand",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.1,
+        "rpg": 10.05,
+        "apg": 2.52,
+        "spg": 0.9,
+        "bpg": 1.6
+      },
+      "ovr_pts": 17.84,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.30 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "C",
+      "stats": {
+        "ppg": 23.91,
+        "rpg": 10.33,
+        "apg": 4.83,
+        "spg": 1.52,
+        "bpg": 1.38
+      },
+      "ovr_pts": 21.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.50 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 110.8,
+    "rpg": 42.7,
+    "apg": 25.9,
+    "spg": 6.5,
+    "bpg": 5.5
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 98.9,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

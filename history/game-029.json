@@ -1,0 +1,132 @@
+{
+  "game": 29,
+  "played_at": "2026-06-05T15:02-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Russell Westbrook",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 11.5,
+        "apg": 11.7,
+        "spg": 1.4,
+        "bpg": 0.4
+      },
+      "ovr_pts": 24.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.60 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl Malone",
+      "position": "PF",
+      "stats": {
+        "ppg": 27.22,
+        "rpg": 10.73,
+        "apg": 3.69,
+        "spg": 1.42,
+        "bpg": 0.86
+      },
+      "ovr_pts": 21.11,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "SG",
+      "stats": {
+        "ppg": 29.93,
+        "rpg": 3.85,
+        "apg": 6.08,
+        "spg": 2.39,
+        "bpg": 0.16
+      },
+      "ovr_pts": 19.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.40 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 41.46,
+        "rpg": 25.1,
+        "apg": 3.02,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 31.96,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.00 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Charles Barkley",
+      "position": "SF",
+      "stats": {
+        "ppg": 25.21,
+        "rpg": 10.94,
+        "apg": 4.06,
+        "spg": 1.78,
+        "bpg": 0.57
+      },
+      "ovr_pts": 20.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.20 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 146.0,
+    "rpg": 62.1,
+    "apg": 28.6,
+    "spg": 7.0,
+    "bpg": 2.0
+  },
+  "result": {
+    "wins": 82,
+    "losses": 0,
+    "ovr": 120.1,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

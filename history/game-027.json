@@ -1,0 +1,137 @@
+{
+  "game": 27,
+  "played_at": "2026-06-05T15:01-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 41.46,
+        "rpg": 25.1,
+        "apg": 3.02,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 31.96,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.00 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DET",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bailey Howell",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.14,
+        "rpg": 11.83,
+        "apg": 2.27,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 16.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.10 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwyane Wade",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.18,
+        "rpg": 4.88,
+        "apg": 6.67,
+        "spg": 1.82,
+        "bpg": 0.97
+      },
+      "ovr_pts": 19.15,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.40 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Paolo Banchero",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.7,
+        "rpg": 7.4,
+        "apg": 4.8,
+        "spg": 0.8,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.30 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Oladipo",
+      "position": "PG",
+      "stats": {
+        "ppg": 15.82,
+        "rpg": 4.36,
+        "apg": 4.04,
+        "spg": 1.63,
+        "bpg": 0.53
+      },
+      "ovr_pts": 13.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.80 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 126.3,
+    "rpg": 53.6,
+    "apg": 20.8,
+    "spg": 4.3,
+    "bpg": 2.1
+  },
+  "result": {
+    "wins": 76,
+    "losses": 6,
+    "ovr": 102.6,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

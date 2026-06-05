@@ -1,0 +1,137 @@
+{
+  "game": 24,
+  "played_at": "2026-06-05T15:00-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dikembe Mutombo",
+      "position": "C",
+      "stats": {
+        "ppg": 12.92,
+        "rpg": 12.29,
+        "apg": 1.67,
+        "spg": 0.56,
+        "bpg": 3.81
+      },
+      "ovr_pts": 18.63,
+      "rationale": "policy v3-steady-valuation: exact marginal +40.20 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Duncan",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.33,
+        "rpg": 11.71,
+        "apg": 2.59,
+        "spg": 0.78,
+        "bpg": 2.5
+      },
+      "ovr_pts": 20.34,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.90 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Lenny Wilkens",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.4,
+        "rpg": 6.2,
+        "apg": 8.2,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 16.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.70 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Josh Giddey",
+      "position": "SG",
+      "stats": {
+        "ppg": 15.8,
+        "rpg": 8.2,
+        "apg": 8.2,
+        "spg": 1.1,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.66,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.10 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Billy Owens",
+      "position": "SF",
+      "stats": {
+        "ppg": 14.48,
+        "rpg": 7.2,
+        "apg": 3.46,
+        "spg": 0.99,
+        "bpg": 0.47
+      },
+      "ovr_pts": 13.38,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.10 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 86.9,
+    "rpg": 45.6,
+    "apg": 24.1,
+    "spg": 3.4,
+    "bpg": 7.4
+  },
+  "result": {
+    "wins": 65,
+    "losses": 17,
+    "ovr": 90.0,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

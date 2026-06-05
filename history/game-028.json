@@ -1,0 +1,137 @@
+{
+  "game": 28,
+  "played_at": "2026-06-05T15:02-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Buck Williams",
+      "position": "PF",
+      "stats": {
+        "ppg": 16.46,
+        "rpg": 11.93,
+        "apg": 1.54,
+        "spg": 0.95,
+        "bpg": 1.08
+      },
+      "ovr_pts": 16.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.30 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIL",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHI",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 27.6,
+        "rpg": 23.96,
+        "apg": 6.79,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 28.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +28.80 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kawhi Leonard",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.6,
+        "rpg": 7.3,
+        "apg": 3.3,
+        "spg": 1.8,
+        "bpg": 0.4
+      },
+      "ovr_pts": 18.36,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.10 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jamal Murray",
+      "position": "PG",
+      "stats": {
+        "ppg": 21.8,
+        "rpg": 4.1,
+        "apg": 6.1,
+        "spg": 1.1,
+        "bpg": 0.4
+      },
+      "ovr_pts": 15.61,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.60 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Cliff Robinson",
+      "position": "SF",
+      "stats": {
+        "ppg": 17.83,
+        "rpg": 8.87,
+        "apg": 2.44,
+        "spg": 1.13,
+        "bpg": 0.69
+      },
+      "ovr_pts": 15.39,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.10 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 110.3,
+    "rpg": 56.2,
+    "apg": 20.2,
+    "spg": 5.0,
+    "bpg": 2.6
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

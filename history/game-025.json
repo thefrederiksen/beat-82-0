@@ -1,0 +1,137 @@
+{
+  "game": 25,
+  "played_at": "2026-06-05T15:00-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.19,
+        "rpg": 8.8,
+        "apg": 1.9,
+        "spg": 1.34,
+        "bpg": 2.82
+      },
+      "ovr_pts": 19.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +39.30 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Domantas Sabonis",
+      "position": "C",
+      "stats": {
+        "ppg": 18.5,
+        "rpg": 12.7,
+        "apg": 6.2,
+        "spg": 0.9,
+        "bpg": 0.4
+      },
+      "ovr_pts": 19.72,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.40 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Josh Giddey",
+      "position": "SG",
+      "stats": {
+        "ppg": 15.8,
+        "rpg": 8.2,
+        "apg": 8.2,
+        "spg": 1.1,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.66,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.50 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "ATL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dominique Wilkins",
+      "position": "SF",
+      "stats": {
+        "ppg": 27.04,
+        "rpg": 7.21,
+        "apg": 2.99,
+        "spg": 1.35,
+        "bpg": 0.58
+      },
+      "ovr_pts": 17.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.00 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MEM",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Ja Morant",
+      "position": "PG",
+      "stats": {
+        "ppg": 23.4,
+        "rpg": 4.8,
+        "apg": 7.6,
+        "spg": 1.0,
+        "bpg": 0.3
+      },
+      "ovr_pts": 17.28,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 105.9,
+    "rpg": 41.7,
+    "apg": 26.9,
+    "spg": 5.7,
+    "bpg": 4.7
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 91.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

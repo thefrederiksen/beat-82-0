@@ -1,0 +1,137 @@
+{
+  "game": 21,
+  "played_at": "2026-06-05T14:58-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Pau Gasol",
+      "position": "PF",
+      "stats": {
+        "ppg": 17.54,
+        "rpg": 11.42,
+        "apg": 3.37,
+        "spg": 0.44,
+        "bpg": 1.95
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.00 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.60 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 19.7,
+        "rpg": 5.4,
+        "apg": 8.6,
+        "spg": 1.3,
+        "bpg": 0.8
+      },
+      "ovr_pts": 17.97,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.70 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Fred VanVleet",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.7,
+        "rpg": 4.2,
+        "apg": 6.7,
+        "spg": 1.7,
+        "bpg": 0.6
+      },
+      "ovr_pts": 16.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.00 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dikembe Mutombo",
+      "position": "C",
+      "stats": {
+        "ppg": 10.6,
+        "rpg": 14.1,
+        "apg": 1.23,
+        "spg": 0.34,
+        "bpg": 3.11
+      },
+      "ovr_pts": 17.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.10 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 87.7,
+    "rpg": 46.8,
+    "apg": 23.5,
+    "spg": 4.8,
+    "bpg": 7.0
+  },
+  "result": {
+    "wins": 64,
+    "losses": 18,
+    "ovr": 88.4,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

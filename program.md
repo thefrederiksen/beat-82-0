@@ -153,9 +153,13 @@ Rules:
 | v1-weighted-ev-skips | pick max weighted OVRpts; EV-computed skips; manual placement heuristics | 3-5 | **70.67** (78, 66, 68) | baseline |
 | v1-scripted | same policy automated (src/play.py); flat +3.0 skip threshold | 6-10 | 68.33 (75, 63, 67) | no |
 | v2-declining-skips | offline-tuned: skip thresholds decline by round (2, 1.5, 1, 0.5, 0 -- a held skip expires worthless), SG-SF-PG-PF-C placement | 11-20 | **74.67** (74, 77, 73) | 2026-06-05 |
+| v3-steady-valuation | v2 + steady-state spg/bpg pricing (relative to the 5/k roster average; fixes early-round x5 marginal inflation and null undervaluation) | 21-30 | **76.33** (76, 71, 82) | 2026-06-05 |
 
-ALL-TIME BEST: **74.67** (v2-declining-skips, games 15-17)
-MILESTONE (first 82-0): not yet
+ALL-TIME BEST: **76.33** (v3-steady-valuation, games 27-29)
+MILESTONE (first 82-0): **GAME 29** -- 2026-06-05, v3, OVR 120.1 (S PERFECT).
+Roster: Russell Westbrook PG (WAS/2020s), Allen Iverson SG (PHI/2000s),
+Charles Barkley SF (PHI/1990s), Karl Malone PF (UTA/1990s),
+Wilt Chamberlain C (GSW/1960s).
 TARGET (3-game avg 82.0): not reached
 
 ## 7. Iteration 0 backlog (next actions)

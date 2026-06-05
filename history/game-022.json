@@ -1,0 +1,137 @@
+{
+  "game": 22,
+  "played_at": "2026-06-05T14:58-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NOP",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.43,
+        "rpg": 4.76,
+        "apg": 9.88,
+        "spg": 2.4,
+        "bpg": 0.08
+      },
+      "ovr_pts": 18.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.00 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "OKC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Rule",
+      "position": "C",
+      "stats": {
+        "ppg": 21.05,
+        "rpg": 10.5,
+        "apg": 1.45,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 14.76,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.80 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CLE",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.6,
+        "rpg": 4.8,
+        "apg": 8.0,
+        "spg": 1.1,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.84,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.30 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Bird",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.64,
+        "rpg": 9.19,
+        "apg": 7.22,
+        "spg": 1.41,
+        "bpg": 0.84
+      },
+      "ovr_pts": 20.35,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.30 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl Malone",
+      "position": "PF",
+      "stats": {
+        "ppg": 27.22,
+        "rpg": 10.73,
+        "apg": 3.69,
+        "spg": 1.42,
+        "bpg": 0.86
+      },
+      "ovr_pts": 21.11,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.80 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 112.9,
+    "rpg": 40.0,
+    "apg": 30.2,
+    "spg": 6.3,
+    "bpg": 2.2
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 95.2,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

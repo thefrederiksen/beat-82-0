@@ -1,0 +1,137 @@
+{
+  "game": 26,
+  "played_at": "2026-06-05T15:01-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BOS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Bird",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.64,
+        "rpg": 9.19,
+        "apg": 7.22,
+        "spg": 1.41,
+        "bpg": 0.84
+      },
+      "ovr_pts": 20.35,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.00 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1960s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.67,
+        "rpg": 8.31,
+        "apg": 2.6,
+        "spg": 1.39,
+        "bpg": 0.78
+      },
+      "ovr_pts": 16.87,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.10 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tracy McGrady",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.13,
+        "rpg": 5.58,
+        "apg": 5.71,
+        "spg": 1.33,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.27,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.40 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "C",
+      "stats": {
+        "ppg": 17.46,
+        "rpg": 8.89,
+        "apg": 3.0,
+        "spg": 1.27,
+        "bpg": 1.26
+      },
+      "ovr_pts": 16.49,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.10 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terrell Brandon",
+      "position": "PG",
+      "stats": {
+        "ppg": 15.8,
+        "rpg": 3.48,
+        "apg": 8.19,
+        "spg": 1.93,
+        "bpg": 0.32
+      },
+      "ovr_pts": 15.29,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.70 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 99.7,
+    "rpg": 35.5,
+    "apg": 26.7,
+    "spg": 7.3,
+    "bpg": 3.8
+  },
+  "result": {
+    "wins": 62,
+    "losses": 20,
+    "ovr": 86.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}
