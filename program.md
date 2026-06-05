@@ -162,7 +162,16 @@ Charles Barkley SF (PHI/1990s), Karl Malone PF (UTA/1990s),
 Wilt Chamberlain C (GSW/1960s).
 TARGET (3-game avg 82.0): not reached
 
-## 7. Iteration 0 backlog (next actions)
+## 7. Provable ceiling (src/optimal.py)
+
+Branch-and-bound over all position-legal rosters under the exact engine:
+optimum = Oscar (PG, SAC/60s), MJ (SG, CHI/80s), Baylor (SF, LAL/60s),
+Pettit (PF, ATL/60s), Wilt (C, GSW/60s) -> OVR 139.4 (needs 109.5; headroom
+29.9). The null-spg/bpg extrapolation is the kicker: MJ is the only pick with
+defensive stats, so they count 5x. Converged at top-40 and top-80 candidates
+per slot.
+
+## 8. Iteration 0 backlog (next actions)
 
 1. `src/strategy.py`: codify v1 as executable policy (weighted pick scoring with
    roster-aware adjSPG/adjBPG marginals, skip-EV computation vs full re-roll

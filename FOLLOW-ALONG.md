@@ -109,6 +109,27 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
    - [history/](history/) -- every game ever played, every roll, every decision,
      including the bad ones. Nothing gets deleted.
 
+## The dream team (computed from the game's own code)
+
+Since the AI has the game's exact scoring code, it can compute the best roster
+the game allows -- IF the slot machine handed over every needed combo:
+
+| Slot | Player | From |
+|:----:|:-------|:-----|
+| PG | Oscar Robertson | Royals, 1960s |
+| SG | Michael Jordan | Bulls, 1980s |
+| SF | Elgin Baylor | Lakers, 1960s |
+| PF | Bob Pettit | Hawks, 1960s |
+| C | Wilt Chamberlain | Warriors, 1960s |
+
+That lineup rates **139.4** -- the perfect season needs just 109.5, so there is
+plenty of headroom. The fun part: steals were not recorded in the 1960s, and the
+game fills the gap by scaling up whoever HAS data -- so prime Jordan's steals
+get counted five times over. Four legends with no defensive stats plus peak MJ
+is, according to the game's own math, the strongest team ever assembled.
+
+(`src/optimal.py` proves this by exhaustive search over every legal roster.)
+
 ## Fair questions
 
 **Is this cheating?** It is a free single-player browser game with no opponents and
