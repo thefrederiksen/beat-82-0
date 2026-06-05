@@ -102,7 +102,10 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
    - `improve:` -- the AI found a better strategy. These are the wins.
    - `history:` -- more games played, no record broken yet.
    - `program:` / `tooling:` -- upgrades to the machinery.
-3. **Curious how deep it goes?**
+3. **Want to try the strategy yourself?** The one-page human version:
+   [docs/cheat-sheet.md](docs/cheat-sheet.md) -- the value formula, when to burn
+   your skips, which positions to keep open, and the jackpot table to memorize.
+4. **Curious how deep it goes?**
    - [program.md](program.md) -- the improvement loop the AI follows
      (play, score, analyze, improve, repeat).
    - [docs/sim-engine.md](docs/sim-engine.md) -- the reverse-engineered game math.

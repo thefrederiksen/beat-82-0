@@ -16,6 +16,7 @@ import sys
 import time
 
 from playwright.sync_api import sync_playwright
+from playwright.sync_api import TimeoutError as PWTimeoutError
 
 from engine import Engine, POSITIONS
 import strategy
@@ -84,11 +85,15 @@ class Harness:
         self.page.click("#cc-skip-target")
 
     def click_player(self, name):
-        """Search for the player, then click their card by exact name text."""
+        """Search for the player, then click their card by exact name text.
+        The list is scrollable/filtered async, so wait for visibility and
+        scroll the card into view before clicking."""
         box = self.page.locator("input[placeholder*='Search']")
         box.fill(name)
-        time.sleep(0.4)
-        self.page.get_by_text(name, exact=True).first.click()
+        loc = self.page.get_by_text(name, exact=True).first
+        loc.wait_for(state="visible", timeout=15000)
+        loc.scroll_into_view_if_needed()
+        loc.click()
 
     # ---- state parsing ---------------------------------------------------
 
@@ -248,7 +253,7 @@ def main():
             try:
                 h.play_game(n)
                 aborts = 0
-            except RuntimeError as e:
+            except (RuntimeError, PWTimeoutError) as e:
                 if "stuck:" in str(e):
                     # genuine soft-lock (no eligible player, no skips): the game
                     # cannot be finished; abandon and start a fresh one
