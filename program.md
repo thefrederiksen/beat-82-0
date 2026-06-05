@@ -63,6 +63,8 @@ in descending order of remaining headroom:
 
 ```
 program.md            this file (process spec; updated as the process evolves)
+FOLLOW-ALONG.md       public explainer + live scoreboard (the link to share);
+                      scoreboard section is auto-generated, do not edit by hand
 history/              one JSON per game, append-only, never pruned
   game-001.json ...   schema below; numbering is global and monotonic
   README.md           schema documentation
@@ -117,7 +119,10 @@ it is the data the analyze step mines for policy mistakes.
    high; 5+ once averages pass ~75). Manual play guided by src/oracle.py is allowed
    until src/play.py lands, but every game MUST produce a history JSON.
 2. **SCORE**: `python src/scoreboard.py` -> per-game table + best-3-consecutive
-   average per strategy version + ALL-TIME BEST.
+   average per strategy version + ALL-TIME BEST. Then
+   `python src/scoreboard.py --update-page` to regenerate the public scoreboard
+   in FOLLOW-ALONG.md (phone-friendly; MUST be part of every history/improve
+   commit so the public page never lags the data).
 3. **COMPARE**:
    - New best-3 avg > previous best -> **PROMOTE**: update the scoreboard section
      below, commit `strategy + history/ + program.md` with message

@@ -3,6 +3,10 @@
 Tooling and research to win at [82-0.com](https://www.82-0.com/) -- the NBA all-time
 roster game where you try to build a team that goes a perfect 82-0.
 
+> **Just here to watch?** Read **[FOLLOW-ALONG.md](FOLLOW-ALONG.md)** -- the
+> plain-English story plus a live scoreboard that updates as the chase happens.
+> The process itself is specified in [program.md](program.md).
+
 ## The game
 
 Each round, a slot machine assigns you a **team + decade** combination. You pick the
