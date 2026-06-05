@@ -1,0 +1,137 @@
+{
+  "game": 61,
+  "played_at": "2026-06-05T15:29-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Russell Westbrook",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 11.5,
+        "apg": 11.7,
+        "spg": 1.4,
+        "bpg": 0.4
+      },
+      "ovr_pts": 24.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.60 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kareem Abdul-Jabbar",
+      "position": "C",
+      "stats": {
+        "ppg": 30.43,
+        "rpg": 15.32,
+        "apg": 4.31,
+        "spg": 1.22,
+        "bpg": 3.41
+      },
+      "ovr_pts": 28.45,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.70 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "ORL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Paolo Banchero",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.7,
+        "rpg": 7.4,
+        "apg": 4.8,
+        "spg": 0.8,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.70 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.20 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tom Gugliotta",
+      "position": "SF",
+      "stats": {
+        "ppg": 15.88,
+        "rpg": 9.43,
+        "apg": 3.63,
+        "spg": 2.0,
+        "bpg": 0.59
+      },
+      "ovr_pts": 16.68,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.70 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 115.8,
+    "rpg": 51.5,
+    "apg": 35.2,
+    "spg": 6.6,
+    "bpg": 5.8
+  },
+  "result": {
+    "wins": 81,
+    "losses": 1,
+    "ovr": 108.9,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

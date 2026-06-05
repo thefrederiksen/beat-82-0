@@ -1,0 +1,137 @@
+{
+  "game": 66,
+  "played_at": "2026-06-05T15:32-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dave Cowens",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.56,
+        "rpg": 14.59,
+        "apg": 3.99,
+        "spg": 1.18,
+        "bpg": 1.0
+      },
+      "ovr_pts": 20.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.10 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Artis Gilmore",
+      "position": "C",
+      "stats": {
+        "ppg": 21.73,
+        "rpg": 12.93,
+        "apg": 2.97,
+        "spg": 0.53,
+        "bpg": 2.2
+      },
+      "ovr_pts": 20.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.30 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clem Haskins",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 4.6,
+        "apg": 7.6,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 14.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.60 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jerry West",
+      "position": "PG",
+      "stats": {
+        "ppg": 26.11,
+        "rpg": 4.33,
+        "apg": 8.65,
+        "spg": 2.6,
+        "bpg": 0.7
+      },
+      "ovr_pts": 20.9,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.50 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "SF",
+      "stats": {
+        "ppg": 14.92,
+        "rpg": 8.05,
+        "apg": 2.56,
+        "spg": 1.08,
+        "bpg": 0.87
+      },
+      "ovr_pts": 14.11,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.60 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 101.6,
+    "rpg": 44.5,
+    "apg": 25.8,
+    "spg": 5.4,
+    "bpg": 4.8
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

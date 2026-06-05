@@ -1,0 +1,137 @@
+{
+  "game": 54,
+  "played_at": "2026-06-05T15:25-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dave Cowens",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.56,
+        "rpg": 14.59,
+        "apg": 3.99,
+        "spg": 1.18,
+        "bpg": 1.0
+      },
+      "ovr_pts": 20.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.10 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Bird",
+      "position": "SF",
+      "stats": {
+        "ppg": 24.97,
+        "rpg": 10.21,
+        "apg": 6.12,
+        "spg": 1.81,
+        "bpg": 0.84
+      },
+      "ovr_pts": 21.93,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.10 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHI",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHI",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Joel Embiid",
+      "position": "C",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 9.9,
+        "apg": 4.2,
+        "spg": 0.9,
+        "bpg": 1.4
+      },
+      "ovr_pts": 21.8,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.80 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Brandon Jennings",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.08,
+        "rpg": 2.75,
+        "apg": 6.58,
+        "spg": 1.12,
+        "bpg": 0.1
+      },
+      "ovr_pts": 12.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +8.90 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dejounte Murray",
+      "position": "SG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 7.7,
+        "apg": 7.3,
+        "spg": 1.8,
+        "bpg": 0.2
+      },
+      "ovr_pts": 17.99,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 105.6,
+    "rpg": 45.1,
+    "apg": 28.2,
+    "spg": 6.8,
+    "bpg": 3.5
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.4,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

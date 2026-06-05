@@ -1,0 +1,132 @@
+{
+  "game": 55,
+  "played_at": "2026-06-05T15:26-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.86,
+        "rpg": 7.1,
+        "apg": 5.41,
+        "spg": 0.82,
+        "bpg": 1.48
+      },
+      "ovr_pts": 19.5,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.70 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Michael Jordan",
+      "position": "SF",
+      "stats": {
+        "ppg": 30.8,
+        "rpg": 6.34,
+        "apg": 5.07,
+        "spg": 2.3,
+        "bpg": 0.7
+      },
+      "ovr_pts": 21.24,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.50 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Trae Young",
+      "position": "PG",
+      "stats": {
+        "ppg": 26.0,
+        "rpg": 3.3,
+        "apg": 10.3,
+        "spg": 1.1,
+        "bpg": 0.2
+      },
+      "ovr_pts": 18.88,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.60 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jayson Tatum",
+      "position": "PF",
+      "stats": {
+        "ppg": 26.5,
+        "rpg": 8.5,
+        "apg": 4.9,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 19.39,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.60 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shaquille O'Neal",
+      "position": "C",
+      "stats": {
+        "ppg": 27.19,
+        "rpg": 12.51,
+        "apg": 2.43,
+        "spg": 0.79,
+        "bpg": 2.78
+      },
+      "ovr_pts": 23.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.70 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 136.3,
+    "rpg": 37.8,
+    "apg": 28.1,
+    "spg": 6.1,
+    "bpg": 5.7
+  },
+  "result": {
+    "wins": 75,
+    "losses": 7,
+    "ovr": 102.1,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

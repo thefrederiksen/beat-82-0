@@ -1,0 +1,137 @@
+{
+  "game": 51,
+  "played_at": "2026-06-05T15:24-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rudy Gobert",
+      "position": "C",
+      "stats": {
+        "ppg": 14.9,
+        "rpg": 14.1,
+        "apg": 1.2,
+        "spg": 0.6,
+        "bpg": 2.4
+      },
+      "ovr_pts": 18.44,
+      "rationale": "policy v3-steady-valuation: exact marginal +33.20 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.75,
+        "rpg": 4.24,
+        "apg": 9.84,
+        "spg": 2.22,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.9,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.80 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BOS",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DET",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bailey Howell",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.14,
+        "rpg": 11.83,
+        "apg": 2.27,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 16.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.10 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "George McGinnis",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.6,
+        "rpg": 11.4,
+        "apg": 3.7,
+        "spg": 1.7,
+        "bpg": 0.7
+      },
+      "ovr_pts": 20.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.60 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Craig Ehlo",
+      "position": "SG",
+      "stats": {
+        "ppg": 11.87,
+        "rpg": 4.98,
+        "apg": 4.04,
+        "spg": 1.41,
+        "bpg": 0.33
+      },
+      "ovr_pts": 11.74,
+      "rationale": "policy v3-steady-valuation: exact marginal +8.40 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 89.3,
+    "rpg": 46.6,
+    "apg": 21.0,
+    "spg": 5.9,
+    "bpg": 3.6
+  },
+  "result": {
+    "wins": 63,
+    "losses": 19,
+    "ovr": 87.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

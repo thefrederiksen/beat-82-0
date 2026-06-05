@@ -1,0 +1,137 @@
+{
+  "game": 57,
+  "played_at": "2026-06-05T15:27-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 9.2,
+        "apg": 4.0,
+        "spg": 0.8,
+        "bpg": 0.9
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.40 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.47,
+        "rpg": 12.7,
+        "apg": 5.03,
+        "spg": 1.39,
+        "bpg": 1.66
+      },
+      "ovr_pts": 22.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.90 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "MEM",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shareef Abdur-Rahim",
+      "position": "C",
+      "stats": {
+        "ppg": 21.11,
+        "rpg": 7.12,
+        "apg": 2.64,
+        "spg": 1.13,
+        "bpg": 0.98
+      },
+      "ovr_pts": 15.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.80 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Julius Erving",
+      "position": "SG",
+      "stats": {
+        "ppg": 22.03,
+        "rpg": 6.41,
+        "apg": 3.8,
+        "spg": 1.8,
+        "bpg": 1.63
+      },
+      "ovr_pts": 18.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.70 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Lucas",
+      "position": "PG",
+      "stats": {
+        "ppg": 10.9,
+        "rpg": 2.9,
+        "apg": 10.7,
+        "spg": 1.5,
+        "bpg": 0.1
+      },
+      "ovr_pts": 14.0,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.90 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 99.5,
+    "rpg": 38.3,
+    "apg": 26.2,
+    "spg": 6.6,
+    "bpg": 5.3
+  },
+  "result": {
+    "wins": 64,
+    "losses": 18,
+    "ovr": 88.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

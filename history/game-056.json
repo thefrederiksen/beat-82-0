@@ -1,0 +1,137 @@
+{
+  "game": 56,
+  "played_at": "2026-06-05T15:27-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Johnson",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 4.23,
+        "apg": 11.3,
+        "spg": 1.65,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.30 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Oladipo",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.71,
+        "rpg": 5.33,
+        "apg": 4.59,
+        "spg": 2.17,
+        "bpg": 0.64
+      },
+      "ovr_pts": 16.95,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.20 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "POR",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BKN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Derrick Coleman",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.9,
+        "rpg": 10.62,
+        "apg": 3.14,
+        "spg": 0.92,
+        "bpg": 1.6
+      },
+      "ovr_pts": 18.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.90 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "C",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.20 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Donyell Marshall",
+      "position": "SF",
+      "stats": {
+        "ppg": 14.2,
+        "rpg": 10.0,
+        "apg": 2.6,
+        "spg": 1.1,
+        "bpg": 1.1
+      },
+      "ovr_pts": 15.43,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.20 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 102.5,
+    "rpg": 42.9,
+    "apg": 24.2,
+    "spg": 7.0,
+    "bpg": 6.1
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 92.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

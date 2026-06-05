@@ -1,0 +1,132 @@
+{
+  "game": 52,
+  "played_at": "2026-06-05T15:24-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Alonzo Mourning",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.7,
+        "rpg": 10.18,
+        "apg": 1.64,
+        "spg": 0.82,
+        "bpg": 2.86
+      },
+      "ovr_pts": 19.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +37.10 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "C",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.90 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMar DeRozan",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.2,
+        "rpg": 6.0,
+        "apg": 6.2,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 16.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.70 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.7,
+        "rpg": 5.4,
+        "apg": 8.6,
+        "spg": 1.3,
+        "bpg": 0.8
+      },
+      "ovr_pts": 17.97,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.10 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Lamar Odom",
+      "position": "SF",
+      "stats": {
+        "ppg": 17.1,
+        "rpg": 9.7,
+        "apg": 4.1,
+        "spg": 1.1,
+        "bpg": 0.9
+      },
+      "ovr_pts": 16.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.60 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 106.9,
+    "rpg": 44.0,
+    "apg": 23.1,
+    "spg": 5.5,
+    "bpg": 7.5
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.4,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

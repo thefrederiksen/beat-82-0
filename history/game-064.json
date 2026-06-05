@@ -1,0 +1,137 @@
+{
+  "game": 64,
+  "played_at": "2026-06-05T15:31-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 12.4,
+        "apg": 3.0,
+        "spg": 0.9,
+        "bpg": 0.6
+      },
+      "ovr_pts": 19.09,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.20 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "NOP",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.43,
+        "rpg": 4.76,
+        "apg": 9.88,
+        "spg": 2.4,
+        "bpg": 0.08
+      },
+      "ovr_pts": 18.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.50 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Willie Naulls",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.74,
+        "rpg": 12.61,
+        "apg": 2.33,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.21,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.20 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "ATL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Moses Malone",
+      "position": "C",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.8,
+        "apg": 1.4,
+        "spg": 1.0,
+        "bpg": 1.2
+      },
+      "ovr_pts": 17.9,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.80 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Mullin",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.11,
+        "rpg": 4.97,
+        "apg": 4.04,
+        "spg": 1.74,
+        "bpg": 0.71
+      },
+      "ovr_pts": 15.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.40 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 105.7,
+    "rpg": 46.5,
+    "apg": 20.6,
+    "spg": 6.0,
+    "bpg": 2.6
+  },
+  "result": {
+    "wins": 66,
+    "losses": 16,
+    "ovr": 91.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

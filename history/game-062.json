@@ -1,0 +1,127 @@
+{
+  "game": 62,
+  "played_at": "2026-06-05T15:30-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Carlos Boozer",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.5,
+        "rpg": 11.2,
+        "apg": 3.2,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 17.63,
+      "rationale": "policy v3-steady-valuation: exact marginal +25.20 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 20.5,
+        "rpg": 21.1,
+        "apg": 4.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.10 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Stockton",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.93,
+        "rpg": 2.91,
+        "apg": 11.94,
+        "spg": 2.29,
+        "bpg": 0.25
+      },
+      "ovr_pts": 17.26,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.90 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Grant Hill",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.73,
+        "rpg": 8.12,
+        "apg": 6.47,
+        "spg": 1.66,
+        "bpg": 0.67
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.80 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Kenon",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.53,
+        "rpg": 10.19,
+        "apg": 3.44,
+        "spg": 1.8,
+        "bpg": 0.43
+      },
+      "ovr_pts": 18.56,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.10 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 97.2,
+    "rpg": 53.5,
+    "apg": 29.6,
+    "spg": 6.8,
+    "bpg": 1.9
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 98.1,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

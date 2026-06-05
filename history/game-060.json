@@ -1,0 +1,137 @@
+{
+  "game": 60,
+  "played_at": "2026-06-05T15:29-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NOP",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMarcus Cousins",
+      "position": "C",
+      "stats": {
+        "ppg": 24.99,
+        "rpg": 12.77,
+        "apg": 5.01,
+        "spg": 1.57,
+        "bpg": 1.47
+      },
+      "ovr_pts": 23.38,
+      "rationale": "policy v3-steady-valuation: exact marginal +37.90 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tom Gugliotta",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.19,
+        "rpg": 8.53,
+        "apg": 3.82,
+        "spg": 1.7,
+        "bpg": 1.0
+      },
+      "ovr_pts": 17.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.90 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DEN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Carmelo Anthony",
+      "position": "PF",
+      "stats": {
+        "ppg": 26.94,
+        "rpg": 7.02,
+        "apg": 3.03,
+        "spg": 1.13,
+        "bpg": 0.48
+      },
+      "ovr_pts": 17.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.10 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dennis Johnson",
+      "position": "SG",
+      "stats": {
+        "ppg": 13.47,
+        "rpg": 3.33,
+        "apg": 6.44,
+        "spg": 1.23,
+        "bpg": 0.47
+      },
+      "ovr_pts": 12.7,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.50 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwyane Wade",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.18,
+        "rpg": 4.88,
+        "apg": 6.67,
+        "spg": 1.82,
+        "bpg": 0.97
+      },
+      "ovr_pts": 19.15,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.50 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 108.8,
+    "rpg": 36.5,
+    "apg": 25.0,
+    "spg": 7.5,
+    "bpg": 4.4
+  },
+  "result": {
+    "wins": 65,
+    "losses": 17,
+    "ovr": 89.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 58,
+  "played_at": "2026-06-05T15:28-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.66,
+        "rpg": 8.73,
+        "apg": 10.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.18,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "SG",
+      "stats": {
+        "ppg": 30.9,
+        "rpg": 7.9,
+        "apg": 8.0,
+        "spg": 1.7,
+        "bpg": 0.5
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +33.40 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dave Cowens",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.56,
+        "rpg": 14.59,
+        "apg": 3.99,
+        "spg": 1.18,
+        "bpg": 1.0
+      },
+      "ovr_pts": 20.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.10 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Carlos Boozer",
+      "position": "C",
+      "stats": {
+        "ppg": 19.21,
+        "rpg": 10.27,
+        "apg": 2.78,
+        "spg": 1.0,
+        "bpg": 0.37
+      },
+      "ovr_pts": 16.41,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.20 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.7,
+        "rpg": 5.41,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 0.8
+      },
+      "ovr_pts": 15.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.90 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 121.0,
+    "rpg": 46.9,
+    "apg": 27.9,
+    "spg": 5.0,
+    "bpg": 2.7
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 99.8,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

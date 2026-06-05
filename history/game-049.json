@@ -1,0 +1,137 @@
+{
+  "game": 49,
+  "played_at": "2026-06-05T15:23-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Al Jefferson",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.8,
+        "rpg": 10.8,
+        "apg": 2.1,
+        "spg": 0.9,
+        "bpg": 1.1
+      },
+      "ovr_pts": 18.02,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.60 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Domantas Sabonis",
+      "position": "C",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 12.0,
+        "apg": 6.7,
+        "spg": 1.2,
+        "bpg": 0.5
+      },
+      "ovr_pts": 20.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.70 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Stephen Curry",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.4,
+        "rpg": 4.9,
+        "apg": 5.7,
+        "spg": 1.1,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.8,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.30 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BKN",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BKN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.57,
+        "rpg": 7.26,
+        "apg": 9.14,
+        "spg": 1.88,
+        "bpg": 0.26
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.70 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Mills",
+      "position": "SF",
+      "stats": {
+        "ppg": 12.56,
+        "rpg": 5.35,
+        "apg": 2.1,
+        "spg": 0.85,
+        "bpg": 0.55
+      },
+      "ovr_pts": 10.65,
+      "rationale": "policy v3-steady-valuation: exact marginal +8.50 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 96.6,
+    "rpg": 40.3,
+    "apg": 25.7,
+    "spg": 5.9,
+    "bpg": 2.8
+  },
+  "result": {
+    "wins": 61,
+    "losses": 21,
+    "ovr": 84.8,
+    "grade": "B",
+    "label": "CONTENDER"
+  }
+}

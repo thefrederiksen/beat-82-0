@@ -1,0 +1,137 @@
+{
+  "game": 47,
+  "played_at": "2026-06-05T15:22-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tracy McGrady",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.11,
+        "rpg": 7.01,
+        "apg": 5.21,
+        "spg": 1.55,
+        "bpg": 0.99
+      },
+      "ovr_pts": 20.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.40 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "NOP",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NOP",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Zion Williamson",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.3,
+        "rpg": 6.6,
+        "apg": 4.4,
+        "spg": 1.1,
+        "bpg": 0.7
+      },
+      "ovr_pts": 17.38,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.00 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.92,
+        "rpg": 11.62,
+        "apg": 3.01,
+        "spg": 1.78,
+        "bpg": 3.46
+      },
+      "ovr_pts": 23.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.80 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Stephen Curry",
+      "position": "PG",
+      "stats": {
+        "ppg": 27.4,
+        "rpg": 4.9,
+        "apg": 5.7,
+        "spg": 1.1,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.8,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.40 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Caris LeVert",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 4.6,
+        "apg": 5.2,
+        "spg": 1.4,
+        "bpg": 0.6
+      },
+      "ovr_pts": 15.41,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.10 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 123.9,
+    "rpg": 34.7,
+    "apg": 23.5,
+    "spg": 6.9,
+    "bpg": 6.2
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

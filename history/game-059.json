@@ -1,0 +1,132 @@
+{
+  "game": 59,
+  "played_at": "2026-06-05T15:28-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.91,
+        "rpg": 7.56,
+        "apg": 6.73,
+        "spg": 1.69,
+        "bpg": 0.64
+      },
+      "ovr_pts": 20.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.90 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Derrick Coleman",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.9,
+        "rpg": 10.62,
+        "apg": 3.14,
+        "spg": 0.92,
+        "bpg": 1.6
+      },
+      "ovr_pts": 18.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.20 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Russell Westbrook",
+      "position": "PG",
+      "stats": {
+        "ppg": 23.82,
+        "rpg": 7.27,
+        "apg": 8.76,
+        "spg": 1.79,
+        "bpg": 0.34
+      },
+      "ovr_pts": 20.65,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.50 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 11.3,
+        "apg": 6.0,
+        "spg": 1.0,
+        "bpg": 1.1
+      },
+      "ovr_pts": 23.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.70 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kareem Abdul-Jabbar",
+      "position": "C",
+      "stats": {
+        "ppg": 25.89,
+        "rpg": 14.05,
+        "apg": 4.67,
+        "spg": 1.33,
+        "bpg": 3.61
+      },
+      "ovr_pts": 26.68,
+      "rationale": "policy v3-steady-valuation: exact marginal +24.00 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 126.1,
+    "rpg": 50.8,
+    "apg": 29.3,
+    "spg": 6.7,
+    "bpg": 7.3
+  },
+  "result": {
+    "wins": 82,
+    "losses": 0,
+    "ovr": 110.3,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

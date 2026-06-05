@@ -1,0 +1,137 @@
+{
+  "game": 65,
+  "played_at": "2026-06-05T15:32-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LaMarcus Aldridge",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.45,
+        "rpg": 9.21,
+        "apg": 2.24,
+        "spg": 0.87,
+        "bpg": 0.97
+      },
+      "ovr_pts": 16.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +25.60 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dave Cowens",
+      "position": "C",
+      "stats": {
+        "ppg": 18.56,
+        "rpg": 14.59,
+        "apg": 3.99,
+        "spg": 1.18,
+        "bpg": 1.0
+      },
+      "ovr_pts": 20.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.00 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CHI",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "UTA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Deron Williams",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.77,
+        "rpg": 3.96,
+        "apg": 10.17,
+        "spg": 1.26,
+        "bpg": 0.2
+      },
+      "ovr_pts": 17.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.40 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.27,
+        "rpg": 10.06,
+        "apg": 2.07,
+        "spg": 1.42,
+        "bpg": 0.79
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.20 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dejounte Murray",
+      "position": "SG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 7.7,
+        "apg": 7.3,
+        "spg": 1.8,
+        "bpg": 0.2
+      },
+      "ovr_pts": 17.99,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.70 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 101.5,
+    "rpg": 45.5,
+    "apg": 25.8,
+    "spg": 6.5,
+    "bpg": 3.2
+  },
+  "result": {
+    "wins": 66,
+    "losses": 16,
+    "ovr": 90.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

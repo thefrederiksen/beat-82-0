@@ -1,0 +1,137 @@
+{
+  "game": 53,
+  "played_at": "2026-06-05T15:25-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 12.4,
+        "apg": 3.0,
+        "spg": 0.9,
+        "bpg": 0.6
+      },
+      "ovr_pts": 19.09,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.20 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Duncan",
+      "position": "C",
+      "stats": {
+        "ppg": 21.43,
+        "rpg": 11.74,
+        "apg": 3.26,
+        "spg": 0.77,
+        "bpg": 2.32
+      },
+      "ovr_pts": 20.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.80 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Stephon Marbury",
+      "position": "SG",
+      "stats": {
+        "ppg": 18.24,
+        "rpg": 2.93,
+        "apg": 6.96,
+        "spg": 1.22,
+        "bpg": 0.1
+      },
+      "ovr_pts": 13.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.30 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gus Johnson",
+      "position": "SF",
+      "stats": {
+        "ppg": 15.3,
+        "rpg": 13.33,
+        "apg": 2.77,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.37,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Baron Davis",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.12,
+        "rpg": 4.45,
+        "apg": 8.13,
+        "spg": 2.02,
+        "bpg": 0.44
+      },
+      "ovr_pts": 17.6,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 97.3,
+    "rpg": 44.9,
+    "apg": 24.1,
+    "spg": 4.9,
+    "bpg": 3.5
+  },
+  "result": {
+    "wins": 64,
+    "losses": 18,
+    "ovr": 89.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 50,
+  "played_at": "2026-06-05T15:23-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Bellamy",
+      "position": "C",
+      "stats": {
+        "ppg": 25.57,
+        "rpg": 15.66,
+        "apg": 2.01,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 19.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jayson Tatum",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.5,
+        "rpg": 8.5,
+        "apg": 4.9,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 19.39,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.00 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.75,
+        "rpg": 4.24,
+        "apg": 9.84,
+        "spg": 2.22,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.9,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.20 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Magic Johnson",
+      "position": "SG",
+      "stats": {
+        "ppg": 19.8,
+        "rpg": 6.61,
+        "apg": 11.14,
+        "spg": 1.38,
+        "bpg": 0.32
+      },
+      "ovr_pts": 19.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.30 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHI",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Charles Barkley",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.14,
+        "rpg": 11.98,
+        "apg": 3.55,
+        "spg": 1.61,
+        "bpg": 1.23
+      },
+      "ovr_pts": 20.74,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.90 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 112.8,
+    "rpg": 47.0,
+    "apg": 31.4,
+    "spg": 6.3,
+    "bpg": 2.2
+  },
+  "result": {
+    "wins": 74,
+    "losses": 8,
+    "ovr": 100.3,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}
