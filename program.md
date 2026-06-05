@@ -156,6 +156,13 @@ Rules:
 | v3-steady-valuation | v2 + steady-state spg/bpg pricing (relative to the 5/k roster average; fixes early-round x5 marginal inflation and null undervaluation) | 21-186+ | **79.00** (81, 78, 78) | 2026-06-05 |
 
 ALL-TIME BEST: **79.00** (v3-steady-valuation, games 171-173)
+
+SEASON ONE COMPLETE (2026-06-05, 200 games): mean 70.42 wins; five 82-0s
+(games 29, 59, 101, 158, 186); six 81-1s; two 80-2s; grades 13 S / 65 A+ /
+115 A / 7 B; worst 58-24. Scripted-policy mean 70.50 vs offline-sim
+prediction 70.5 -- the engine replica forecast the run exactly. Three
+consecutive 82-0s (the formal target) did not occur, as expected at ~3%
+per game; it remains the open challenge for future seasons.
 MILESTONE (first 82-0): **GAME 29** -- 2026-06-05, v3, OVR 120.1 (S PERFECT).
 Roster: Russell Westbrook PG (WAS/2020s), Allen Iverson SG (PHI/2000s),
 Charles Barkley SF (PHI/1990s), Karl Malone PF (UTA/1990s),

@@ -1,0 +1,137 @@
+{
+  "game": 198,
+  "played_at": "2026-06-05T16:52-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.92,
+        "rpg": 11.62,
+        "apg": 3.01,
+        "spg": 1.78,
+        "bpg": 3.46
+      },
+      "ovr_pts": 23.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +49.30 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "OKC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shai Gilgeous-Alexander",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.9,
+        "rpg": 4.9,
+        "apg": 6.1,
+        "spg": 1.5,
+        "bpg": 0.9
+      },
+      "ovr_pts": 19.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +7.90 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl Malone",
+      "position": "PF",
+      "stats": {
+        "ppg": 27.22,
+        "rpg": 10.73,
+        "apg": 3.69,
+        "spg": 1.42,
+        "bpg": 0.86
+      },
+      "ovr_pts": 21.11,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.30 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rick Barry",
+      "position": "SF",
+      "stats": {
+        "ppg": 30.59,
+        "rpg": 9.91,
+        "apg": 2.89,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 18.56,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.60 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "PG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.00 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 135.2,
+    "rpg": 45.1,
+    "apg": 26.5,
+    "spg": 5.9,
+    "bpg": 6.0
+  },
+  "result": {
+    "wins": 81,
+    "losses": 1,
+    "ovr": 109.1,
+    "grade": "S",
+    "label": "PERFECT"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 189,
+  "played_at": "2026-06-05T16:48-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +41.00 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.10 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dave Cowens",
+      "position": "C",
+      "stats": {
+        "ppg": 18.56,
+        "rpg": 14.59,
+        "apg": 3.99,
+        "spg": 1.18,
+        "bpg": 1.0
+      },
+      "ovr_pts": 20.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.30 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Flynn Robinson",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 3.6,
+        "apg": 4.9,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 12.28,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.30 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rod Strickland",
+      "position": "PG",
+      "stats": {
+        "ppg": 13.88,
+        "rpg": 4.22,
+        "apg": 8.23,
+        "spg": 2.0,
+        "bpg": 0.24
+      },
+      "ovr_pts": 15.09,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.10 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 101.2,
+    "rpg": 46.8,
+    "apg": 23.3,
+    "spg": 5.3,
+    "bpg": 4.2
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 92.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

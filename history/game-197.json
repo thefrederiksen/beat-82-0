@@ -1,0 +1,137 @@
+{
+  "game": 197,
+  "played_at": "2026-06-05T16:52-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gary Payton",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.72,
+        "rpg": 5.22,
+        "apg": 8.7,
+        "spg": 1.72,
+        "bpg": 0.25
+      },
+      "ovr_pts": 18.75,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.90 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clyde Drexler",
+      "position": "SG",
+      "stats": {
+        "ppg": 19.84,
+        "rpg": 5.87,
+        "apg": 5.61,
+        "spg": 2.29,
+        "bpg": 0.68
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.00 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Duncan",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.43,
+        "rpg": 11.74,
+        "apg": 3.26,
+        "spg": 0.77,
+        "bpg": 2.32
+      },
+      "ovr_pts": 20.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.20 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CLE",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Cliff Robinson",
+      "position": "SF",
+      "stats": {
+        "ppg": 17.64,
+        "rpg": 10.53,
+        "apg": 2.09,
+        "spg": 0.86,
+        "bpg": 0.74
+      },
+      "ovr_pts": 15.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.50 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "C",
+      "stats": {
+        "ppg": 26.91,
+        "rpg": 7.56,
+        "apg": 6.73,
+        "spg": 1.69,
+        "bpg": 0.64
+      },
+      "ovr_pts": 20.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.00 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 108.5,
+    "rpg": 40.9,
+    "apg": 26.4,
+    "spg": 7.3,
+    "bpg": 4.6
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

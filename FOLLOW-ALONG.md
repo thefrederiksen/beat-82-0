@@ -32,6 +32,24 @@ Perfect play makes every roll count, but a perfect season still needs lucky roll
 like pulling Wilt Chamberlain's 1960s seasons, the single best card in the game.
 That tension (perfect strategy vs. random rolls) is what makes this fun to watch.
 
+## Season one: the 200-game run (complete)
+
+On 2026-06-05 the AI played its first 200 official games. The verdict:
+
+- **5 perfect 82-0 seasons** (games 29, 59, 101, 158, 186)
+- **6 seasons of 81-1** -- one loss from glory six times (game 198 missed
+  perfection by 0.4 rating points)
+- **2 seasons of 80-2**, 65 more rated HISTORIC
+- **Best 3-in-a-row: 79.00 wins per game** (games 171-173: 81, 78, 78)
+- Average season: **70 wins** -- every single game a playoff team, worst night 58-24
+- Three straight perfects never happened: at ~3% per game those are
+  1-in-30,000+ odds. The math said so before the run; the run agreed.
+
+The eerie part: the AI predicted its own results before playing. Offline
+simulation of the strategy said "average 70.5 wins per game". The real
+200 games came in at **70.5**. When you know the formula, even your luck
+is forecastable.
+
 ## The mission
 
 - **Score per game** = season wins (out of 82).
@@ -55,29 +73,29 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 
 **First 82-0:** GAME 29 -- DONE!
 
-*186 games played -- latest: game 186, 82-0 (2026-06-05)*
+*200 games played -- latest: game 200, 68-14 (2026-06-05)*
 
 ### Recent games
 
 | # | Result | Rating | Grade |
 |--:|:------:|------:|:-----:|
+| 200 | 68-14 | 93.7 | A |
+| 199 | 78-4 | 105.5 | A+ |
+| 198 | 81-1 | 109.1 | S |
+| 197 | 68-14 | 93.6 | A |
+| 196 | 72-10 | 98.5 | A+ |
+| 195 | 63-19 | 87.3 | A |
+| 194 | 71-11 | 97.3 | A |
+| 193 | 68-14 | 93.9 | A |
+| 192 | 74-8 | 100.2 | A+ |
+| 191 | 69-13 | 95.0 | A |
+| 190 | 74-8 | 100.1 | A+ |
+| 189 | 67-15 | 92.8 | A |
+| 188 | 70-12 | 96.1 | A |
+| 187 | 77-5 | 104.5 | A+ |
 | 186 | 82-0 **<-- 82-0!** | 109.7 | S |
-| 185 | 77-5 | 104.6 | A+ |
-| 184 | 64-18 | 88.3 | A |
-| 183 | 80-2 | 107.2 | S |
-| 182 | 69-13 | 94.7 | A |
-| 181 | 72-10 | 98.1 | A+ |
-| 180 | 67-15 | 92.7 | A |
-| 179 | 74-8 | 100.9 | A+ |
-| 178 | 65-17 | 89.8 | A |
-| 177 | 63-19 | 87.7 | A |
-| 176 | 73-9 | 99.0 | A+ |
-| 175 | 72-10 | 98.6 | A+ |
-| 174 | 70-12 | 95.5 | A |
-| 173 | 78-4 | 105.3 | A+ |
-| 172 | 78-4 | 105.5 | A+ |
 
-*Showing the last 15 of 186 games -- full records in [history/](history/).*
+*Showing the last 15 of 200 games -- full records in [history/](history/).*
 
 ### Strategy versions
 
@@ -87,7 +105,7 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 | `v1-weighted-ev-skips` | 2-5 | **70.67** |
 | `v1-scripted` | 6-10 | **68.33** |
 | `v2-declining-skips` | 11-20 | **74.67** |
-| `v3-steady-valuation` | 21-186 | **79.00** |
+| `v3-steady-valuation` | 21-200 | **79.00** |
 <!-- SCOREBOARD:END -->
 
 ---

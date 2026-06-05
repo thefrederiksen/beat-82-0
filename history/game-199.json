@@ -1,0 +1,137 @@
+{
+  "game": 199,
+  "played_at": "2026-06-05T16:53-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DEN",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "DEN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nikola Joki\u0107",
+      "position": "C",
+      "stats": {
+        "ppg": 26.9,
+        "rpg": 12.4,
+        "apg": 9.3,
+        "spg": 1.4,
+        "bpg": 0.8
+      },
+      "ovr_pts": 25.4,
+      "rationale": "policy v3-steady-valuation: exact marginal +35.80 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.47,
+        "rpg": 12.7,
+        "apg": 5.03,
+        "spg": 1.39,
+        "bpg": 1.66
+      },
+      "ovr_pts": 22.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.50 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 17.5,
+        "rpg": 9.1,
+        "apg": 3.6,
+        "spg": 1.2,
+        "bpg": 2.2
+      },
+      "ovr_pts": 18.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.60 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Porter",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.2,
+        "rpg": 2.7,
+        "apg": 10.8,
+        "spg": 1.6,
+        "bpg": 0.2
+      },
+      "ovr_pts": 16.01,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.20 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "SG",
+      "stats": {
+        "ppg": 30.6,
+        "rpg": 8.7,
+        "apg": 8.8,
+        "spg": 1.2,
+        "bpg": 0.5
+      },
+      "ovr_pts": 23.44,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.40 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 113.7,
+    "rpg": 45.6,
+    "apg": 37.5,
+    "spg": 6.8,
+    "bpg": 5.4
+  },
+  "result": {
+    "wins": 78,
+    "losses": 4,
+    "ovr": 105.5,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

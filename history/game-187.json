@@ -1,0 +1,137 @@
+{
+  "game": 187,
+  "played_at": "2026-06-05T16:47-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tracy McGrady",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.11,
+        "rpg": 7.01,
+        "apg": 5.21,
+        "spg": 1.55,
+        "bpg": 0.99
+      },
+      "ovr_pts": 20.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.40 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "PG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.50 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tom Chambers",
+      "position": "PF",
+      "stats": {
+        "ppg": 25.7,
+        "rpg": 8.4,
+        "apg": 2.9,
+        "spg": 1.1,
+        "bpg": 0.7
+      },
+      "ovr_pts": 18.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.00 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.92,
+        "rpg": 11.62,
+        "apg": 3.01,
+        "spg": 1.78,
+        "bpg": 3.46
+      },
+      "ovr_pts": 23.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "ATL",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Billy Cunningham",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.43,
+        "rpg": 11.4,
+        "apg": 5.15,
+        "spg": 1.12,
+        "bpg": 0.42
+      },
+      "ovr_pts": 19.89,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.40 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 124.8,
+    "rpg": 46.3,
+    "apg": 27.1,
+    "spg": 6.8,
+    "bpg": 6.4
+  },
+  "result": {
+    "wins": 77,
+    "losses": 5,
+    "ovr": 104.5,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

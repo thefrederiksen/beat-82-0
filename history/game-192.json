@@ -1,0 +1,132 @@
+{
+  "game": 192,
+  "played_at": "2026-06-05T16:50-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 11.3,
+        "apg": 6.0,
+        "spg": 1.0,
+        "bpg": 1.1
+      },
+      "ovr_pts": 23.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +33.60 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.96,
+        "rpg": 9.66,
+        "apg": 4.39,
+        "spg": 1.62,
+        "bpg": 1.66
+      },
+      "ovr_pts": 19.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.60 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 12.11,
+        "apg": 2.03,
+        "spg": 1.96,
+        "bpg": 3.11
+      },
+      "ovr_pts": 22.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.60 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gus Williams",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.06,
+        "rpg": 2.93,
+        "apg": 7.01,
+        "spg": 2.33,
+        "bpg": 0.4
+      },
+      "ovr_pts": 16.59,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.10 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "World B. Free",
+      "position": "PG",
+      "stats": {
+        "ppg": 30.2,
+        "rpg": 3.5,
+        "apg": 4.2,
+        "spg": 1.2,
+        "bpg": 0.5
+      },
+      "ovr_pts": 17.2,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.30 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 124.8,
+    "rpg": 39.5,
+    "apg": 23.6,
+    "spg": 8.1,
+    "bpg": 6.8
+  },
+  "result": {
+    "wins": 74,
+    "losses": 8,
+    "ovr": 100.2,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

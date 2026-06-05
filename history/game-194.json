@@ -1,0 +1,132 @@
+{
+  "game": 194,
+  "played_at": "2026-06-05T16:50-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "HOU",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.92,
+        "rpg": 11.62,
+        "apg": 3.01,
+        "spg": 1.78,
+        "bpg": 3.46
+      },
+      "ovr_pts": 23.78,
+      "rationale": "policy v3-steady-valuation: exact marginal +49.30 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shareef Abdur-Rahim",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.4,
+        "rpg": 9.6,
+        "apg": 3.2,
+        "spg": 1.1,
+        "bpg": 1.05
+      },
+      "ovr_pts": 17.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +5.50 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Duncan",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.43,
+        "rpg": 11.74,
+        "apg": 3.26,
+        "spg": 0.77,
+        "bpg": 2.32
+      },
+      "ovr_pts": 20.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.70 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "George Gervin",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.61,
+        "rpg": 5.2,
+        "apg": 3.1,
+        "spg": 1.57,
+        "bpg": 1.23
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.20 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Baron Davis",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.12,
+        "rpg": 4.45,
+        "apg": 8.13,
+        "spg": 2.02,
+        "bpg": 0.44
+      },
+      "ovr_pts": 17.6,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.60 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 112.5,
+    "rpg": 42.6,
+    "apg": 20.7,
+    "spg": 7.2,
+    "bpg": 8.5
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 97.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

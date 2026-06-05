@@ -1,0 +1,137 @@
+{
+  "game": 196,
+  "played_at": "2026-06-05T16:51-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gary Payton",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.72,
+        "rpg": 5.22,
+        "apg": 8.7,
+        "spg": 1.72,
+        "bpg": 0.25
+      },
+      "ovr_pts": 18.75,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.90 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHX",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHX",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.6,
+        "rpg": 6.4,
+        "apg": 4.7,
+        "spg": 0.8,
+        "bpg": 1.3
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.10 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Michael Jordan",
+      "position": "SF",
+      "stats": {
+        "ppg": 30.8,
+        "rpg": 6.34,
+        "apg": 5.07,
+        "spg": 2.3,
+        "bpg": 0.7
+      },
+      "ovr_pts": 21.24,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.50 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Andre Drummond",
+      "position": "C",
+      "stats": {
+        "ppg": 14.11,
+        "rpg": 13.71,
+        "apg": 1.14,
+        "spg": 1.34,
+        "bpg": 1.56
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.10 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.0,
+        "rpg": 13.0,
+        "apg": 4.1,
+        "spg": 1.4,
+        "bpg": 2.1
+      },
+      "ovr_pts": 21.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.90 OVR, slot PF"
+    }
+  ],
+  "totals": {
+    "ppg": 115.2,
+    "rpg": 44.7,
+    "apg": 23.7,
+    "spg": 7.6,
+    "bpg": 5.9
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 98.5,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

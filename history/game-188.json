@@ -1,0 +1,137 @@
+{
+  "game": 188,
+  "played_at": "2026-06-05T16:47-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Bellamy",
+      "position": "C",
+      "stats": {
+        "ppg": 25.57,
+        "rpg": 15.66,
+        "apg": 2.01,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 19.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.4,
+        "rpg": 17.1,
+        "apg": 1.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 21.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.40 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "NYK",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Willie Naulls",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.74,
+        "rpg": 12.61,
+        "apg": 2.33,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.21,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.20 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jimmy Walker",
+      "position": "SG",
+      "stats": {
+        "ppg": 17.52,
+        "rpg": 3.21,
+        "apg": 5.35,
+        "spg": 0.0,
+        "bpg": 0.0
+      },
+      "ovr_pts": 11.35,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.40 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rajon Rondo",
+      "position": "PG",
+      "stats": {
+        "ppg": 12.04,
+        "rpg": 4.98,
+        "apg": 10.72,
+        "spg": 2.0,
+        "bpg": 0.14
+      },
+      "ovr_pts": 16.34,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.20 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 106.3,
+    "rpg": 53.6,
+    "apg": 21.8,
+    "spg": 2.0,
+    "bpg": 0.1
+  },
+  "result": {
+    "wins": 70,
+    "losses": 12,
+    "ovr": 96.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

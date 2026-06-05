@@ -1,0 +1,137 @@
+{
+  "game": 190,
+  "played_at": "2026-06-05T16:48-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMarcus Cousins",
+      "position": "C",
+      "stats": {
+        "ppg": 21.05,
+        "rpg": 10.75,
+        "apg": 2.99,
+        "spg": 1.4,
+        "bpg": 1.17
+      },
+      "ovr_pts": 18.93,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.20 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NYK",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "PF",
+      "stats": {
+        "ppg": 26.65,
+        "rpg": 12.0,
+        "apg": 3.33,
+        "spg": 1.34,
+        "bpg": 1.42
+      },
+      "ovr_pts": 22.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.40 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Cliff Robinson",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 8.5,
+        "apg": 1.9,
+        "spg": 1.2,
+        "bpg": 1.6
+      },
+      "ovr_pts": 16.86,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.00 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Lenny Wilkens",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.4,
+        "rpg": 6.2,
+        "apg": 8.2,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 16.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.70 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 114.9,
+    "rpg": 45.4,
+    "apg": 27.2,
+    "spg": 5.1,
+    "bpg": 5.0
+  },
+  "result": {
+    "wins": 74,
+    "losses": 8,
+    "ovr": 100.1,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

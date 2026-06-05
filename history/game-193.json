@@ -1,0 +1,137 @@
+{
+  "game": 193,
+  "played_at": "2026-06-05T16:50-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Alonzo Mourning",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.25,
+        "rpg": 10.13,
+        "apg": 1.25,
+        "spg": 0.46,
+        "bpg": 3.17
+      },
+      "ovr_pts": 18.96,
+      "rationale": "policy v3-steady-valuation: exact marginal +36.90 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BOS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bill Russell",
+      "position": "C",
+      "stats": {
+        "ppg": 14.82,
+        "rpg": 22.55,
+        "apg": 4.63,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.15,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.81,
+        "rpg": 8.28,
+        "apg": 4.12,
+        "spg": 1.21,
+        "bpg": 1.33
+      },
+      "ovr_pts": 17.28,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.60 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "DET",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dave Bing",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.49,
+        "rpg": 4.73,
+        "apg": 5.85,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 14.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.70 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tyreke Evans",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.4,
+        "rpg": 5.1,
+        "apg": 5.2,
+        "spg": 1.1,
+        "bpg": 0.3
+      },
+      "ovr_pts": 14.73,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.50 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 97.8,
+    "rpg": 50.8,
+    "apg": 21.1,
+    "spg": 2.8,
+    "bpg": 4.8
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}
