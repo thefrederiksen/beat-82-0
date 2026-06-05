@@ -1,0 +1,137 @@
+{
+  "game": 133,
+  "played_at": "2026-06-05T16:20-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "George McGinnis",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.6,
+        "rpg": 11.4,
+        "apg": 3.7,
+        "spg": 1.7,
+        "bpg": 0.7
+      },
+      "ovr_pts": 20.07,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.40 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Artis Gilmore",
+      "position": "C",
+      "stats": {
+        "ppg": 21.73,
+        "rpg": 12.93,
+        "apg": 2.97,
+        "spg": 0.53,
+        "bpg": 2.2
+      },
+      "ovr_pts": 20.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.80 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "SG",
+      "stats": {
+        "ppg": 14.57,
+        "rpg": 7.26,
+        "apg": 9.14,
+        "spg": 1.88,
+        "bpg": 0.26
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.20 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SF",
+      "stats": {
+        "ppg": 27.6,
+        "rpg": 6.4,
+        "apg": 4.7,
+        "spg": 0.8,
+        "bpg": 1.3
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.00 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rajon Rondo",
+      "position": "PG",
+      "stats": {
+        "ppg": 9.65,
+        "rpg": 4.37,
+        "apg": 5.72,
+        "spg": 1.73,
+        "bpg": 0.13
+      },
+      "ovr_pts": 11.74,
+      "rationale": "policy v3-steady-valuation: exact marginal +8.90 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 96.2,
+    "rpg": 42.4,
+    "apg": 26.2,
+    "spg": 6.6,
+    "bpg": 4.6
+  },
+  "result": {
+    "wins": 65,
+    "losses": 17,
+    "ovr": 89.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

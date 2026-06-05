@@ -1,0 +1,137 @@
+{
+  "game": 130,
+  "played_at": "2026-06-05T16:18-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "OKC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gary Payton",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.72,
+        "rpg": 5.22,
+        "apg": 8.7,
+        "spg": 1.72,
+        "bpg": 0.25
+      },
+      "ovr_pts": 18.75,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.90 OVR, slot PG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 12.11,
+        "apg": 2.03,
+        "spg": 1.96,
+        "bpg": 3.11
+      },
+      "ovr_pts": 22.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.40 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BOS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Bird",
+      "position": "SF",
+      "stats": {
+        "ppg": 24.97,
+        "rpg": 10.21,
+        "apg": 6.12,
+        "spg": 1.81,
+        "bpg": 0.84
+      },
+      "ovr_pts": 21.93,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.00 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.08,
+        "rpg": 11.02,
+        "apg": 2.16,
+        "spg": 0.95,
+        "bpg": 2.7
+      },
+      "ovr_pts": 21.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.40 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Stephon Marbury",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.4,
+        "rpg": 2.6,
+        "apg": 8.7,
+        "spg": 1.0,
+        "bpg": 0.1
+      },
+      "ovr_pts": 16.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.30 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 118.2,
+    "rpg": 41.2,
+    "apg": 27.7,
+    "spg": 7.4,
+    "bpg": 7.0
+  },
+  "result": {
+    "wins": 74,
+    "losses": 8,
+    "ovr": 101.0,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

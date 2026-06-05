@@ -1,0 +1,137 @@
+{
+  "game": 128,
+  "played_at": "2026-06-05T16:15-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 41.46,
+        "rpg": 25.1,
+        "apg": 3.02,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 31.96,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.00 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Domantas Sabonis",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 12.0,
+        "apg": 6.7,
+        "spg": 1.2,
+        "bpg": 0.5
+      },
+      "ovr_pts": 20.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +28.60 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "GSW",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Hardaway",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.75,
+        "rpg": 3.63,
+        "apg": 9.31,
+        "spg": 1.94,
+        "bpg": 0.18
+      },
+      "ovr_pts": 17.27,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.00 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Cliff Robinson",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 8.5,
+        "apg": 1.9,
+        "spg": 1.2,
+        "bpg": 1.6
+      },
+      "ovr_pts": 16.86,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Paul Pierce",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.29,
+        "rpg": 6.26,
+        "apg": 3.99,
+        "spg": 1.56,
+        "bpg": 0.62
+      },
+      "ovr_pts": 16.99,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.40 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 125.0,
+    "rpg": 55.5,
+    "apg": 24.9,
+    "spg": 5.9,
+    "bpg": 2.9
+  },
+  "result": {
+    "wins": 79,
+    "losses": 3,
+    "ovr": 106.4,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

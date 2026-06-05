@@ -1,0 +1,137 @@
+{
+  "game": 127,
+  "played_at": "2026-06-05T16:15-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 41.46,
+        "rpg": 25.1,
+        "apg": 3.02,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 31.96,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.00 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Bosh",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.0,
+        "rpg": 10.8,
+        "apg": 2.4,
+        "spg": 0.6,
+        "bpg": 1.0
+      },
+      "ovr_pts": 18.49,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.20 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NYK",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Mark Jackson",
+      "position": "PG",
+      "stats": {
+        "ppg": 15.14,
+        "rpg": 4.75,
+        "apg": 9.66,
+        "spg": 2.22,
+        "bpg": 0.1
+      },
+      "ovr_pts": 16.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.00 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMar DeRozan",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.3,
+        "rpg": 3.4,
+        "apg": 4.2,
+        "spg": 0.9,
+        "bpg": 0.3
+      },
+      "ovr_pts": 13.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.20 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rudy Tomjanovich",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.18,
+        "rpg": 8.6,
+        "apg": 2.11,
+        "spg": 0.76,
+        "bpg": 0.35
+      },
+      "ovr_pts": 14.29,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.10 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 119.1,
+    "rpg": 52.7,
+    "apg": 21.4,
+    "spg": 4.5,
+    "bpg": 1.8
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.5,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

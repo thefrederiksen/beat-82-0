@@ -1,0 +1,132 @@
+{
+  "game": 136,
+  "played_at": "2026-06-05T16:21-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Bellamy",
+      "position": "C",
+      "stats": {
+        "ppg": 25.57,
+        "rpg": 15.66,
+        "apg": 2.01,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 19.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Kenon",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.53,
+        "rpg": 10.19,
+        "apg": 3.44,
+        "spg": 1.8,
+        "bpg": 0.43
+      },
+      "ovr_pts": 18.56,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.00 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.96,
+        "rpg": 9.66,
+        "apg": 4.39,
+        "spg": 1.62,
+        "bpg": 1.66
+      },
+      "ovr_pts": 19.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.30 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.3,
+        "rpg": 6.1,
+        "apg": 8.1,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.60 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Alvin Robertson",
+      "position": "SG",
+      "stats": {
+        "ppg": 16.16,
+        "rpg": 5.37,
+        "apg": 5.39,
+        "spg": 2.9,
+        "bpg": 0.52
+      },
+      "ovr_pts": 16.24,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.40 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 109.5,
+    "rpg": 47.0,
+    "apg": 23.3,
+    "spg": 6.3,
+    "bpg": 2.6
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 99.2,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

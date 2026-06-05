@@ -1,0 +1,132 @@
+{
+  "game": 146,
+  "played_at": "2026-06-05T16:25-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Derrick Coleman",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.9,
+        "rpg": 10.62,
+        "apg": 3.14,
+        "spg": 0.92,
+        "bpg": 1.6
+      },
+      "ovr_pts": 18.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.80 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Andre Drummond",
+      "position": "C",
+      "stats": {
+        "ppg": 14.11,
+        "rpg": 13.71,
+        "apg": 1.14,
+        "spg": 1.34,
+        "bpg": 1.56
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.20 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tracy McGrady",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.13,
+        "rpg": 5.58,
+        "apg": 5.71,
+        "spg": 1.33,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.27,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.40 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Frazier",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.73,
+        "rpg": 6.27,
+        "apg": 6.37,
+        "spg": 1.99,
+        "bpg": 0.17
+      },
+      "ovr_pts": 17.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.40 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Lamar Odom",
+      "position": "SF",
+      "stats": {
+        "ppg": 17.1,
+        "rpg": 9.7,
+        "apg": 4.1,
+        "spg": 1.1,
+        "bpg": 0.9
+      },
+      "ovr_pts": 16.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.10 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 95.0,
+    "rpg": 45.9,
+    "apg": 20.5,
+    "spg": 6.7,
+    "bpg": 4.8
+  },
+  "result": {
+    "wins": 63,
+    "losses": 19,
+    "ovr": 87.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 144,
+  "played_at": "2026-06-05T16:24-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.0,
+        "rpg": 13.0,
+        "apg": 4.1,
+        "spg": 1.4,
+        "bpg": 2.1
+      },
+      "ovr_pts": 21.83,
+      "rationale": "policy v3-steady-valuation: exact marginal +38.80 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "SG",
+      "stats": {
+        "ppg": 30.9,
+        "rpg": 7.9,
+        "apg": 8.0,
+        "spg": 1.7,
+        "bpg": 0.5
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.40 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.3,
+        "rpg": 6.1,
+        "apg": 8.1,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.50 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shaquille O'Neal",
+      "position": "C",
+      "stats": {
+        "ppg": 27.19,
+        "rpg": 12.51,
+        "apg": 2.43,
+        "spg": 0.79,
+        "bpg": 2.78
+      },
+      "ovr_pts": 23.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +20.40 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CLE",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Cliff Robinson",
+      "position": "SF",
+      "stats": {
+        "ppg": 17.64,
+        "rpg": 10.53,
+        "apg": 2.09,
+        "spg": 0.86,
+        "bpg": 0.74
+      },
+      "ovr_pts": 15.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.70 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 121.0,
+    "rpg": 50.0,
+    "apg": 24.7,
+    "spg": 4.8,
+    "bpg": 6.1
+  },
+  "result": {
+    "wins": 78,
+    "losses": 4,
+    "ovr": 104.8,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

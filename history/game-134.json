@@ -1,0 +1,137 @@
+{
+  "game": 134,
+  "played_at": "2026-06-05T16:20-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Artis Gilmore",
+      "position": "C",
+      "stats": {
+        "ppg": 21.73,
+        "rpg": 12.93,
+        "apg": 2.97,
+        "spg": 0.53,
+        "bpg": 2.2
+      },
+      "ovr_pts": 20.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +34.30 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "SG",
+      "stats": {
+        "ppg": 29.93,
+        "rpg": 3.85,
+        "apg": 6.08,
+        "spg": 2.39,
+        "bpg": 0.16
+      },
+      "ovr_pts": 19.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.27,
+        "rpg": 10.06,
+        "apg": 2.07,
+        "spg": 1.42,
+        "bpg": 0.79
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.70 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Duncan",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.43,
+        "rpg": 11.74,
+        "apg": 3.26,
+        "spg": 0.77,
+        "bpg": 2.32
+      },
+      "ovr_pts": 20.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.80 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Robert Pack",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.1,
+        "rpg": 4.3,
+        "apg": 7.8,
+        "spg": 2.0,
+        "bpg": 0.0
+      },
+      "ovr_pts": 16.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.60 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 114.5,
+    "rpg": 42.9,
+    "apg": 22.2,
+    "spg": 7.1,
+    "bpg": 5.5
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

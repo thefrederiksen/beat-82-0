@@ -47,37 +47,37 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 <!-- SCOREBOARD:START -->
 ## Live scoreboard
 
-**Best 3-game average: 77.00 wins** (games 61-63: 81, 72, 78)
+**Best 3-game average: 78.00 wins** (games 128-130: 79, 81, 74)
 
-`[###################.]` **77.00 / 82**
+`[###################.]` **78.00 / 82**
 
 **Best single game: 82-0** (game 29, rated "PERFECT")
 
 **First 82-0:** GAME 29 -- DONE!
 
-*126 games played -- latest: game 126, 67-15 (2026-06-05)*
+*146 games played -- latest: game 146, 63-19 (2026-06-05)*
 
 ### Recent games
 
 | # | Result | Rating | Grade |
 |--:|:------:|------:|:-----:|
-| 126 | 67-15 | 92.8 | A |
-| 125 | 78-4 | 105.9 | A+ |
-| 124 | 71-11 | 97.0 | A |
-| 123 | 68-14 | 93.5 | A |
-| 122 | 74-8 | 100.3 | A+ |
-| 121 | 80-2 | 108.1 | S |
-| 120 | 76-6 | 102.8 | A+ |
-| 119 | 62-20 | 86.5 | A |
-| 118 | 69-13 | 94.4 | A |
-| 117 | 76-6 | 103.5 | A+ |
-| 116 | 59-23 | 82.7 | B |
-| 115 | 77-5 | 104.2 | A+ |
-| 114 | 68-14 | 93.6 | A |
-| 113 | 71-11 | 97.4 | A |
-| 112 | 66-16 | 91.4 | A |
+| 146 | 63-19 | 87.9 | A |
+| 145 | 58-24 | 81.8 | B |
+| 144 | 78-4 | 104.8 | A+ |
+| 143 | 63-19 | 88.0 | A |
+| 142 | 66-16 | 91.1 | A |
+| 141 | 65-17 | 90.4 | A |
+| 140 | 72-10 | 97.9 | A+ |
+| 139 | 71-11 | 96.6 | A |
+| 138 | 70-12 | 96.2 | A |
+| 137 | 73-9 | 98.9 | A+ |
+| 136 | 73-9 | 99.2 | A+ |
+| 135 | 62-20 | 86.4 | A |
+| 134 | 71-11 | 96.8 | A |
+| 133 | 65-17 | 89.3 | A |
+| 132 | 71-11 | 96.6 | A |
 
-*Showing the last 15 of 126 games -- full records in [history/](history/).*
+*Showing the last 15 of 146 games -- full records in [history/](history/).*
 
 ### Strategy versions
 
@@ -87,7 +87,7 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 | `v1-weighted-ev-skips` | 2-5 | **70.67** |
 | `v1-scripted` | 6-10 | **68.33** |
 | `v2-declining-skips` | 11-20 | **74.67** |
-| `v3-steady-valuation` | 21-126 | **77.00** |
+| `v3-steady-valuation` | 21-146 | **78.00** |
 <!-- SCOREBOARD:END -->
 
 ---

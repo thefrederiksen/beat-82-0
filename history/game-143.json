@@ -1,0 +1,137 @@
+{
+  "game": 143,
+  "played_at": "2026-06-05T16:24-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Kenon",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.53,
+        "rpg": 10.19,
+        "apg": 3.44,
+        "spg": 1.8,
+        "bpg": 0.43
+      },
+      "ovr_pts": 18.56,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.00 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Zach Randolph",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.0,
+        "rpg": 10.6,
+        "apg": 1.92,
+        "spg": 0.94,
+        "bpg": 0.21
+      },
+      "ovr_pts": 15.4,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.90 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 12.11,
+        "apg": 2.03,
+        "spg": 1.96,
+        "bpg": 3.11
+      },
+      "ovr_pts": 22.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.70 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gus Williams",
+      "position": "SG",
+      "stats": {
+        "ppg": 16.79,
+        "rpg": 2.35,
+        "apg": 6.81,
+        "spg": 1.76,
+        "bpg": 0.3
+      },
+      "ovr_pts": 13.85,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.30 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Stockton",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.93,
+        "rpg": 2.91,
+        "apg": 11.94,
+        "spg": 2.29,
+        "bpg": 0.25
+      },
+      "ovr_pts": 17.26,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.10 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 94.3,
+    "rpg": 38.2,
+    "apg": 26.1,
+    "spg": 8.8,
+    "bpg": 4.3
+  },
+  "result": {
+    "wins": 63,
+    "losses": 19,
+    "ovr": 88.0,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

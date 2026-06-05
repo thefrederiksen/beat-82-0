@@ -1,0 +1,137 @@
+{
+  "game": 139,
+  "played_at": "2026-06-05T16:22-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shai Gilgeous-Alexander",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.9,
+        "rpg": 4.9,
+        "apg": 6.1,
+        "spg": 1.5,
+        "bpg": 0.9
+      },
+      "ovr_pts": 19.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.00 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "HOU",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.4,
+        "rpg": 17.1,
+        "apg": 1.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 21.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.50 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Stockton",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.93,
+        "rpg": 2.91,
+        "apg": 11.94,
+        "spg": 2.29,
+        "bpg": 0.25
+      },
+      "ovr_pts": 17.26,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "ORL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tracy McGrady",
+      "position": "SF",
+      "stats": {
+        "ppg": 28.11,
+        "rpg": 7.01,
+        "apg": 5.21,
+        "spg": 1.55,
+        "bpg": 0.99
+      },
+      "ovr_pts": 20.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.50 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Deandre Ayton",
+      "position": "C",
+      "stats": {
+        "ppg": 15.6,
+        "rpg": 10.6,
+        "apg": 1.6,
+        "spg": 0.9,
+        "bpg": 0.9
+      },
+      "ovr_pts": 15.2,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.10 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 115.9,
+    "rpg": 42.5,
+    "apg": 26.3,
+    "spg": 6.2,
+    "bpg": 3.0
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

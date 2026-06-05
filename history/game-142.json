@@ -1,0 +1,132 @@
+{
+  "game": 142,
+  "played_at": "2026-06-05T16:24-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "OKC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Spencer Haywood",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.93,
+        "rpg": 12.13,
+        "apg": 2.34,
+        "spg": 0.85,
+        "bpg": 1.5
+      },
+      "ovr_pts": 20.52,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.90 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "C",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 12.4,
+        "apg": 3.0,
+        "spg": 0.9,
+        "bpg": 0.6
+      },
+      "ovr_pts": 19.09,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.70 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Pete Maravich",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.24,
+        "rpg": 4.23,
+        "apg": 5.6,
+        "spg": 1.5,
+        "bpg": 0.2
+      },
+      "ovr_pts": 16.43,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwyane Wade",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.18,
+        "rpg": 4.88,
+        "apg": 6.67,
+        "spg": 1.82,
+        "bpg": 0.97
+      },
+      "ovr_pts": 19.15,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.30 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shareef Abdur-Rahim",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.11,
+        "rpg": 7.12,
+        "apg": 2.64,
+        "spg": 1.13,
+        "bpg": 0.98
+      },
+      "ovr_pts": 15.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.40 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 117.7,
+    "rpg": 40.8,
+    "apg": 20.3,
+    "spg": 6.2,
+    "bpg": 4.3
+  },
+  "result": {
+    "wins": 66,
+    "losses": 16,
+    "ovr": 91.1,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 145,
+  "played_at": "2026-06-05T16:25-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dominique Wilkins",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.1,
+        "rpg": 7.0,
+        "apg": 2.2,
+        "spg": 1.2,
+        "bpg": 0.3
+      },
+      "ovr_pts": 17.55,
+      "rationale": "policy v3-steady-valuation: exact marginal +24.60 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "UTA",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "UTA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl Malone",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.93,
+        "rpg": 8.55,
+        "apg": 4.3,
+        "spg": 1.42,
+        "bpg": 0.7
+      },
+      "ovr_pts": 18.44,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.80 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Marc Gasol",
+      "position": "C",
+      "stats": {
+        "ppg": 15.57,
+        "rpg": 7.78,
+        "apg": 3.64,
+        "spg": 0.94,
+        "bpg": 1.52
+      },
+      "ovr_pts": 15.48,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.90 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jim Barnett",
+      "position": "SG",
+      "stats": {
+        "ppg": 18.5,
+        "rpg": 4.8,
+        "apg": 4.1,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 11.92,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.90 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terrell Brandon",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.2,
+        "rpg": 3.9,
+        "apg": 9.8,
+        "spg": 1.9,
+        "bpg": 0.3
+      },
+      "ovr_pts": 15.93,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.60 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 100.3,
+    "rpg": 32.0,
+    "apg": 24.0,
+    "spg": 5.5,
+    "bpg": 2.8
+  },
+  "result": {
+    "wins": 58,
+    "losses": 24,
+    "ovr": 81.8,
+    "grade": "B",
+    "label": "CONTENDER"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "game": 131,
+  "played_at": "2026-06-05T16:18-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Damian Lillard",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.3,
+        "rpg": 4.4,
+        "apg": 7.4,
+        "spg": 0.8,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.37,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.50 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dwight Howard",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.56,
+        "rpg": 13.86,
+        "apg": 1.68,
+        "spg": 1.23,
+        "bpg": 2.48
+      },
+      "ovr_pts": 21.36,
+      "rationale": "policy v3-steady-valuation: exact marginal +24.90 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shareef Abdur-Rahim",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.4,
+        "rpg": 9.6,
+        "apg": 3.2,
+        "spg": 1.1,
+        "bpg": 1.05
+      },
+      "ovr_pts": 17.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "C",
+      "stats": {
+        "ppg": 26.65,
+        "rpg": 12.0,
+        "apg": 3.33,
+        "spg": 1.34,
+        "bpg": 1.42
+      },
+      "ovr_pts": 22.1,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.50 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Steve Francis",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.95,
+        "rpg": 6.04,
+        "apg": 6.29,
+        "spg": 1.61,
+        "bpg": 0.42
+      },
+      "ovr_pts": 16.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.60 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 114.9,
+    "rpg": 45.9,
+    "apg": 21.9,
+    "spg": 6.1,
+    "bpg": 5.7
+  },
+  "result": {
+    "wins": 70,
+    "losses": 12,
+    "ovr": 96.0,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

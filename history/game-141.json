@@ -1,0 +1,137 @@
+{
+  "game": 141,
+  "played_at": "2026-06-05T16:23-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "POR",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bill Walton",
+      "position": "C",
+      "stats": {
+        "ppg": 17.1,
+        "rpg": 13.52,
+        "apg": 4.42,
+        "spg": 0.97,
+        "bpg": 2.53
+      },
+      "ovr_pts": 21.4,
+      "rationale": "policy v3-steady-valuation: exact marginal +38.50 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.64,
+        "rpg": 2.99,
+        "apg": 7.13,
+        "spg": 1.9,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.30 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Fat Lever",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.79,
+        "rpg": 7.31,
+        "apg": 7.74,
+        "spg": 2.54,
+        "bpg": 0.32
+      },
+      "ovr_pts": 18.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.20 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "CLE",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Nance",
+      "position": "PF",
+      "stats": {
+        "ppg": 16.93,
+        "rpg": 7.97,
+        "apg": 2.44,
+        "spg": 0.77,
+        "bpg": 2.66
+      },
+      "ovr_pts": 16.56,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.40 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shareef Abdur-Rahim",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.42,
+        "rpg": 8.85,
+        "apg": 2.89,
+        "spg": 1.1,
+        "bpg": 0.69
+      },
+      "ovr_pts": 16.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.00 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 96.9,
+    "rpg": 40.6,
+    "apg": 24.6,
+    "spg": 7.3,
+    "bpg": 6.3
+  },
+  "result": {
+    "wins": 65,
+    "losses": 17,
+    "ovr": 90.4,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

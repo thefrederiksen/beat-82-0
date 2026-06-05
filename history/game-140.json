@@ -1,0 +1,137 @@
+{
+  "game": 140,
+  "played_at": "2026-06-05T16:23-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.86,
+        "rpg": 7.1,
+        "apg": 5.41,
+        "spg": 0.82,
+        "bpg": 1.48
+      },
+      "ovr_pts": 19.5,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.70 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 9.2,
+        "apg": 4.0,
+        "spg": 0.8,
+        "bpg": 0.9
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.30 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.66,
+        "rpg": 8.73,
+        "apg": 10.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.18,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Larry Bird",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.64,
+        "rpg": 9.19,
+        "apg": 7.22,
+        "spg": 1.41,
+        "bpg": 0.84
+      },
+      "ovr_pts": 20.35,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.10 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Zach Randolph",
+      "position": "C",
+      "stats": {
+        "ppg": 18.0,
+        "rpg": 10.6,
+        "apg": 1.92,
+        "spg": 0.94,
+        "bpg": 0.21
+      },
+      "ovr_pts": 15.4,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.60 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 118.2,
+    "rpg": 44.8,
+    "apg": 29.0,
+    "spg": 4.0,
+    "bpg": 3.4
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 97.9,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}
