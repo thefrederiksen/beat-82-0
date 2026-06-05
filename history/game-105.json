@@ -1,0 +1,137 @@
+{
+  "game": 105,
+  "played_at": "2026-06-05T16:01-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +25.40 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Russell Westbrook",
+      "position": "PG",
+      "stats": {
+        "ppg": 22.2,
+        "rpg": 11.5,
+        "apg": 11.7,
+        "spg": 1.4,
+        "bpg": 0.4
+      },
+      "ovr_pts": 24.19,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.90 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAC",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "IND",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Mickey Johnson",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.1,
+        "rpg": 8.3,
+        "apg": 4.2,
+        "spg": 1.9,
+        "bpg": 1.4
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.70 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "C",
+      "stats": {
+        "ppg": 21.52,
+        "rpg": 13.38,
+        "apg": 1.86,
+        "spg": 1.25,
+        "bpg": 2.47
+      },
+      "ovr_pts": 21.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.40 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "George Gervin",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.61,
+        "rpg": 5.2,
+        "apg": 3.1,
+        "spg": 1.57,
+        "bpg": 1.23
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.60 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 109.6,
+    "rpg": 50.1,
+    "apg": 24.5,
+    "spg": 7.1,
+    "bpg": 6.0
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 100.0,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "game": 94,
+  "played_at": "2026-06-05T15:55-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Truck Robinson",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.4,
+        "rpg": 12.8,
+        "apg": 2.7,
+        "spg": 1.1,
+        "bpg": 0.6
+      },
+      "ovr_pts": 19.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.50 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dikembe Mutombo",
+      "position": "C",
+      "stats": {
+        "ppg": 10.6,
+        "rpg": 14.1,
+        "apg": 1.23,
+        "spg": 0.34,
+        "bpg": 3.11
+      },
+      "ovr_pts": 17.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.00 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "SG",
+      "stats": {
+        "ppg": 30.9,
+        "rpg": 7.9,
+        "apg": 8.0,
+        "spg": 1.7,
+        "bpg": 0.5
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.60 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Johnson",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 4.23,
+        "apg": 11.3,
+        "spg": 1.65,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.00 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SF",
+      "stats": {
+        "ppg": 25.86,
+        "rpg": 7.1,
+        "apg": 5.41,
+        "spg": 0.82,
+        "bpg": 1.48
+      },
+      "ovr_pts": 19.5,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.80 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 108.2,
+    "rpg": 46.1,
+    "apg": 28.6,
+    "spg": 5.6,
+    "bpg": 6.0
+  },
+  "result": {
+    "wins": 72,
+    "losses": 10,
+    "ovr": 97.9,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

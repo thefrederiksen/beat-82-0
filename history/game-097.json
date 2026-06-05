@@ -1,0 +1,137 @@
+{
+  "game": 97,
+  "played_at": "2026-06-05T15:57-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "LAL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Shaquille O'Neal",
+      "position": "C",
+      "stats": {
+        "ppg": 27.05,
+        "rpg": 11.99,
+        "apg": 3.32,
+        "spg": 0.56,
+        "bpg": 2.56
+      },
+      "ovr_pts": 22.76,
+      "rationale": "policy v3-steady-valuation: exact marginal +38.10 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Josh Smith",
+      "position": "SF",
+      "stats": {
+        "ppg": 17.04,
+        "rpg": 8.77,
+        "apg": 3.9,
+        "spg": 1.38,
+        "bpg": 1.81
+      },
+      "ovr_pts": 17.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Duncan",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.43,
+        "rpg": 11.74,
+        "apg": 3.26,
+        "spg": 0.77,
+        "bpg": 2.32
+      },
+      "ovr_pts": 20.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.70 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1980s",
+          "skip_after": "team"
+        },
+        {
+          "team": "BKN",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Ray Williams",
+      "position": "SG",
+      "stats": {
+        "ppg": 16.99,
+        "rpg": 3.41,
+        "apg": 5.77,
+        "spg": 2.02,
+        "bpg": 0.43
+      },
+      "ovr_pts": 14.41,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.40 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "PG",
+      "stats": {
+        "ppg": 9.24,
+        "rpg": 6.28,
+        "apg": 8.91,
+        "spg": 2.03,
+        "bpg": 0.47
+      },
+      "ovr_pts": 15.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.90 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 91.7,
+    "rpg": 42.2,
+    "apg": 25.2,
+    "spg": 6.8,
+    "bpg": 7.6
+  },
+  "result": {
+    "wins": 66,
+    "losses": 16,
+    "ovr": 90.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 102,
+  "played_at": "2026-06-05T15:59-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 27.52,
+        "rpg": 7.01,
+        "apg": 6.68,
+        "spg": 1.75,
+        "bpg": 0.85
+      },
+      "ovr_pts": 21.08,
+      "rationale": "policy v3-steady-valuation: exact marginal +33.40 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BOS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jayson Tatum",
+      "position": "SF",
+      "stats": {
+        "ppg": 26.5,
+        "rpg": 8.5,
+        "apg": 4.9,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 19.39,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "POR",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rod Strickland",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.98,
+        "rpg": 4.53,
+        "apg": 8.61,
+        "spg": 1.7,
+        "bpg": 0.23
+      },
+      "ovr_pts": 16.24,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.60 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Vince Carter",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.1,
+        "rpg": 5.12,
+        "apg": 3.98,
+        "spg": 1.35,
+        "bpg": 0.96
+      },
+      "ovr_pts": 16.73,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.40 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Mark Williams",
+      "position": "C",
+      "stats": {
+        "ppg": 12.3,
+        "rpg": 9.0,
+        "apg": 1.4,
+        "spg": 0.7,
+        "bpg": 1.1
+      },
+      "ovr_pts": 12.95,
+      "rationale": "policy v3-steady-valuation: exact marginal +10.50 OVR, slot C"
+    }
+  ],
+  "totals": {
+    "ppg": 107.4,
+    "rpg": 34.2,
+    "apg": 25.6,
+    "spg": 6.6,
+    "bpg": 3.6
+  },
+  "result": {
+    "wins": 62,
+    "losses": 20,
+    "ovr": 86.4,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

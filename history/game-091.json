@@ -1,0 +1,137 @@
+{
+  "game": 91,
+  "played_at": "2026-06-05T15:54-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Bellamy",
+      "position": "C",
+      "stats": {
+        "ppg": 25.57,
+        "rpg": 15.66,
+        "apg": 2.01,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 19.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +25.40 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.08,
+        "rpg": 11.02,
+        "apg": 2.16,
+        "spg": 0.95,
+        "bpg": 2.7
+      },
+      "ovr_pts": 21.04,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.30 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "ATL",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "ATL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Pete Maravich",
+      "position": "SG",
+      "stats": {
+        "ppg": 24.24,
+        "rpg": 4.23,
+        "apg": 5.6,
+        "spg": 1.5,
+        "bpg": 0.2
+      },
+      "ovr_pts": 16.43,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.60 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Guy Rodgers",
+      "position": "PG",
+      "stats": {
+        "ppg": 17.64,
+        "rpg": 4.26,
+        "apg": 11.0,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.52,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 111.7,
+    "rpg": 46.9,
+    "apg": 24.4,
+    "spg": 3.5,
+    "bpg": 3.4
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

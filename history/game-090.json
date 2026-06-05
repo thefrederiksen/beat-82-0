@@ -1,0 +1,137 @@
+{
+  "game": 90,
+  "played_at": "2026-06-05T15:53-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 20.5,
+        "rpg": 21.1,
+        "apg": 4.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.10 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.47,
+        "rpg": 12.7,
+        "apg": 5.03,
+        "spg": 1.39,
+        "bpg": 1.66
+      },
+      "ovr_pts": 22.51,
+      "rationale": "policy v3-steady-valuation: exact marginal +37.20 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nate Thurmond",
+      "position": "PF",
+      "stats": {
+        "ppg": 16.42,
+        "rpg": 17.93,
+        "apg": 2.39,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 18.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +18.40 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tony Parker",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.72,
+        "rpg": 3.11,
+        "apg": 5.66,
+        "spg": 0.99,
+        "bpg": 0.09
+      },
+      "ovr_pts": 12.45,
+      "rationale": "policy v3-steady-valuation: exact marginal +5.20 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jamal Murray",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.8,
+        "rpg": 4.1,
+        "apg": 6.1,
+        "spg": 1.1,
+        "bpg": 0.4
+      },
+      "ovr_pts": 15.61,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.70 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 97.9,
+    "rpg": 58.9,
+    "apg": 23.7,
+    "spg": 3.5,
+    "bpg": 2.1
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

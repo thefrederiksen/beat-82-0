@@ -1,0 +1,137 @@
+{
+  "game": 103,
+  "played_at": "2026-06-05T16:00-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "DEN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.64,
+        "rpg": 2.99,
+        "apg": 7.13,
+        "spg": 1.9,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +26.90 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 20.5,
+        "rpg": 21.1,
+        "apg": 4.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.10 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dominique Wilkins",
+      "position": "SF",
+      "stats": {
+        "ppg": 27.04,
+        "rpg": 7.21,
+        "apg": 2.99,
+        "spg": 1.35,
+        "bpg": 0.58
+      },
+      "ovr_pts": 17.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Ralph Sampson",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.67,
+        "rpg": 10.45,
+        "apg": 2.71,
+        "spg": 1.03,
+        "bpg": 1.89
+      },
+      "ovr_pts": 18.57,
+      "rationale": "policy v3-steady-valuation: exact marginal +17.10 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DET",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dave Bing",
+      "position": "PG",
+      "stats": {
+        "ppg": 23.49,
+        "rpg": 4.73,
+        "apg": 5.85,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 14.67,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.70 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 116.3,
+    "rpg": 46.5,
+    "apg": 23.2,
+    "spg": 4.3,
+    "bpg": 2.6
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 97.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

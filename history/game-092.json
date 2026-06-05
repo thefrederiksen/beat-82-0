@@ -1,0 +1,137 @@
+{
+  "game": 92,
+  "played_at": "2026-06-05T15:54-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.27,
+        "rpg": 10.06,
+        "apg": 2.07,
+        "spg": 1.42,
+        "bpg": 0.79
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v3-steady-valuation: exact marginal +28.70 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Fat Lever",
+      "position": "SG",
+      "stats": {
+        "ppg": 16.79,
+        "rpg": 7.31,
+        "apg": 7.74,
+        "spg": 2.54,
+        "bpg": 0.32
+      },
+      "ovr_pts": 18.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.90 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 41.46,
+        "rpg": 25.1,
+        "apg": 3.02,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 31.96,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.00 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAL",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gary Payton",
+      "position": "PG",
+      "stats": {
+        "ppg": 14.6,
+        "rpg": 4.2,
+        "apg": 5.5,
+        "spg": 1.2,
+        "bpg": 0.2
+      },
+      "ovr_pts": 12.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +9.90 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 116.3,
+    "rpg": 58.4,
+    "apg": 21.9,
+    "spg": 6.2,
+    "bpg": 1.8
+  },
+  "result": {
+    "wins": 75,
+    "losses": 7,
+    "ovr": 102.0,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 99,
+  "played_at": "2026-06-05T15:58-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Truck Robinson",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.4,
+        "rpg": 12.8,
+        "apg": 2.7,
+        "spg": 1.1,
+        "bpg": 0.6
+      },
+      "ovr_pts": 19.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +27.50 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "C",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +25.10 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Fat Lever",
+      "position": "SG",
+      "stats": {
+        "ppg": 16.79,
+        "rpg": 7.31,
+        "apg": 7.74,
+        "spg": 2.54,
+        "bpg": 0.32
+      },
+      "ovr_pts": 18.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.40 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "DET",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Grant Hill",
+      "position": "SF",
+      "stats": {
+        "ppg": 25.8,
+        "rpg": 6.6,
+        "apg": 5.2,
+        "spg": 1.4,
+        "bpg": 0.6
+      },
+      "ovr_pts": 18.6,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.20 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "NOP",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NOP",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.91,
+        "rpg": 4.14,
+        "apg": 10.12,
+        "spg": 2.29,
+        "bpg": 0.14
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.40 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 110.1,
+    "rpg": 43.5,
+    "apg": 28.3,
+    "spg": 8.5,
+    "bpg": 4.1
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 97.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

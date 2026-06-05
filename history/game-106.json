@@ -1,0 +1,137 @@
+{
+  "game": 106,
+  "played_at": "2026-06-05T16:01-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "HOU",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.4,
+        "rpg": 17.1,
+        "apg": 1.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 21.42,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.40 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Carlos Boozer",
+      "position": "C",
+      "stats": {
+        "ppg": 19.21,
+        "rpg": 10.27,
+        "apg": 2.78,
+        "spg": 1.0,
+        "bpg": 0.37
+      },
+      "ovr_pts": 16.41,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.90 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Havlicek",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.92,
+        "rpg": 6.38,
+        "apg": 5.84,
+        "spg": 1.22,
+        "bpg": 0.3
+      },
+      "ovr_pts": 16.94,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.50 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Don Kojis",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.21,
+        "rpg": 9.92,
+        "apg": 2.6,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.16,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.20 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Guy Rodgers",
+      "position": "PG",
+      "stats": {
+        "ppg": 12.98,
+        "rpg": 5.02,
+        "apg": 8.47,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 12.84,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.80 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 103.7,
+    "rpg": 48.7,
+    "apg": 21.1,
+    "spg": 2.2,
+    "bpg": 0.7
+  },
+  "result": {
+    "wins": 63,
+    "losses": 19,
+    "ovr": 87.8,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

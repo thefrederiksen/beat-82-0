@@ -1,0 +1,132 @@
+{
+  "game": 104,
+  "played_at": "2026-06-05T16:00-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "GSW",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Joe Barry Carroll",
+      "position": "C",
+      "stats": {
+        "ppg": 20.36,
+        "rpg": 8.3,
+        "apg": 1.93,
+        "spg": 1.08,
+        "bpg": 1.72
+      },
+      "ovr_pts": 16.82,
+      "rationale": "policy v3-steady-valuation: exact marginal +30.40 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Isiah Thomas",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.25,
+        "rpg": 3.73,
+        "apg": 9.79,
+        "spg": 2.11,
+        "bpg": 0.29
+      },
+      "ovr_pts": 18.13,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.80 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dan Roundfield",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.09,
+        "rpg": 10.68,
+        "apg": 2.59,
+        "spg": 1.0,
+        "bpg": 1.51
+      },
+      "ovr_pts": 17.59,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jason Kidd",
+      "position": "SG",
+      "stats": {
+        "ppg": 14.57,
+        "rpg": 7.26,
+        "apg": 9.14,
+        "spg": 1.88,
+        "bpg": 0.26
+      },
+      "ovr_pts": 17.69,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.50 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tom Gugliotta",
+      "position": "SF",
+      "stats": {
+        "ppg": 15.88,
+        "rpg": 9.43,
+        "apg": 3.63,
+        "spg": 2.0,
+        "bpg": 0.59
+      },
+      "ovr_pts": 16.68,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.70 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 89.2,
+    "rpg": 39.4,
+    "apg": 27.1,
+    "spg": 8.1,
+    "bpg": 4.4
+  },
+  "result": {
+    "wins": 63,
+    "losses": 19,
+    "ovr": 86.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

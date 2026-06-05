@@ -1,0 +1,127 @@
+{
+  "game": 89,
+  "played_at": "2026-06-05T15:53-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 11.3,
+        "apg": 6.0,
+        "spg": 1.0,
+        "bpg": 1.1
+      },
+      "ovr_pts": 23.53,
+      "rationale": "policy v3-steady-valuation: exact marginal +33.60 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Alonzo Mourning",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.25,
+        "rpg": 10.13,
+        "apg": 1.25,
+        "spg": 0.46,
+        "bpg": 3.17
+      },
+      "ovr_pts": 18.96,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.40 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "C",
+      "stats": {
+        "ppg": 27.13,
+        "rpg": 16.03,
+        "apg": 2.53,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 21.0,
+      "rationale": "policy v3-steady-valuation: exact marginal +21.00 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gail Goodrich",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.8,
+        "rpg": 5.4,
+        "apg": 6.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.54,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.60 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dejounte Murray",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 7.7,
+        "apg": 7.3,
+        "spg": 1.8,
+        "bpg": 0.2
+      },
+      "ovr_pts": 17.99,
+      "rationale": "policy v3-steady-valuation: exact marginal +13.70 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 120.2,
+    "rpg": 50.6,
+    "apg": 23.5,
+    "spg": 3.3,
+    "bpg": 4.5
+  },
+  "result": {
+    "wins": 76,
+    "losses": 6,
+    "ovr": 103.3,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

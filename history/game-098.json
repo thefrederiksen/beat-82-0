@@ -1,0 +1,137 @@
+{
+  "game": 98,
+  "played_at": "2026-06-05T15:57-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 29.05,
+        "rpg": 5.96,
+        "apg": 7.72,
+        "spg": 1.76,
+        "bpg": 0.59
+      },
+      "ovr_pts": 21.27,
+      "rationale": "policy v3-steady-valuation: exact marginal +32.30 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "HOU",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "TOR",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Pascal Siakam",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.8,
+        "rpg": 7.8,
+        "apg": 5.2,
+        "spg": 1.1,
+        "bpg": 0.6
+      },
+      "ovr_pts": 17.98,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.10 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Victor Oladipo",
+      "position": "PG",
+      "stats": {
+        "ppg": 21.71,
+        "rpg": 5.33,
+        "apg": 4.59,
+        "spg": 2.17,
+        "bpg": 0.64
+      },
+      "ovr_pts": 16.95,
+      "rationale": "policy v3-steady-valuation: exact marginal +15.20 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Herb Williams",
+      "position": "C",
+      "stats": {
+        "ppg": 14.98,
+        "rpg": 7.8,
+        "apg": 2.44,
+        "spg": 0.68,
+        "bpg": 1.91
+      },
+      "ovr_pts": 14.74,
+      "rationale": "policy v3-steady-valuation: exact marginal +12.20 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Paul George",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.05,
+        "rpg": 6.3,
+        "apg": 3.16,
+        "spg": 1.65,
+        "bpg": 0.44
+      },
+      "ovr_pts": 14.58,
+      "rationale": "policy v3-steady-valuation: exact marginal +11.70 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 106.6,
+    "rpg": 33.2,
+    "apg": 23.1,
+    "spg": 7.4,
+    "bpg": 4.2
+  },
+  "result": {
+    "wins": 61,
+    "losses": 21,
+    "ovr": 85.5,
+    "grade": "B",
+    "label": "CONTENDER"
+  }
+}

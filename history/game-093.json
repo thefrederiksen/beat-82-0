@@ -1,0 +1,137 @@
+{
+  "game": 93,
+  "played_at": "2026-06-05T15:55-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 20.5,
+        "rpg": 21.1,
+        "apg": 4.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v3-steady-valuation: exact marginal +23.10 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "WAS",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gus Johnson",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.5,
+        "rpg": 12.72,
+        "apg": 2.7,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 16.05,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.10 OVR, slot SF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clyde Drexler",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.97,
+        "rpg": 6.53,
+        "apg": 5.79,
+        "spg": 1.78,
+        "bpg": 0.7
+      },
+      "ovr_pts": 18.16,
+      "rationale": "policy v3-steady-valuation: exact marginal +29.80 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl Malone",
+      "position": "PF",
+      "stats": {
+        "ppg": 22.93,
+        "rpg": 8.55,
+        "apg": 4.3,
+        "spg": 1.42,
+        "bpg": 0.7
+      },
+      "ovr_pts": 18.44,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.90 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.66,
+        "rpg": 8.73,
+        "apg": 10.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.18,
+      "rationale": "policy v3-steady-valuation: exact marginal +22.20 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 113.6,
+    "rpg": 57.6,
+    "apg": 27.8,
+    "spg": 3.2,
+    "bpg": 1.4
+  },
+  "result": {
+    "wins": 79,
+    "losses": 3,
+    "ovr": 106.1,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

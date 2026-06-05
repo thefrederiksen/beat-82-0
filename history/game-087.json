@@ -1,0 +1,137 @@
+{
+  "game": 87,
+  "played_at": "2026-06-05T15:52-04:00",
+  "mode": "classic",
+  "strategy_version": "v3-steady-valuation",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dave Cowens",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.56,
+        "rpg": 14.59,
+        "apg": 3.99,
+        "spg": 1.18,
+        "bpg": 1.0
+      },
+      "ovr_pts": 20.64,
+      "rationale": "policy v3-steady-valuation: exact marginal +31.10 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Bellamy",
+      "position": "C",
+      "stats": {
+        "ppg": 25.57,
+        "rpg": 15.66,
+        "apg": 2.01,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 19.91,
+      "rationale": "policy v3-steady-valuation: exact marginal +19.90 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ORL",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "NOP",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NOP",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.43,
+        "rpg": 4.76,
+        "apg": 9.88,
+        "spg": 2.4,
+        "bpg": 0.08
+      },
+      "ovr_pts": 18.62,
+      "rationale": "policy v3-steady-valuation: exact marginal +16.40 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.90 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Ron Harper",
+      "position": "SG",
+      "stats": {
+        "ppg": 19.24,
+        "rpg": 5.51,
+        "apg": 4.83,
+        "spg": 2.0,
+        "bpg": 0.87
+      },
+      "ovr_pts": 16.45,
+      "rationale": "policy v3-steady-valuation: exact marginal +14.30 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 103.0,
+    "rpg": 52.2,
+    "apg": 24.3,
+    "spg": 6.6,
+    "bpg": 2.5
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}
