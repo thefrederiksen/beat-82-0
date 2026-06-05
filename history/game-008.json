@@ -1,0 +1,132 @@
+{
+  "game": 8,
+  "played_at": "2026-06-05T14:31-04:00",
+  "mode": "classic",
+  "strategy_version": "v1-scripted",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Julius Erving",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.78,
+        "rpg": 7.43,
+        "apg": 4.03,
+        "spg": 1.8,
+        "bpg": 1.34
+      },
+      "ovr_pts": 18.41,
+      "rationale": "policy v1-scripted: exact marginal +33.40 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Joel Embiid",
+      "position": "C",
+      "stats": {
+        "ppg": 24.23,
+        "rpg": 11.43,
+        "apg": 3.19,
+        "spg": 0.7,
+        "bpg": 1.98
+      },
+      "ovr_pts": 20.79,
+      "rationale": "policy v1-scripted: exact marginal +16.30 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Al Jefferson",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.8,
+        "rpg": 10.8,
+        "apg": 2.1,
+        "spg": 0.9,
+        "bpg": 1.1
+      },
+      "ovr_pts": 18.02,
+      "rationale": "policy v1-scripted: exact marginal +13.80 OVR, slot PF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "GSW",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Baron Davis",
+      "position": "PG",
+      "stats": {
+        "ppg": 20.12,
+        "rpg": 4.45,
+        "apg": 8.13,
+        "spg": 2.02,
+        "bpg": 0.44
+      },
+      "ovr_pts": 17.6,
+      "rationale": "policy v1-scripted: exact marginal +14.40 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Paul George",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.5,
+        "rpg": 6.2,
+        "apg": 4.9,
+        "spg": 1.6,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.35,
+      "rationale": "policy v1-scripted: exact marginal +14.30 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 111.4,
+    "rpg": 40.3,
+    "apg": 22.4,
+    "spg": 7.0,
+    "bpg": 5.3
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 92.2,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

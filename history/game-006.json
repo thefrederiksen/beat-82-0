@@ -1,0 +1,132 @@
+{
+  "game": 6,
+  "played_at": "2026-06-05T14:30-04:00",
+  "mode": "classic",
+  "strategy_version": "v1-scripted",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Clyde Drexler",
+      "position": "SG",
+      "stats": {
+        "ppg": 19.84,
+        "rpg": 5.87,
+        "apg": 5.61,
+        "spg": 2.29,
+        "bpg": 0.68
+      },
+      "ovr_pts": 17.46,
+      "rationale": "policy v1-scripted: exact marginal +31.40 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Marcus Camby",
+      "position": "PF",
+      "stats": {
+        "ppg": 10.05,
+        "rpg": 11.07,
+        "apg": 2.5,
+        "spg": 1.12,
+        "bpg": 3.03
+      },
+      "ovr_pts": 17.05,
+      "rationale": "policy v1-scripted: exact marginal +15.90 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v1-scripted: exact marginal +12.40 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob Pettit",
+      "position": "C",
+      "stats": {
+        "ppg": 27.55,
+        "rpg": 16.69,
+        "apg": 3.3,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.04,
+      "rationale": "policy v1-scripted: exact marginal +22.00 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Luka Don\u010di\u0107",
+      "position": "PG",
+      "stats": {
+        "ppg": 30.9,
+        "rpg": 7.9,
+        "apg": 8.0,
+        "spg": 1.7,
+        "bpg": 0.5
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v1-scripted: exact marginal +19.50 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 108.5,
+    "rpg": 53.2,
+    "apg": 23.0,
+    "spg": 6.1,
+    "bpg": 4.7
+  },
+  "result": {
+    "wins": 75,
+    "losses": 7,
+    "ovr": 101.2,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

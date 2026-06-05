@@ -1,0 +1,132 @@
+{
+  "game": 9,
+  "played_at": "2026-06-05T14:31-04:00",
+  "mode": "classic",
+  "strategy_version": "v1-scripted",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Garnett",
+      "position": "PF",
+      "stats": {
+        "ppg": 17.46,
+        "rpg": 8.89,
+        "apg": 3.0,
+        "spg": 1.27,
+        "bpg": 1.26
+      },
+      "ovr_pts": 16.49,
+      "rationale": "policy v1-scripted: exact marginal +28.60 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kawhi Leonard",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.6,
+        "rpg": 7.3,
+        "apg": 3.3,
+        "spg": 1.8,
+        "bpg": 0.4
+      },
+      "ovr_pts": 18.36,
+      "rationale": "policy v1-scripted: exact marginal +14.70 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "WAS",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Walt Bellamy",
+      "position": "C",
+      "stats": {
+        "ppg": 25.57,
+        "rpg": 15.66,
+        "apg": 2.01,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 19.91,
+      "rationale": "policy v1-scripted: exact marginal +19.90 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.93,
+        "rpg": 3.85,
+        "apg": 6.08,
+        "spg": 2.39,
+        "bpg": 0.16
+      },
+      "ovr_pts": 19.42,
+      "rationale": "policy v1-scripted: exact marginal +16.70 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Cliff Robinson",
+      "position": "SF",
+      "stats": {
+        "ppg": 17.64,
+        "rpg": 10.53,
+        "apg": 2.09,
+        "spg": 0.86,
+        "bpg": 0.74
+      },
+      "ovr_pts": 15.91,
+      "rationale": "policy v1-scripted: exact marginal +12.80 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 117.2,
+    "rpg": 46.2,
+    "apg": 16.5,
+    "spg": 6.3,
+    "bpg": 2.6
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 92.7,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

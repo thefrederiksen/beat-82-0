@@ -1,0 +1,132 @@
+{
+  "game": 10,
+  "played_at": "2026-06-05T14:32-04:00",
+  "mode": "classic",
+  "strategy_version": "v1-scripted",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v1-scripted: exact marginal +41.00 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "C",
+      "stats": {
+        "ppg": 22.24,
+        "rpg": 11.87,
+        "apg": 2.61,
+        "spg": 0.77,
+        "bpg": 1.5
+      },
+      "ovr_pts": 19.51,
+      "rationale": "policy v1-scripted: exact marginal +12.80 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Guy Rodgers",
+      "position": "SG",
+      "stats": {
+        "ppg": 17.64,
+        "rpg": 4.26,
+        "apg": 11.0,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.52,
+      "rationale": "policy v1-scripted: exact marginal +15.50 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "TOR",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Vince Carter",
+      "position": "SF",
+      "stats": {
+        "ppg": 24.1,
+        "rpg": 5.12,
+        "apg": 3.98,
+        "spg": 1.35,
+        "bpg": 0.96
+      },
+      "ovr_pts": 16.73,
+      "rationale": "policy v1-scripted: exact marginal +12.70 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.81,
+        "rpg": 8.28,
+        "apg": 4.12,
+        "spg": 1.21,
+        "bpg": 1.33
+      },
+      "ovr_pts": 17.28,
+      "rationale": "policy v1-scripted: exact marginal +13.90 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 111.0,
+    "rpg": 42.2,
+    "apg": 24.3,
+    "spg": 4.5,
+    "bpg": 6.2
+  },
+  "result": {
+    "wins": 70,
+    "losses": 12,
+    "ovr": 95.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

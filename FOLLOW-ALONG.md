@@ -55,12 +55,17 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 
 **First 82-0:** not yet... the chase is on
 
-*5 games played -- latest: game 5, 68-14 (2026-06-05)*
+*10 games played -- latest: game 10, 70-12 (2026-06-05)*
 
 ### Recent games
 
 | # | Result | Rating | Grade |
 |--:|:------:|------:|:-----:|
+| 10 | 70-12 | 95.9 | A |
+| 9 | 67-15 | 92.7 | A |
+| 8 | 67-15 | 92.2 | A |
+| 7 | 63-19 | 87.7 | A |
+| 6 | 75-7 | 101.2 | A+ |
 | 5 | 68-14 | 93.9 | A |
 | 4 | 66-16 | 91.5 | A |
 | 3 | 78-4 | 105.9 | A+ |
@@ -73,6 +78,7 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 |:---------|:-----:|----------------:|
 | `v0-raw-sum` | 1 | (need 3 games) |
 | `v1-weighted-ev-skips` | 2-5 | **70.67** |
+| `v1-scripted` | 6-10 | **68.33** |
 <!-- SCOREBOARD:END -->
 
 ---
