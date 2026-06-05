@@ -1,0 +1,137 @@
+{
+  "game": 15,
+  "played_at": "2026-06-05T14:50-04:00",
+  "mode": "classic",
+  "strategy_version": "v2-declining-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Anthony Davis",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.7,
+        "rpg": 11.6,
+        "apg": 3.5,
+        "spg": 1.2,
+        "bpg": 2.2
+      },
+      "ovr_pts": 22.1,
+      "rationale": "policy v2-declining-skips: exact marginal +38.60 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "WAS",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Robert Pack",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.1,
+        "rpg": 4.3,
+        "apg": 7.8,
+        "spg": 2.0,
+        "bpg": 0.0
+      },
+      "ovr_pts": 16.04,
+      "rationale": "policy v2-declining-skips: exact marginal +16.00 OVR, slot PG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 29.05,
+        "rpg": 5.96,
+        "apg": 7.72,
+        "spg": 1.76,
+        "bpg": 0.59
+      },
+      "ovr_pts": 21.27,
+      "rationale": "policy v2-declining-skips: exact marginal +13.80 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAC",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Webber",
+      "position": "C",
+      "stats": {
+        "ppg": 23.91,
+        "rpg": 10.33,
+        "apg": 4.83,
+        "spg": 1.52,
+        "bpg": 1.38
+      },
+      "ovr_pts": 21.19,
+      "rationale": "policy v2-declining-skips: exact marginal +17.50 OVR, slot C"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v2-declining-skips: exact marginal +14.50 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 116.0,
+    "rpg": 43.9,
+    "apg": 27.5,
+    "spg": 7.5,
+    "bpg": 4.7
+  },
+  "result": {
+    "wins": 74,
+    "losses": 8,
+    "ovr": 100.4,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

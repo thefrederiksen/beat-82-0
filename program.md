@@ -151,8 +151,10 @@ Rules:
 |---------|-------------|-------|------------|----------|
 | v0-raw-sum | pick max raw PTS+REB+AST+STL+BLK; ad-hoc skips | 1-2 | n/a (2 games) | -- |
 | v1-weighted-ev-skips | pick max weighted OVRpts; EV-computed skips; manual placement heuristics | 3-5 | **70.67** (78, 66, 68) | baseline |
+| v1-scripted | same policy automated (src/play.py); flat +3.0 skip threshold | 6-10 | 68.33 (75, 63, 67) | no |
+| v2-declining-skips | offline-tuned: skip thresholds decline by round (2, 1.5, 1, 0.5, 0 -- a held skip expires worthless), SG-SF-PG-PF-C placement | 11-20 | **74.67** (74, 77, 73) | 2026-06-05 |
 
-ALL-TIME BEST: **70.67** (v1, games 3-5)
+ALL-TIME BEST: **74.67** (v2-declining-skips, games 15-17)
 MILESTONE (first 82-0): not yet
 TARGET (3-game avg 82.0): not reached
 

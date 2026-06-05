@@ -1,0 +1,127 @@
+{
+  "game": 14,
+  "played_at": "2026-06-05T14:50-04:00",
+  "mode": "classic",
+  "strategy_version": "v2-declining-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Grant Hill",
+      "position": "SG",
+      "stats": {
+        "ppg": 20.73,
+        "rpg": 8.12,
+        "apg": 6.47,
+        "spg": 1.66,
+        "bpg": 0.67
+      },
+      "ovr_pts": 18.98,
+      "rationale": "policy v2-declining-skips: exact marginal +29.90 OVR, slot SG"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMarcus Cousins",
+      "position": "C",
+      "stats": {
+        "ppg": 21.05,
+        "rpg": 10.75,
+        "apg": 2.99,
+        "spg": 1.4,
+        "bpg": 1.17
+      },
+      "ovr_pts": 18.93,
+      "rationale": "policy v2-declining-skips: exact marginal +16.70 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Terry Cummings",
+      "position": "SF",
+      "stats": {
+        "ppg": 23.27,
+        "rpg": 10.06,
+        "apg": 2.07,
+        "spg": 1.42,
+        "bpg": 0.79
+      },
+      "ovr_pts": 18.25,
+      "rationale": "policy v2-declining-skips: exact marginal +15.20 OVR, slot SF"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elton Brand",
+      "position": "PF",
+      "stats": {
+        "ppg": 20.1,
+        "rpg": 10.05,
+        "apg": 2.52,
+        "spg": 0.9,
+        "bpg": 1.6
+      },
+      "ovr_pts": 17.84,
+      "rationale": "policy v2-declining-skips: exact marginal +15.10 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Johnson",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.4,
+        "rpg": 4.23,
+        "apg": 11.3,
+        "spg": 1.65,
+        "bpg": 0.3
+      },
+      "ovr_pts": 18.22,
+      "rationale": "policy v2-declining-skips: exact marginal +15.30 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 103.5,
+    "rpg": 43.2,
+    "apg": 25.4,
+    "spg": 7.0,
+    "bpg": 4.5
+  },
+  "result": {
+    "wins": 67,
+    "losses": 15,
+    "ovr": 92.2,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

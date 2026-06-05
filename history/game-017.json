@@ -1,0 +1,137 @@
+{
+  "game": 17,
+  "played_at": "2026-06-05T14:51-04:00",
+  "mode": "classic",
+  "strategy_version": "v2-declining-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Hakeem Olajuwon",
+      "position": "C",
+      "stats": {
+        "ppg": 23.92,
+        "rpg": 11.62,
+        "apg": 3.01,
+        "spg": 1.78,
+        "bpg": 3.46
+      },
+      "ovr_pts": 23.78,
+      "rationale": "policy v2-declining-skips: exact marginal +49.30 OVR, slot C"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Bob McAdoo",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.24,
+        "rpg": 12.67,
+        "apg": 2.59,
+        "spg": 1.14,
+        "bpg": 2.42
+      },
+      "ovr_pts": 23.64,
+      "rationale": "policy v2-declining-skips: exact marginal +14.20 OVR, slot PF"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "IND",
+          "era": "2020s",
+          "skip_after": "team"
+        },
+        {
+          "team": "HOU",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.0,
+        "rpg": 5.5,
+        "apg": 4.8,
+        "spg": 0.8,
+        "bpg": 0.9
+      },
+      "ovr_pts": 17.42,
+      "rationale": "policy v2-declining-skips: exact marginal +9.80 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "BKN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "PG",
+      "stats": {
+        "ppg": 24.6,
+        "rpg": 7.9,
+        "apg": 10.8,
+        "spg": 1.2,
+        "bpg": 0.8
+      },
+      "ovr_pts": 22.47,
+      "rationale": "policy v2-declining-skips: exact marginal +17.80 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MEM",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dariq Whitehead",
+      "position": "SF",
+      "stats": {
+        "ppg": 16.3,
+        "rpg": 4.0,
+        "apg": 1.5,
+        "spg": 0.7,
+        "bpg": 0.0
+      },
+      "ovr_pts": 9.86,
+      "rationale": "policy v2-declining-skips: exact marginal +8.40 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 119.1,
+    "rpg": 41.7,
+    "apg": 22.7,
+    "spg": 5.6,
+    "bpg": 7.6
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 99.5,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

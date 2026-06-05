@@ -1,0 +1,137 @@
+{
+  "game": 18,
+  "played_at": "2026-06-05T14:51-04:00",
+  "mode": "classic",
+  "strategy_version": "v2-declining-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 29.6,
+        "rpg": 11.3,
+        "apg": 6.0,
+        "spg": 1.0,
+        "bpg": 1.1
+      },
+      "ovr_pts": 23.53,
+      "rationale": "policy v2-declining-skips: exact marginal +33.60 OVR, slot SF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rudy Gobert",
+      "position": "C",
+      "stats": {
+        "ppg": 14.9,
+        "rpg": 14.1,
+        "apg": 1.2,
+        "spg": 0.6,
+        "bpg": 2.4
+      },
+      "ovr_pts": 18.44,
+      "rationale": "policy v2-declining-skips: exact marginal +17.70 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "BKN",
+          "era": "1970s",
+          "skip_after": "team"
+        },
+        {
+          "team": "SAC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.3,
+        "rpg": 6.1,
+        "apg": 8.1,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 17.54,
+      "rationale": "policy v2-declining-skips: exact marginal +17.50 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "GSW",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Nate Thurmond",
+      "position": "PF",
+      "stats": {
+        "ppg": 16.42,
+        "rpg": 17.93,
+        "apg": 2.39,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 18.42,
+      "rationale": "policy v2-declining-skips: exact marginal +18.50 OVR, slot PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dave Bing",
+      "position": "SG",
+      "stats": {
+        "ppg": 22.08,
+        "rpg": 3.89,
+        "apg": 6.72,
+        "spg": 1.4,
+        "bpg": 0.25
+      },
+      "ovr_pts": 16.11,
+      "rationale": "policy v2-declining-skips: exact marginal +12.20 OVR, slot SG"
+    }
+  ],
+  "totals": {
+    "ppg": 108.3,
+    "rpg": 53.3,
+    "apg": 24.4,
+    "spg": 3.0,
+    "bpg": 3.8
+  },
+  "result": {
+    "wins": 73,
+    "losses": 9,
+    "ovr": 99.5,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

@@ -47,30 +47,37 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 <!-- SCOREBOARD:START -->
 ## Live scoreboard
 
-**Best 3-game average: 70.67 wins** (games 3-5: 78, 66, 68)
+**Best 3-game average: 74.67 wins** (games 15-17: 74, 77, 73)
 
-`[#################...]` **70.67 / 82**
+`[##################..]` **74.67 / 82**
 
 **Best single game: 78-4** (game 3, rated "HISTORIC")
 
 **First 82-0:** not yet... the chase is on
 
-*10 games played -- latest: game 10, 70-12 (2026-06-05)*
+*20 games played -- latest: game 20, 75-7 (2026-06-05)*
 
 ### Recent games
 
 | # | Result | Rating | Grade |
 |--:|:------:|------:|:-----:|
+| 20 | 75-7 | 102.3 | A+ |
+| 19 | 69-13 | 94.6 | A |
+| 18 | 73-9 | 99.5 | A+ |
+| 17 | 73-9 | 99.5 | A+ |
+| 16 | 77-5 | 103.6 | A+ |
+| 15 | 74-8 | 100.4 | A+ |
+| 14 | 67-15 | 92.2 | A |
+| 13 | 71-11 | 97.4 | A |
+| 12 | 71-11 | 96.6 | A |
+| 11 | 65-17 | 89.3 | A |
 | 10 | 70-12 | 95.9 | A |
 | 9 | 67-15 | 92.7 | A |
 | 8 | 67-15 | 92.2 | A |
 | 7 | 63-19 | 87.7 | A |
 | 6 | 75-7 | 101.2 | A+ |
-| 5 | 68-14 | 93.9 | A |
-| 4 | 66-16 | 91.5 | A |
-| 3 | 78-4 | 105.9 | A+ |
-| 2 | 59-23 | 82.5 | B |
-| 1 | 64-18 | 88.2 | A |
+
+*Showing the last 15 of 20 games -- full records in [history/](history/).*
 
 ### Strategy versions
 
@@ -79,6 +86,7 @@ That tension (perfect strategy vs. random rolls) is what makes this fun to watch
 | `v0-raw-sum` | 1 | (need 3 games) |
 | `v1-weighted-ev-skips` | 2-5 | **70.67** |
 | `v1-scripted` | 6-10 | **68.33** |
+| `v2-declining-skips` | 11-20 | **74.67** |
 <!-- SCOREBOARD:END -->
 
 ---

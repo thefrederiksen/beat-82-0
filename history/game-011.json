@@ -1,0 +1,132 @@
+{
+  "game": 11,
+  "played_at": "2026-06-05T14:48-04:00",
+  "mode": "classic",
+  "strategy_version": "v2-declining-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Domantas Sabonis",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.5,
+        "rpg": 12.7,
+        "apg": 6.2,
+        "spg": 0.9,
+        "bpg": 0.4
+      },
+      "ovr_pts": 19.72,
+      "rationale": "policy v2-declining-skips: exact marginal +25.80 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Patrick Ewing",
+      "position": "C",
+      "stats": {
+        "ppg": 21.19,
+        "rpg": 8.8,
+        "apg": 1.9,
+        "spg": 1.34,
+        "bpg": 2.82
+      },
+      "ovr_pts": 19.08,
+      "rationale": "policy v2-declining-skips: exact marginal +22.90 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Alvin Robertson",
+      "position": "SG",
+      "stats": {
+        "ppg": 16.16,
+        "rpg": 5.37,
+        "apg": 5.39,
+        "spg": 2.9,
+        "bpg": 0.52
+      },
+      "ovr_pts": 16.24,
+      "rationale": "policy v2-declining-skips: exact marginal +13.40 OVR, slot SG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Dominique Wilkins",
+      "position": "SF",
+      "stats": {
+        "ppg": 27.04,
+        "rpg": 7.21,
+        "apg": 2.99,
+        "spg": 1.35,
+        "bpg": 0.58
+      },
+      "ovr_pts": 17.98,
+      "rationale": "policy v2-declining-skips: exact marginal +14.10 OVR, slot SF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1990s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Rod Strickland",
+      "position": "PG",
+      "stats": {
+        "ppg": 16.98,
+        "rpg": 4.53,
+        "apg": 8.61,
+        "spg": 1.7,
+        "bpg": 0.23
+      },
+      "ovr_pts": 16.24,
+      "rationale": "policy v2-declining-skips: exact marginal +13.10 OVR, slot PG"
+    }
+  ],
+  "totals": {
+    "ppg": 99.9,
+    "rpg": 38.6,
+    "apg": 25.1,
+    "spg": 8.2,
+    "bpg": 4.5
+  },
+  "result": {
+    "wins": 65,
+    "losses": 17,
+    "ovr": 89.3,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "game": 19,
+  "played_at": "2026-06-05T14:52-04:00",
+  "mode": "classic",
+  "strategy_version": "v2-declining-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "2020s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "HOU",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elvin Hayes",
+      "position": "PF",
+      "stats": {
+        "ppg": 28.4,
+        "rpg": 17.1,
+        "apg": 1.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 21.42,
+      "rationale": "policy v2-declining-skips: exact marginal +21.40 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "BOS",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "CLE",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LeBron James",
+      "position": "SG",
+      "stats": {
+        "ppg": 26.88,
+        "rpg": 7.62,
+        "apg": 8.15,
+        "spg": 1.44,
+        "bpg": 0.76
+      },
+      "ovr_pts": 21.68,
+      "rationale": "policy v2-declining-skips: exact marginal +32.10 OVR, slot SG"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "DAL",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Anthony Davis",
+      "position": "C",
+      "stats": {
+        "ppg": 24.7,
+        "rpg": 11.6,
+        "apg": 3.5,
+        "spg": 1.2,
+        "bpg": 2.2
+      },
+      "ovr_pts": 22.1,
+      "rationale": "policy v2-declining-skips: exact marginal +21.80 OVR, slot C"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Deron Williams",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.77,
+        "rpg": 3.96,
+        "apg": 10.17,
+        "spg": 1.26,
+        "bpg": 0.2
+      },
+      "ovr_pts": 17.25,
+      "rationale": "policy v2-declining-skips: exact marginal +12.80 OVR, slot PG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kyle Anderson",
+      "position": "SF",
+      "stats": {
+        "ppg": 7.3,
+        "rpg": 4.1,
+        "apg": 4.0,
+        "spg": 1.0,
+        "bpg": 0.7
+      },
+      "ovr_pts": 9.58,
+      "rationale": "policy v2-declining-skips: exact marginal +6.50 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 107.0,
+    "rpg": 44.4,
+    "apg": 27.2,
+    "spg": 4.9,
+    "bpg": 3.9
+  },
+  "result": {
+    "wins": 69,
+    "losses": 13,
+    "ovr": 94.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

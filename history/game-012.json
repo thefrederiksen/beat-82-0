@@ -1,0 +1,137 @@
+{
+  "game": 12,
+  "played_at": "2026-06-05T14:49-04:00",
+  "mode": "classic",
+  "strategy_version": "v2-declining-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kristaps Porzi\u0146\u0123is",
+      "position": "PF",
+      "stats": {
+        "ppg": 17.82,
+        "rpg": 7.08,
+        "apg": 1.35,
+        "spg": 0.73,
+        "bpg": 2.06
+      },
+      "ovr_pts": 14.85,
+      "rationale": "policy v2-declining-skips: exact marginal +28.50 OVR, slot PF"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "LAL",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Wilt Chamberlain",
+      "position": "C",
+      "stats": {
+        "ppg": 20.5,
+        "rpg": 21.1,
+        "apg": 4.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 23.12,
+      "rationale": "policy v2-declining-skips: exact marginal +23.10 OVR, slot C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "WAS",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "John Wall",
+      "position": "PG",
+      "stats": {
+        "ppg": 18.99,
+        "rpg": 4.33,
+        "apg": 9.21,
+        "spg": 1.69,
+        "bpg": 0.7
+      },
+      "ovr_pts": 17.75,
+      "rationale": "policy v2-declining-skips: exact marginal +13.50 OVR, slot PG"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1970s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "OKC",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Durant",
+      "position": "SG",
+      "stats": {
+        "ppg": 28.87,
+        "rpg": 7.58,
+        "apg": 4.02,
+        "spg": 1.23,
+        "bpg": 1.05
+      },
+      "ovr_pts": 19.92,
+      "rationale": "policy v2-declining-skips: exact marginal +16.50 OVR, slot SG"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "policy v2-declining-skips: exact marginal +15.00 OVR, slot SF"
+    }
+  ],
+  "totals": {
+    "ppg": 106.4,
+    "rpg": 51.8,
+    "apg": 22.7,
+    "spg": 4.7,
+    "bpg": 4.3
+  },
+  "result": {
+    "wins": 71,
+    "losses": 11,
+    "ovr": 96.6,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}
