@@ -9,6 +9,13 @@ node_modules/
 # Scratch / large captures (commit curated data only)
 scratch/
 *.har
+.temp/
+.claude/
+
+# Third-party site assets stay local (analysis lives in docs/sim-engine.md)
+data/chunks/
+data/chunk-*.js
+data/index.html
 
 # OS noise
 Thumbs.db

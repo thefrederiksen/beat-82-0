@@ -1,0 +1,137 @@
+{
+  "game": 2,
+  "played_at": "2026-06-05T13:40 -0400 (approx)",
+  "mode": "classic",
+  "strategy_version": "v1-weighted-ev-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "1960s",
+          "skip_after": "team"
+        },
+        {
+          "team": "PHX",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Gail Goodrich",
+      "position": "SG",
+      "stats": {
+        "ppg": 23.8,
+        "rpg": 5.4,
+        "apg": 6.4,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 15.54,
+      "rationale": "team skip: MIL/60s best 12.66 was worst 60s cell; PHX/60s Goodrich 15.54, held era skip (EV +2.8 too thin)"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Domantas Sabonis",
+      "position": "PF",
+      "stats": {
+        "ppg": 18.5,
+        "rpg": 12.7,
+        "apg": 6.2,
+        "spg": 0.9,
+        "bpg": 0.4
+      },
+      "ovr_pts": 19.72,
+      "rationale": "19.72; era-skip EV 19.76 neutral, kept"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "PHX",
+          "era": "1960s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "PHX",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Amar'e Stoudemire",
+      "position": "C",
+      "stats": {
+        "ppg": 23.1,
+        "rpg": 8.9,
+        "apg": 1.0,
+        "spg": 0.6,
+        "bpg": 1.0
+      },
+      "ovr_pts": 16.12,
+      "rationale": "PHX/60s rolled AGAIN (best 14.9); era skip EV 18.4 -> drew 2010s, Amar'e 16.1"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jimmy Butler",
+      "position": "SF",
+      "stats": {
+        "ppg": 22.1,
+        "rpg": 5.3,
+        "apg": 4.8,
+        "spg": 2.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 16.94,
+      "rationale": "16.95 best fit; KAT/Love blocked by filled C+PF"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "MIA",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Kevin Edwards",
+      "position": "PG",
+      "stats": {
+        "ppg": 13.8,
+        "rpg": 3.3,
+        "apg": 4.4,
+        "spg": 1.8,
+        "bpg": 0.3
+      },
+      "ovr_pts": 11.98,
+      "rationale": "expansion-era Heat, no skips left, best PG 12.0"
+    }
+  ],
+  "totals": {
+    "ppg": 101.3,
+    "rpg": 35.6,
+    "apg": 22.8,
+    "spg": 5.4,
+    "bpg": 2.2
+  },
+  "result": {
+    "wins": 59,
+    "losses": 23,
+    "ovr": 82.5,
+    "grade": "B",
+    "label": "CONTENDER"
+  }
+}

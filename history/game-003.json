@@ -1,0 +1,137 @@
+{
+  "game": 3,
+  "played_at": "2026-06-05T13:55 -0400 (approx)",
+  "mode": "classic",
+  "strategy_version": "v1-weighted-ev-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "HOU",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Moses Malone",
+      "position": "C",
+      "stats": {
+        "ppg": 28.2,
+        "rpg": 14.7,
+        "apg": 1.8,
+        "spg": 1.0,
+        "bpg": 1.6
+      },
+      "ovr_pts": 23.23,
+      "rationale": "23.14, above 82-0 pace; C-only"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "PHI",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.9,
+        "rpg": 3.9,
+        "apg": 6.1,
+        "spg": 2.4,
+        "bpg": 0.2
+      },
+      "ovr_pts": 19.52,
+      "rationale": "19.42; era-skip EV dropped to 19.1 once Wilt/Embiid blocked by filled C"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "2010s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Jerry Lucas",
+      "position": "PF",
+      "stats": {
+        "ppg": 19.7,
+        "rpg": 19.1,
+        "apg": 3.0,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 20.66,
+      "rationale": "era skip (best fit Rudy Gay 14.44, EV 18.95); Oscar blocked at PG by AI"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2010s",
+          "skip_after": "team"
+        },
+        {
+          "team": "HOU",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "James Harden",
+      "position": "SG",
+      "stats": {
+        "ppg": 29.1,
+        "rpg": 6.0,
+        "apg": 7.7,
+        "spg": 1.8,
+        "bpg": 0.6
+      },
+      "ovr_pts": 21.36,
+      "rationale": "team skip (best fit LaVine 14.41, EV 17.04) -> jackpot Harden 21.27"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "DET",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Grant Hill",
+      "position": "SF",
+      "stats": {
+        "ppg": 25.8,
+        "rpg": 6.6,
+        "apg": 5.2,
+        "spg": 1.4,
+        "bpg": 0.6
+      },
+      "ovr_pts": 18.6,
+      "rationale": "18.60 best SF, no skips left"
+    }
+  ],
+  "totals": {
+    "ppg": 132.7,
+    "rpg": 50.2,
+    "apg": 23.8,
+    "spg": 6.5,
+    "bpg": 2.9
+  },
+  "result": {
+    "wins": 78,
+    "losses": 4,
+    "ovr": 105.9,
+    "grade": "A+",
+    "label": "HISTORIC"
+  }
+}

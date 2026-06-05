@@ -1,0 +1,137 @@
+{
+  "game": 1,
+  "played_at": "2026-06-05T13:15 -0400 (approx)",
+  "mode": "classic",
+  "strategy_version": "v0-raw-sum",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Tim Duncan",
+      "position": "PF",
+      "stats": {
+        "ppg": 21.4,
+        "rpg": 11.7,
+        "apg": 3.3,
+        "spg": 0.8,
+        "bpg": 2.3
+      },
+      "ovr_pts": 20.57,
+      "rationale": "max raw sum 39.5; placed PF to keep C open"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "MIN",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Karl-Anthony Towns",
+      "position": "C",
+      "stats": {
+        "ppg": 23.0,
+        "rpg": 9.2,
+        "apg": 4.0,
+        "spg": 0.8,
+        "bpg": 0.9
+      },
+      "ovr_pts": 18.22,
+      "rationale": "max raw sum 37.9 over Edwards 35.8"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "CLE",
+          "era": "1990s",
+          "skip_after": "team"
+        },
+        {
+          "team": "NYK",
+          "era": "1990s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "NYK",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "David Lee",
+      "position": "SF",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.7,
+        "apg": 3.6,
+        "spg": 1.0,
+        "bpg": 0.5
+      },
+      "ovr_pts": 18.32,
+      "rationale": "both skips burned: CLE/90s best open-slot fit was Price 30.0 raw, NYK/90s even worse (Sprewell 24.4); NYK/2010s Lee 37.0 raw"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "DEN",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Allen Iverson",
+      "position": "PG",
+      "stats": {
+        "ppg": 25.6,
+        "rpg": 3.0,
+        "apg": 7.1,
+        "spg": 1.9,
+        "bpg": 0.1
+      },
+      "ovr_pts": 17.38,
+      "rationale": "max raw sum 37.7"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Geoff Petrie",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.8,
+        "rpg": 2.8,
+        "apg": 4.6,
+        "spg": 1.1,
+        "bpg": 0.2
+      },
+      "ovr_pts": 13.62,
+      "rationale": "only strong SG-eligible option, 30.5 raw"
+    }
+  ],
+  "totals": {
+    "ppg": 112.1,
+    "rpg": 38.5,
+    "apg": 22.6,
+    "spg": 5.6,
+    "bpg": 4.0
+  },
+  "result": {
+    "wins": 64,
+    "losses": 18,
+    "ovr": 88.2,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

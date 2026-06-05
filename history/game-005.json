@@ -1,0 +1,132 @@
+{
+  "game": 5,
+  "played_at": "2026-06-05T14:20 -0400 (approx)",
+  "mode": "classic",
+  "strategy_version": "v1-weighted-ev-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "SAS",
+          "era": "1980s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "SAS",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "DeMar DeRozan",
+      "position": "SF",
+      "stats": {
+        "ppg": 21.2,
+        "rpg": 6.0,
+        "apg": 6.2,
+        "spg": 1.1,
+        "bpg": 0.5
+      },
+      "ovr_pts": 16.78,
+      "rationale": "era skip (best 16.86, EV 20.46 w/ D-Rob 23.5 + Wemby 22.9 live) -> drew the WORST cell in the deck (16.78). Placement at SF later blocked Dominique 19.2"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "SAC",
+          "era": "1960s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Oscar Robertson",
+      "position": "PG",
+      "stats": {
+        "ppg": 29.7,
+        "rpg": 8.7,
+        "apg": 10.5,
+        "spg": null,
+        "bpg": null
+      },
+      "ovr_pts": 22.17,
+      "rationale": "jackpot: 22.17 + beneficial nulls, PG open"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "ATL",
+          "era": "1980s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Moses Malone",
+      "position": "C",
+      "stats": {
+        "ppg": 20.2,
+        "rpg": 11.8,
+        "apg": 1.4,
+        "spg": 1.0,
+        "bpg": 1.2
+      },
+      "ovr_pts": 17.9,
+      "rationale": "17.90; both skip EVs neutral (~18.0-18.4)"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "CHA",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "LaMelo Ball",
+      "position": "SG",
+      "stats": {
+        "ppg": 21.4,
+        "rpg": 5.6,
+        "apg": 7.4,
+        "spg": 1.4,
+        "bpg": 0.3
+      },
+      "ovr_pts": 17.43,
+      "rationale": "17.43; team-skip EV +1.3 too thin, held skip as round-5 insurance"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "LAC",
+          "era": "2020s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Paul George",
+      "position": "PF",
+      "stats": {
+        "ppg": 23.5,
+        "rpg": 6.2,
+        "apg": 4.9,
+        "spg": 1.6,
+        "bpg": 0.4
+      },
+      "ovr_pts": 17.35,
+      "rationale": "17.35 = team-skip EV 17.16, neutral; team skip expired UNUSED (policy gap)"
+    }
+  ],
+  "totals": {
+    "ppg": 116.0,
+    "rpg": 38.3,
+    "apg": 30.4,
+    "spg": 5.1,
+    "bpg": 2.4
+  },
+  "result": {
+    "wins": 68,
+    "losses": 14,
+    "ovr": 93.9,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}

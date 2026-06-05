@@ -1,0 +1,137 @@
+{
+  "game": 4,
+  "played_at": "2026-06-05T14:10 -0400 (approx)",
+  "mode": "classic",
+  "strategy_version": "v1-weighted-ev-skips",
+  "rounds": [
+    {
+      "round": 1,
+      "rolls": [
+        {
+          "team": "OKC",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Spencer Haywood",
+      "position": "PF",
+      "stats": {
+        "ppg": 24.9,
+        "rpg": 12.1,
+        "apg": 2.3,
+        "spg": 0.8,
+        "bpg": 1.5
+      },
+      "ovr_pts": 20.41,
+      "rationale": "20.52, kept"
+    },
+    {
+      "round": 2,
+      "rolls": [
+        {
+          "team": "UTA",
+          "era": "1970s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Pete Maravich",
+      "position": "SG",
+      "stats": {
+        "ppg": 25.7,
+        "rpg": 4.4,
+        "apg": 5.8,
+        "spg": 1.4,
+        "bpg": 0.3
+      },
+      "ovr_pts": 17.18,
+      "rationale": "17.19; Truck Robinson 21.02 blocked by PF; held skips (team-skip EV +3.2)"
+    },
+    {
+      "round": 3,
+      "rolls": [
+        {
+          "team": "MIL",
+          "era": "2000s",
+          "skip_after": "decade"
+        },
+        {
+          "team": "MIL",
+          "era": "2010s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Giannis Antetokounmpo",
+      "position": "SF",
+      "stats": {
+        "ppg": 18.8,
+        "rpg": 8.3,
+        "apg": 4.1,
+        "spg": 1.2,
+        "bpg": 1.3
+      },
+      "ovr_pts": 17.23,
+      "rationale": "era skip (best Payton 15.24, EV 19.24 w/ Kareem 28.5 + Giannis-20s 23.5 live); drew median outcome 17.28"
+    },
+    {
+      "round": 4,
+      "rolls": [
+        {
+          "team": "POR",
+          "era": "2000s",
+          "skip_after": "team"
+        },
+        {
+          "team": "NOP",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Chris Paul",
+      "position": "PG",
+      "stats": {
+        "ppg": 19.4,
+        "rpg": 4.8,
+        "apg": 9.9,
+        "spg": 2.4,
+        "bpg": 0.1
+      },
+      "ovr_pts": 18.67,
+      "rationale": "team skip (best Rasheed 15.26, EV 18.19) -> CP3 18.62"
+    },
+    {
+      "round": 5,
+      "rolls": [
+        {
+          "team": "CHI",
+          "era": "2000s",
+          "skip_after": null
+        }
+      ],
+      "pick": "Elton Brand",
+      "position": "C",
+      "stats": {
+        "ppg": 20.1,
+        "rpg": 10.1,
+        "apg": 2.5,
+        "spg": 0.9,
+        "bpg": 1.6
+      },
+      "ovr_pts": 17.86,
+      "rationale": "17.84 best C, no skips left"
+    }
+  ],
+  "totals": {
+    "ppg": 108.9,
+    "rpg": 39.7,
+    "apg": 24.6,
+    "spg": 6.8,
+    "bpg": 4.8
+  },
+  "result": {
+    "wins": 66,
+    "losses": 16,
+    "ovr": 91.5,
+    "grade": "A",
+    "label": "DYNASTY"
+  }
+}
